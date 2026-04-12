@@ -1,0 +1,36 @@
+name: Auto Update GitHub Trending
+
+# 触发条件：每天北京时间早上8点 (UTC 0点) 自动执行，或者手动点击执行
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: 
+
+# 核心授权：允许 GitHub 机器人把生成的文件提交回仓库
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 1. 检出代码
+        uses: actions/checkout@v3
+
+      - name: 2. 配置 Python 环境
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 3. 安装请求库
+        run: pip install httpx
+
+      - name: 4. 运行抓取脚本
+        run: python fetch_trending.py
+
+      - name: 5. 自动提交并推送新数据
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 每日自动更新 Trending 数据"
+          file_pattern: data.json
