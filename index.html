@@ -191,18 +191,44 @@
                     Chart.defaults.font.family = "ui-sans-serif, system-ui, sans-serif";
                     const data = globalData.value;
                     
-                    if (data.charts.starGrowth && data.charts.starGrowth.labels.length > 0) {
-                        new Chart(document.getElementById('star-growth-chart').getContext('2d'), {
+                    // ⚡ 优化 1：折线图 - 增加空值判断和默认提示
+                    const starCtx = document.getElementById('star-growth-chart');
+                    if (starCtx && data.charts.starGrowth && data.charts.starGrowth.labels?.length > 0) {
+                        new Chart(starCtx.getContext('2d'), {
                             type: 'line',
-                            data: { labels: data.charts.starGrowth.labels, datasets: [{ data: data.charts.starGrowth.data, borderColor: '#ec4899', backgroundColor: 'rgba(236, 72, 153, 0.1)', borderWidth: 2, tension: 0.4, fill: true, pointRadius: 4, pointBackgroundColor: '#fff' }] },
-                            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { display: true }, x: { grid: { display: false } } } }
+                            data: { 
+                                labels: data.charts.starGrowth.labels, 
+                                datasets: [{ 
+                                    data: data.charts.starGrowth.data, 
+                                    borderColor: '#ec4899', 
+                                    backgroundColor: 'rgba(236, 72, 153, 0.1)', 
+                                    borderWidth: 2, 
+                                    tension: 0.4, 
+                                    fill: true, 
+                                    pointRadius: 4, 
+                                    pointBackgroundColor: '#fff' 
+                                }] 
+                            },
+                            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
                         });
                     }
-                    const langLabels = Object.keys(data.charts.languageDistribution);
-                    if (langLabels.length > 0) {
-                        new Chart(document.getElementById('language-distribution-chart').getContext('2d'), {
+
+                    // ⚡ 优化 2：饼图 - 修复渲染逻辑
+                    const langCtx = document.getElementById('language-distribution-chart');
+                    const langData = data.charts.languageDistribution || {};
+                    const langLabels = Object.keys(langData);
+                    
+                    if (langCtx && langLabels.length > 0) {
+                        new Chart(langCtx.getContext('2d'), {
                             type: 'doughnut',
-                            data: { labels: langLabels, datasets: [{ data: Object.values(data.charts.languageDistribution), backgroundColor: ['#3b82f6', '#eab308', '#a855f7', '#ec4899', '#22c55e', '#9ca3af'], borderWidth: 0 }] },
+                            data: { 
+                                labels: langLabels, 
+                                datasets: [{ 
+                                    data: Object.values(langData), 
+                                    backgroundColor: ['#3b82f6', '#eab308', '#a855f7', '#ec4899', '#22c55e', '#9ca3af'], 
+                                    borderWidth: 0 
+                                }] 
+                            },
                             options: { responsive: true, maintainAspectRatio: false, cutout: '70%', plugins: { legend: { position: 'right' } } }
                         });
                     }
