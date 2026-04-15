@@ -3,51 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Trending - Vue3 终极优化版</title>
+    <title>GitHub Trending - Vue3 终极版</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     
     <script>
         tailwind.config = {
-            theme: {
-                extend: { colors: { github: { dark: '#1e2327', green: '#2ea44f' } }, boxShadow: { 'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)' } }
-            }
+            theme: { extend: { colors: { github: { dark: '#1e2327', green: '#2ea44f' } }, boxShadow: { 'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)' } } }
         }
     </script>
     <style>
-::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
         ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
         [v-cloak] { display: none; }
-
-        /* ⚡ 究极进阶：带有物理回弹感的卡片过渡动画 */
-        
-        /* 1. 移动中的卡片：使用带有回弹的贝塞尔曲线 */
-        .list-move {
-            transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); 
-        }
-        
-        /* 2. 新出现的卡片 */
-        .list-enter-active {
-            transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-        
-        /* 3. 消失的卡片：速度稍微加快，干脆利落 */
-        .list-leave-active {
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            position: absolute !important; /* 核心：让消失的卡片瞬间脱离排版，给后面的卡片让位 */
-            z-index: -1;
-        }
-        
-        /* 4. 动画的起点和终点状态：加入缩放和垂直位移 */
-        .list-enter-from {
-            opacity: 0;
-            transform: scale(0.8) translateY(40px);
-        }
-        .list-leave-to {
-            opacity: 0;
-            transform: scale(0.8) translateY(-40px);
-        }
+        .list-move, .list-enter-active, .list-leave-active { transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1); }
+        .list-enter-from, .list-leave-to { opacity: 0; transform: scale(0.95) translateY(20px); }
+        .list-leave-active { position: absolute; z-index: -1; }
     </style>
 </head>
 <body class="bg-gray-100 font-sans antialiased text-gray-800">
@@ -69,27 +41,21 @@
                         </li>
                     </ul>
                 </div>
-                
                 <div class="relative w-full sm:w-64">
                     <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">🔍</span>
-                    <input 
-                        type="text" 
-                        v-model="searchQuery" 
-                        placeholder="搜索项目名称或描述..." 
-                        class="w-full bg-white/10 border border-gray-600 text-white text-sm rounded-full focus:ring-2 focus:ring-github-green focus:border-transparent block pl-9 p-1.5 transition-all outline-none placeholder-gray-400"
-                    >
+                    <input type="text" v-model="searchQuery" placeholder="搜索项目名称或语言..." class="w-full bg-white/10 border border-gray-600 text-white text-sm rounded-full focus:ring-2 focus:ring-github-green focus:border-transparent block pl-9 p-1.5 transition-all outline-none placeholder-gray-400">
                 </div>
             </div>
         </nav>
 
         <main class="max-w-[1400px] mx-auto px-4 md:px-6 py-8">
             <div v-if="isLoading" class="text-center py-12 text-gray-500 animate-pulse">正在同步服务器数据...</div>
-            <div v-else-if="hasError" class="text-center py-12 text-red-500 bg-red-50 rounded-xl border border-red-200">数据加载失败，请检查后端运行状态。</div>
+            <div v-else-if="hasError" class="text-center py-12 text-red-500 bg-red-50 rounded-xl border border-red-200">数据加载失败，请检查网络或刷新重试。</div>
 
             <div v-else>
                 <section class="grid grid-cols-1 lg:grid-cols-12 gap-6 mb-8">
                     <div class="lg:col-span-8 bg-white p-6 rounded-2xl shadow-soft border border-gray-200">
-                        <h3 class="text-sm font-bold text-gray-700 mb-4 flex items-center gap-2"><span class="text-pink-500">📈</span> {{ globalData.charts.starGrowth?.title || 'Star 增长趋势' }}</h3>
+                        <h3 class="text-sm font-bold text-gray-700 mb-4 flex items-center gap-2"><span class="text-pink-500">📈</span> Star 增长趋势</h3>
                         <div class="relative h-40 w-full"><canvas id="star-growth-chart"></canvas></div>
                     </div>
                     <div class="lg:col-span-4 bg-white p-6 rounded-2xl shadow-soft border border-gray-200">
@@ -104,10 +70,7 @@
                 </div>
 
                 <transition-group name="list" tag="section" class="grid grid-cols-1 md:grid-cols-2 gap-6 relative">
-                    
-                    <div v-for="project in filteredProjects" :key="project.name" 
-                         class="bg-white p-6 rounded-2xl shadow-soft border border-gray-200 hover:shadow-md transition-shadow group flex flex-col justify-between w-full">
-                        
+                    <div v-for="project in filteredProjects" :key="project.name" class="bg-white p-6 rounded-2xl shadow-soft border border-gray-200 hover:shadow-md transition-shadow group flex flex-col justify-between w-full">
                         <div>
                             <div class="flex justify-between items-start mb-3">
                                 <div class="flex items-center gap-3 overflow-hidden">
@@ -129,16 +92,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="flex justify-between items-end border-t border-gray-100 pt-4 mt-2">
-                            <div class="flex -space-x-2">
-                                <img v-for="(avatar, i) in project.contributors" :key="i" :src="avatar" class="w-7 h-7 rounded-full border-2 border-white" alt="avatar">
-                            </div>
-                            <a :href="'https://github.com/' + project.name" target="_blank" class="bg-github-green hover:bg-github-greenHover text-white px-4 py-1.5 rounded-lg text-sm font-bold active:scale-95 transition-transform">
-                                View Repo
-                            </a>
-                        </div>
-                        
                     </div>
                 </transition-group>
             </div>
@@ -146,7 +99,7 @@
     </div>
 
     <script>
-const { createApp, ref, computed, onMounted, nextTick } = Vue;
+        const { createApp, ref, computed, onMounted } = Vue;
 
         createApp({
             setup() {
@@ -171,141 +124,46 @@ const { createApp, ref, computed, onMounted, nextTick } = Vue;
                     return list;
                 });
 
-                // ⚡ 核心修复：更健壮的图表初始化
                 const renderCharts = () => {
-                    // 检查 Chart.js 是否加载成功
-                    if (typeof Chart === 'undefined') {
-                        console.error('Chart.js 尚未加载');
-                        return;
-                    }
-
+                    if (typeof Chart === 'undefined') return;
                     const data = globalData.value;
                     if (!data || !data.charts) return;
 
-                    // 1. 饼图 (你的 JSON 中这个数据最完整)
+                    // 饼图
                     const langCtx = document.getElementById('language-distribution-chart');
                     if (langCtx) {
                         const langData = data.charts.languageDistribution || {};
-                        new Chart(langCtx, {
-                            type: 'doughnut',
-                            data: {
-                                labels: Object.keys(langData),
-                                datasets: [{
-                                    data: Object.values(langData),
-                                    backgroundColor: ['#3b82f6', '#eab308', '#a855f7', '#ec4899', '#22c55e', '#9ca3af']
-                                }]
-                            },
-                            options: { responsive: true, maintainAspectRatio: false }
-                        });
+                        const langLabels = Object.keys(langData);
+                        if(langLabels.length > 0) {
+                            new Chart(langCtx, {
+                                type: 'doughnut',
+                                data: { labels: langLabels, datasets: [{ data: Object.values(langData), backgroundColor: ['#3b82f6', '#eab308', '#a855f7', '#ec4899', '#22c55e', '#9ca3af'] }] },
+                                options: { responsive: true, maintainAspectRatio: false }
+                            });
+                        }
                     }
 
-                    // 2. 折线图 (即使数据为空，我们也画个空的，防止报错)
+                    // 折线图
                     const starCtx = document.getElementById('star-growth-chart');
                     if (starCtx) {
-                        const starLabels = data.charts.starGrowth?.labels || ['无数据'];
-                        const starValues = data.charts.starGrowth?.data || [0];
+                        const starLabels = data.charts.starGrowth?.labels || ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'];
+                        const starValues = data.charts.starGrowth?.data || [0, 0, 0, 0, 0];
                         new Chart(starCtx, {
                             type: 'line',
-                            data: {
-                                labels: starLabels,
-                                datasets: [{ data: starValues, borderColor: '#ec4899', fill: true }]
-                            },
-                            options: { responsive: true, maintainAspectRatio: false }
-                        });
-                    }
-                };
-
-                onMounted(async () => {
-                    try {
-                        // 强制清除缓存请求最新的 json
-                        const response = await fetch(`./data.json?t=${new Date().getTime()}`);
-                        if (!response.ok) throw new Error('文件加载失败');
-                        globalData.value = await response.json();
-                        isLoading.value = false;
-                        
-                        // ⚡ 关键：给 DOM 渲染留出 500ms 的缓冲时间
-                        setTimeout(() => {
-                            renderCharts();
-                        }, 500);
-                        
-                    } catch (error) {
-                        console.error('加载出错:', error);
-                        hasError.value = true;
-                        isLoading.value = false;
-                    }
-                });
-
-                return {
-                    globalData, isLoading, hasError, searchQuery, 
-                    currentCategory, categories, filteredProjects,
-                    formatStars: (s) => s > 1000 ? (s/1000).toFixed(1)+'k' : s
-                };
-            }
-        }).mount('#app');
-                const formatStars = (stars) => stars > 1000 ? (stars / 1000).toFixed(1) + 'k' : stars;
-
-                const initCharts = () => {
-                    Chart.defaults.color = '#9ca3af'; 
-                    Chart.defaults.font.family = "ui-sans-serif, system-ui, sans-serif";
-                    const data = globalData.value;
-                    
-                    // ⚡ 优化 1：折线图 - 增加空值判断和默认提示
-                    const starCtx = document.getElementById('star-growth-chart');
-                    if (starCtx && data.charts.starGrowth && data.charts.starGrowth.labels?.length > 0) {
-                        new Chart(starCtx.getContext('2d'), {
-                            type: 'line',
-                            data: { 
-                                labels: data.charts.starGrowth.labels, 
-                                datasets: [{ 
-                                    data: data.charts.starGrowth.data, 
-                                    borderColor: '#ec4899', 
-                                    backgroundColor: 'rgba(236, 72, 153, 0.1)', 
-                                    borderWidth: 2, 
-                                    tension: 0.4, 
-                                    fill: true, 
-                                    pointRadius: 4, 
-                                    pointBackgroundColor: '#fff' 
-                                }] 
-                            },
+                            data: { labels: starLabels, datasets: [{ data: starValues, borderColor: '#ec4899', fill: true }] },
                             options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
                         });
                     }
-
-                    // ⚡ 优化 2：饼图 - 修复渲染逻辑
-                    const langCtx = document.getElementById('language-distribution-chart');
-                    const langData = data.charts.languageDistribution || {};
-                    const langLabels = Object.keys(langData);
-                    
-                    if (langCtx && langLabels.length > 0) {
-                        new Chart(langCtx.getContext('2d'), {
-                            type: 'doughnut',
-                            data: { 
-                                labels: langLabels, 
-                                datasets: [{ 
-                                    data: Object.values(langData), 
-                                    backgroundColor: ['#3b82f6', '#eab308', '#a855f7', '#ec4899', '#22c55e', '#9ca3af'], 
-                                    borderWidth: 0 
-                                }] 
-                            },
-                            options: { responsive: true, maintainAspectRatio: false, cutout: '70%', plugins: { legend: { position: 'right' } } }
-                        });
-                    }
                 };
 
-                // 找到这里并替换
                 onMounted(async () => {
                     try {
-                        // ⚡ 重点：直接读取静态文件
-                        const response = await fetch('./data.json'); 
-                        const data = await response.json()
-                        
-                        
-                        ;
-                        
-                        if (data.error) throw new Error(data.error);
-                        globalData.value = data;
+                        const response = await fetch(`./data.json?t=${new Date().getTime()}`);
+                        if (!response.ok) throw new Error('网络请求失败');
+                        globalData.value = await response.json();
                         isLoading.value = false;
-                        nextTick(initCharts);
+                        
+                        setTimeout(() => { renderCharts(); }, 500);
                     } catch (error) {
                         hasError.value = true;
                         isLoading.value = false;
@@ -313,10 +171,8 @@ const { createApp, ref, computed, onMounted, nextTick } = Vue;
                 });
 
                 return {
-                    globalData, isLoading, hasError, 
-                    currentCategory, categories, 
-                    searchQuery, filteredProjects, // 暴露出这两个新变量供 HTML 使用
-                    formatStars
+                    globalData, isLoading, hasError, searchQuery, currentCategory, categories, filteredProjects,
+                    formatStars: (s) => s > 1000 ? (s/1000).toFixed(1)+'k' : s
                 };
             }
         }).mount('#app');
