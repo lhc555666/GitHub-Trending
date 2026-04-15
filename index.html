@@ -146,44 +146,102 @@
     </div>
 
     <script>
-        const { createApp, ref, computed, onMounted, nextTick } = Vue;
+const { createApp, ref, computed, onMounted, nextTick } = Vue;
 
         createApp({
             setup() {
                 const globalData = ref(null);
                 const isLoading = ref(true);
                 const hasError = ref(false);
-                
+                const searchQuery = ref('');
                 const currentCategory = ref('All');
                 const categories = ['All', 'Python', 'JavaScript', 'C++'];
-                
-                // ⚡ 进阶优化 1：新增响应式搜索词变量
-                const searchQuery = ref('');
 
-                // ⚡ 进阶优化 1：超级进化版的计算属性（同时处理分类切换和关键字搜索）
-                // ⚡ 进阶优化 1：超级进化版的计算属性（修复搜索语言漏网之鱼）
                 const filteredProjects = computed(() => {
                     if (!globalData.value) return [];
-                    
                     let list = globalData.value.projects[currentCategory.value] || [];
-                    
                     const query = searchQuery.value.trim().toLowerCase();
                     if (query) {
-                        list = list.filter(project => {
-                            // 1. 搜名字
-                            const nameMatch = project.name.toLowerCase().includes(query);
-                            // 2. 搜描述
-                            const descMatch = (project.description || '').toLowerCase().includes(query);
-                            // 3. 【新增】搜编程语言！
-                            const langMatch = (project.language.name || '').toLowerCase().includes(query);
-                            
-                            // 只要命中其中一个，就显示出来
-                            return nameMatch || descMatch || langMatch;
-                        });
+                        list = list.filter(p => 
+                            p.name.toLowerCase().includes(query) || 
+                            (p.description || '').toLowerCase().includes(query) ||
+                            (p.language.name || '').toLowerCase().includes(query)
+                        );
                     }
                     return list;
                 });
 
+                // ⚡ 核心修复：更健壮的图表初始化
+                const renderCharts = () => {
+                    // 检查 Chart.js 是否加载成功
+                    if (typeof Chart === 'undefined') {
+                        console.error('Chart.js 尚未加载');
+                        return;
+                    }
+
+                    const data = globalData.value;
+                    if (!data || !data.charts) return;
+
+                    // 1. 饼图 (你的 JSON 中这个数据最完整)
+                    const langCtx = document.getElementById('language-distribution-chart');
+                    if (langCtx) {
+                        const langData = data.charts.languageDistribution || {};
+                        new Chart(langCtx, {
+                            type: 'doughnut',
+                            data: {
+                                labels: Object.keys(langData),
+                                datasets: [{
+                                    data: Object.values(langData),
+                                    backgroundColor: ['#3b82f6', '#eab308', '#a855f7', '#ec4899', '#22c55e', '#9ca3af']
+                                }]
+                            },
+                            options: { responsive: true, maintainAspectRatio: false }
+                        });
+                    }
+
+                    // 2. 折线图 (即使数据为空，我们也画个空的，防止报错)
+                    const starCtx = document.getElementById('star-growth-chart');
+                    if (starCtx) {
+                        const starLabels = data.charts.starGrowth?.labels || ['无数据'];
+                        const starValues = data.charts.starGrowth?.data || [0];
+                        new Chart(starCtx, {
+                            type: 'line',
+                            data: {
+                                labels: starLabels,
+                                datasets: [{ data: starValues, borderColor: '#ec4899', fill: true }]
+                            },
+                            options: { responsive: true, maintainAspectRatio: false }
+                        });
+                    }
+                };
+
+                onMounted(async () => {
+                    try {
+                        // 强制清除缓存请求最新的 json
+                        const response = await fetch(`./data.json?t=${new Date().getTime()}`);
+                        if (!response.ok) throw new Error('文件加载失败');
+                        globalData.value = await response.json();
+                        isLoading.value = false;
+                        
+                        // ⚡ 关键：给 DOM 渲染留出 500ms 的缓冲时间
+                        setTimeout(() => {
+                            renderCharts();
+                        }, 500);
+                        
+                    } catch (error) {
+                        console.error('加载出错:', error);
+                        hasError.value = true;
+                        isLoading.value = false;
+                    }
+                });
+
+                return {
+                    globalData, isLoading, hasError, searchQuery, 
+                    currentCategory, categories, filteredProjects,
+                    formatStars: (s) => s > 1000 ? (s/1000).toFixed(1)+'k' : s
+                };
+            }
+        }).mount('#app');
                 const formatStars = (stars) => stars > 1000 ? (stars / 1000).toFixed(1) + 'k' : stars;
 
                 const initCharts = () => {
@@ -239,7 +297,10 @@
                     try {
                         // ⚡ 重点：直接读取静态文件
                         const response = await fetch('./data.json'); 
-                        const data = await response.json();
+                        const data = await response.json()
+                        
+                        
+                        ;
                         
                         if (data.error) throw new Error(data.error);
                         globalData.value = data;
