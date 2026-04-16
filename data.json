@@ -1,19 +1,20 @@
 {
-  "lastUpdate": "2026/04/16 03:41:29",
+  "lastUpdate": "2026/04/16 06:23:21",
   "charts": {
     "languageDistribution": {
-      "Python": 4,
+      "Python": 3,
       "TypeScript": 2,
-      "Rust": 1,
       "HTML": 1,
-      "PHP": 1
+      "Rust": 1,
+      "PHP": 1,
+      "Kotlin": 1
     },
     "starGrowth": {
       "labels": [
         "04-16"
       ],
       "data": [
-        1115
+        1135
       ]
     }
   },
@@ -29,8 +30,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 3024,
-          "forks": 252
+          "totalStars": 3091,
+          "forks": 259
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/251871046?v=4"
@@ -49,8 +50,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1830,
-          "forks": 133
+          "totalStars": 1875,
+          "forks": 135
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/265224789?v=4"
@@ -69,8 +70,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1051,
-          "forks": 106
+          "totalStars": 1073,
+          "forks": 107
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/156300419?v=4"
@@ -81,26 +82,6 @@
       },
       {
         "rank": 4,
-        "name": "vyfor/rattles",
-        "description": "🪇 Minimal terminal spinners for Rust",
-        "language": {
-          "name": "Rust",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 869,
-          "forks": 17
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/92883017?v=4"
-        ],
-        "tags": [
-          "#Rust"
-        ]
-      },
-      {
-        "rank": 5,
         "name": "alchaincyf/darwin-skill",
         "description": "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert.",
         "language": {
@@ -109,14 +90,34 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 849,
-          "forks": 101
+          "totalStars": 872,
+          "forks": 104
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/127714341?v=4"
         ],
         "tags": [
           "#HTML"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "vyfor/rattles",
+        "description": "🪇 Minimal terminal spinners for Rust",
+        "language": {
+          "name": "Rust",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 871,
+          "forks": 17
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/92883017?v=4"
+        ],
+        "tags": [
+          "#Rust"
         ]
       },
       {
@@ -129,8 +130,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 810,
-          "forks": 215
+          "totalStars": 816,
+          "forks": 217
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/28473201?v=4"
@@ -149,7 +150,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 772,
+          "totalStars": 776,
           "forks": 75
         },
         "contributors": [
@@ -169,8 +170,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 694,
-          "forks": 143
+          "totalStars": 708,
+          "forks": 146
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/266242792?v=4"
@@ -189,7 +190,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 638,
+          "totalStars": 639,
           "forks": 65
         },
         "contributors": [
@@ -201,22 +202,22 @@
       },
       {
         "rank": 10,
-        "name": "AMAP-ML/SkillClaw",
-        "description": "Let Skills Evolve Collectively with Agentic Evolver ",
+        "name": "sogonov/anubis",
+        "description": "Android app manager with VPN integration. Manages groups of apps by freezing/unfreezing them based on VPN connection state.",
         "language": {
-          "name": "Python",
+          "name": "Kotlin",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 622,
-          "forks": 70
+          "totalStars": 637,
+          "forks": 17
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/202896035?v=4"
+          "https://avatars.githubusercontent.com/u/111385605?v=4"
         ],
         "tags": [
-          "#Python"
+          "#Kotlin"
         ]
       }
     ],
@@ -231,8 +232,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 3024,
-          "forks": 252
+          "totalStars": 3091,
+          "forks": 259
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/251871046?v=4"
@@ -251,8 +252,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1051,
-          "forks": 106
+          "totalStars": 1073,
+          "forks": 107
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/156300419?v=4"
@@ -271,7 +272,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 772,
+          "totalStars": 776,
           "forks": 75
         },
         "contributors": [
@@ -291,7 +292,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 622,
+          "totalStars": 626,
           "forks": 70
         },
         "contributors": [
@@ -311,8 +312,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 606,
-          "forks": 68
+          "totalStars": 609,
+          "forks": 69
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/71074308?v=4"
@@ -331,8 +332,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 446,
-          "forks": 100
+          "totalStars": 448,
+          "forks": 101
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/60732685?v=4"
@@ -343,6 +344,26 @@
       },
       {
         "rank": 7,
+        "name": "761696148/Game-Map-Tracker",
+        "description": "暂无描述",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 431,
+          "forks": 125
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/110160180?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
         "name": "bstnxbt/dflash-mlx",
         "description": "Lossless DFlash speculative decoding for MLX on Apple Silicon",
         "language": {
@@ -351,7 +372,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 425,
+          "totalStars": 430,
           "forks": 24
         },
         "contributors": [
@@ -362,40 +383,20 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "761696148/Game-Map-Tracker",
-        "description": "暂无描述",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 413,
-          "forks": 124
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/110160180?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
         "rank": 9,
-        "name": "Aryagm/dflash-mlx",
-        "description": "Exact speculative decoding on Apple Silicon, powered by MLX.",
+        "name": "Tencent-Hunyuan/HY-World-2.0",
+        "description": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 282,
-          "forks": 27
+          "totalStars": 352,
+          "forks": 12
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/80019072?v=4"
+          "https://avatars.githubusercontent.com/u/210980732?v=4"
         ],
         "tags": [
           "#Python"
@@ -411,8 +412,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 278,
-          "forks": 14
+          "totalStars": 293,
+          "forks": 15
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/527391?v=4"
@@ -433,8 +434,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 487,
-          "forks": 87
+          "totalStars": 497,
+          "forks": 89
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/906752?v=4"
@@ -453,8 +454,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 341,
-          "forks": 26
+          "totalStars": 406,
+          "forks": 32
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/144777973?v=4"
@@ -473,8 +474,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 286,
-          "forks": 74
+          "totalStars": 288,
+          "forks": 75
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/168922623?v=4"
@@ -493,7 +494,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 203,
+          "totalStars": 205,
           "forks": 35
         },
         "contributors": [
@@ -513,7 +514,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 199,
+          "totalStars": 200,
           "forks": 14
         },
         "contributors": [
@@ -525,6 +526,26 @@
       },
       {
         "rank": 6,
+        "name": "shaom/svg-hand-drawn-skill",
+        "description": "暂无描述",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 163,
+          "forks": 26
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/2596224?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 7,
         "name": "xsawyerx/curl-doom",
         "description": "DOOM, played over cURL",
         "language": {
@@ -538,26 +559,6 @@
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/54725?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "shaom/svg-hand-drawn-skill",
-        "description": "暂无描述",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 162,
-          "forks": 26
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/2596224?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -635,7 +636,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 370,
+          "totalStars": 378,
           "forks": 15
         },
         "contributors": [
@@ -675,7 +676,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 245,
+          "totalStars": 249,
           "forks": 15
         },
         "contributors": [
@@ -755,7 +756,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 67,
+          "totalStars": 68,
           "forks": 0
         },
         "contributors": [
@@ -787,6 +788,26 @@
       },
       {
         "rank": 9,
+        "name": "yinrozvel/Windrose-Game-For-PC",
+        "description": "Download Windrose Game For PC . Beautiful open-world sailing adventure game with ship building, island exploration, trading, and rich story. Stunning hand-drawn visuals and relaxing seafaring gameplay on Windows PC.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 60,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/68559403?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 10,
         "name": "Nightmare-Eclipse/UnDefend",
         "description": "Repository hosting windows defender DOS tool",
         "language": {
@@ -795,31 +816,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 57,
+          "totalStars": 59,
           "forks": 13
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/271389851?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "zju3dv/habitat-gs",
-        "description": "Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 57,
-          "forks": 1
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/48914724?v=4"
         ],
         "tags": [
           "#C++"
