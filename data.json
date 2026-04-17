@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026/04/17 04:21:45",
+  "lastUpdate": "2026/04/17 04:36:55",
   "charts": {
     "languageDistribution": {
       "TypeScript": 3,
@@ -17,7 +17,7 @@
       ],
       "data": [
         1135,
-        1024
+        1026
       ]
     }
   },
@@ -34,7 +34,7 @@
         "stats": {
           "todayStars": "-",
           "totalStars": 2325,
-          "forks": 157
+          "forks": 158
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/265224789?v=4"
@@ -53,7 +53,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1101,
+          "totalStars": 1103,
           "forks": 35
         },
         "contributors": [
@@ -73,7 +73,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1093,
+          "totalStars": 1099,
           "forks": 265
         },
         "contributors": [
@@ -113,8 +113,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 891,
-          "forks": 168
+          "totalStars": 896,
+          "forks": 169
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/271389851?v=4"
@@ -173,7 +173,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 775,
+          "totalStars": 777,
           "forks": 57
         },
         "contributors": [
@@ -213,8 +213,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 699,
-          "forks": 57
+          "totalStars": 700,
+          "forks": 58
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/144777973?v=4"
@@ -255,8 +255,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 672,
-          "forks": 71
+          "totalStars": 675,
+          "forks": 72
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/71074308?v=4"
@@ -275,7 +275,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 524,
+          "totalStars": 530,
           "forks": 41
         },
         "contributors": [
@@ -287,26 +287,6 @@
       },
       {
         "rank": 4,
-        "name": "wbh604/UZI-Skill",
-        "description": "冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 51位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 ",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 477,
-          "forks": 86
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/16127958?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 5,
         "name": "Robbyant/lingbot-map",
         "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
         "language": {
@@ -315,11 +295,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 475,
+          "totalStars": 480,
           "forks": 25
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/212647524?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "wbh604/UZI-Skill",
+        "description": "冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 51位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 ",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 480,
+          "forks": 86
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/16127958?v=4"
         ],
         "tags": [
           "#Python"
@@ -437,8 +437,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 699,
-          "forks": 57
+          "totalStars": 700,
+          "forks": 58
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/144777973?v=4"
@@ -477,7 +477,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 292,
+          "totalStars": 293,
           "forks": 36
         },
         "contributors": [
@@ -517,8 +517,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 226,
-          "forks": 101
+          "totalStars": 228,
+          "forks": 102
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/275414185?v=4"
@@ -557,7 +557,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 217,
+          "totalStars": 218,
           "forks": 9
         },
         "contributors": [
@@ -609,19 +609,19 @@
       },
       {
         "rank": 10,
-        "name": "NYCU-Chung/my-claude-devteam",
-        "description": "An engineering team in a box for Claude Code — 12 specialized agents, 15 automation hooks, and the P7/P9/P10 methodology.",
+        "name": "Web3CZ/Web3Hermes",
+        "description": "【Hermes WebUI】Hermes-Agent 中文版 WebUI，便于中国用户使用",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 89,
-          "forks": 12
+          "totalStars": 90,
+          "forks": 18
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/197928511?v=4"
+          "https://avatars.githubusercontent.com/u/118263377?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -639,8 +639,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 891,
-          "forks": 168
+          "totalStars": 896,
+          "forks": 169
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/271389851?v=4"
@@ -731,6 +731,26 @@
       },
       {
         "rank": 6,
+        "name": "SaikoNadiro13/MOUSE-P.I.-For-Hire-Release-Game-Desktop-Version",
+        "description": "MOUSE PI For Hire is a fun hand-drawn point-and-click detective adventure game for PC. Play as a clever mouse private investigator solving funny and challenging cases in a colorful cartoon world. Optimized desktop release with widescreen support, smooth controls, and high-resolution graphics.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 78,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/94567530?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 7,
         "name": "BootRiotControl/Lossless-Scaling-Smoother-Gaming",
         "description": "Lossless Scaling is a powerful Windows tool for perfect upscaling and frame generation. Enjoy crisp integer scaling, AI-powered LSFG that can double or triple your FPS, and support for all major graphics APIs. Ideal for retro games, emulators, and modern titles. Get sharper visuals and smoother gameplay on any monitor.",
         "language": {
@@ -744,26 +764,6 @@
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/113141436?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "SaikoNadiro13/MOUSE-P.I.-For-Hire-Release-Game-Desktop-Version",
-        "description": "MOUSE PI For Hire is a fun hand-drawn point-and-click detective adventure game for PC. Play as a clever mouse private investigator solving funny and challenging cases in a colorful cartoon world. Optimized desktop release with widescreen support, smooth controls, and high-resolution graphics.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 76,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/94567530?v=4"
         ],
         "tags": [
           "#C++"
@@ -799,7 +799,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 71,
+          "totalStars": 72,
           "forks": 0
         },
         "contributors": [
