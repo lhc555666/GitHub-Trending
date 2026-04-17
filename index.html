@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Trending - Vue3 终极版</title>
     <script src="https://cdn.tailwindcss.com"></script>
- <script src="https://cdn.staticfile.net/Chart.js/4.4.0/chart.umd.min.js"></script>
-<script src="https://cdn.staticfile.net/vue/3.3.4/vue.global.min.js"></script>
+    <script src="https://cdn.staticfile.net/Chart.js/4.4.0/chart.umd.min.js"></script>
+    <script src="https://cdn.staticfile.net/vue/3.3.4/vue.global.min.js"></script>
     
     <script>
         tailwind.config = {
@@ -43,7 +43,7 @@
                 </div>
                 <div class="relative w-full sm:w-64">
                     <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">🔍</span>
-                    <input type="text" v-model="searchQuery" placeholder="搜索项目名称或语言..." class="w-full bg-white/10 border border-gray-600 text-white text-sm rounded-full focus:ring-2 focus:ring-github-green focus:border-transparent block pl-9 p-1.5 transition-all outline-none placeholder-gray-400">
+                    <input type="text" v-model="searchQuery" placeholder="搜索项目或语言..." class="w-full bg-white/10 border border-gray-600 text-white text-sm rounded-full focus:ring-2 focus:ring-github-green focus:border-transparent block pl-9 p-1.5 transition-all outline-none placeholder-gray-400">
                 </div>
             </div>
         </nav>
@@ -99,7 +99,7 @@
     </div>
 
     <script>
-        const { createApp, ref, computed, onMounted } = Vue;
+        const { createApp, ref, computed, onMounted, nextTick } = Vue;
 
         createApp({
             setup() {
@@ -111,76 +111,90 @@
                 const categories = ['All', 'Python', 'JavaScript', 'C++'];
 
                 const filteredProjects = computed(() => {
-                    if (!globalData.value) return [];
+                    if (!globalData.value || !globalData.value.projects) return [];
                     let list = globalData.value.projects[currentCategory.value] || [];
                     const query = searchQuery.value.trim().toLowerCase();
                     if (query) {
                         list = list.filter(p => 
                             p.name.toLowerCase().includes(query) || 
                             (p.description || '').toLowerCase().includes(query) ||
-                            (p.language.name || '').toLowerCase().includes(query)
+                            (p.language?.name || '').toLowerCase().includes(query)
                         );
                     }
                     return list;
                 });
-const initCharts = () => {
-                    // 1. 检查 Chart.js 是否成功加载
+
+                const renderCharts = () => {
+                    console.log("📊 探头1: 开始渲染图表，当前数据 ->", globalData.value);
+                    
                     if (typeof Chart === 'undefined') {
-                        console.error('Chart.js 尚未加载');
+                        console.error('❌ 探头2: Chart.js 根本没有加载进来！检查网络。');
                         return;
                     }
 
                     const data = globalData.value;
-                    if (!data || !data.charts) return;
-
-                    // 2. 安全渲染饼图
-                    const langCtx = document.getElementById('language-distribution-chart');
-                    if (langCtx) {
-                        const langData = data.charts.languageDistribution || {};
-                        const langLabels = Object.keys(langData);
-                        
-                        if (langLabels && langLabels.length > 0) {
-                            new Chart(langCtx, {
-                                type: 'doughnut',
-                                data: {
-                                    labels: langLabels,
-                                    datasets: [{ data: Object.values(langData), backgroundColor: ['#3b82f6', '#eab308', '#a855f7', '#ec4899', '#22c55e', '#9ca3af'] }]
-                                },
-                                options: { responsive: true, maintainAspectRatio: false }
-                            });
-                        }
+                    if (!data || !data.charts) {
+                        console.warn('⚠️ 探头3: data.json 里没有 charts 数据');
+                        return;
                     }
 
-                    // 3. 安全渲染折线图 (重点修复位置)
-                    const starCtx = document.getElementById('star-growth-chart');
-                    if (starCtx) {
-                        const starGrowth = data.charts.starGrowth || {};
-                        // 强制保底，如果找不到 labels 就给个默认数组
-                        const starLabels = starGrowth.labels || ['暂无数据'];
-                        const starValues = starGrowth.data || [0];
-                        
-                        if (starLabels && starLabels.length > 0) {
-                            new Chart(starCtx, {
-                                type: 'line',
-                                data: {
-                                    labels: starLabels,
-                                    datasets: [{ data: starValues, borderColor: '#ec4899', fill: true }]
-                                },
-                                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
-                            });
+                    // 渲染饼图 (加上 try-catch 防护服)
+                    try {
+                        const langCtx = document.getElementById('language-distribution-chart');
+                        if (langCtx) {
+                            const langData = data.charts.languageDistribution || {};
+                            const langLabels = Object.keys(langData);
+                            if (langLabels.length > 0) {
+                                new Chart(langCtx, {
+                                    type: 'doughnut',
+                                    data: { labels: langLabels, datasets: [{ data: Object.values(langData), backgroundColor: ['#3b82f6', '#eab308', '#a855f7', '#ec4899', '#22c55e', '#9ca3af'] }] },
+                                    options: { responsive: true, maintainAspectRatio: false }
+                                });
+                                console.log("✅ 饼图渲染成功！");
+                            }
                         }
+                    } catch (error) {
+                        console.error("❌ 饼图渲染崩溃:", error);
+                    }
+
+                    // 渲染折线图 (加上 try-catch 防护服)
+                    try {
+                        const starCtx = document.getElementById('star-growth-chart');
+                        if (starCtx) {
+                            const starGrowth = data.charts.starGrowth || {};
+                            const starLabels = starGrowth.labels || ['暂无数据'];
+                            const starValues = starGrowth.data || [0];
+                            
+                            if (starLabels.length > 0) {
+                                new Chart(starCtx, {
+                                    type: 'line',
+                                    data: { labels: starLabels, datasets: [{ data: starValues, borderColor: '#ec4899', fill: true, tension: 0.1 }] },
+                                    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+                                });
+                                console.log("✅ 折线图渲染成功！");
+                            }
+                        }
+                    } catch (error) {
+                        console.error("❌ 折线图渲染崩溃:", error);
                     }
                 };
 
                 onMounted(async () => {
                     try {
+                        // 加上时间戳，强制突破浏览器缓存
                         const response = await fetch(`./data.json?t=${new Date().getTime()}`);
-                        if (!response.ok) throw new Error('网络请求失败');
+                        if (!response.ok) throw new Error('找不到 data.json');
                         globalData.value = await response.json();
+                        
                         isLoading.value = false;
                         
-                        setTimeout(() => { renderCharts(); }, 500);
+                        // 核心修复：等 Vue 把 canvas 元素画到网页上之后，再呼叫 Chart.js
+                        nextTick(() => {
+                            renderCharts();
+                        });
+                        
                     } catch (error) {
+                        console.error("❌ 数据拉取彻底失败:", error);
                         hasError.value = true;
                         isLoading.value = false;
                     }
