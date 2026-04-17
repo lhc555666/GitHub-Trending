@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026/04/17 03:13:19",
+  "lastUpdate": "2026/04/17 03:21:21",
   "charts": {
     "languageDistribution": {
       "TypeScript": 3,
@@ -17,7 +17,7 @@
       ],
       "data": [
         1135,
-        1010
+        1013
       ]
     }
   },
@@ -33,7 +33,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2307,
+          "totalStars": 2310,
           "forks": 156
         },
         "contributors": [
@@ -53,7 +53,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1081,
+          "totalStars": 1085,
           "forks": 35
         },
         "contributors": [
@@ -73,8 +73,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1072,
-          "forks": 263
+          "totalStars": 1078,
+          "forks": 264
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/28473201?v=4"
@@ -93,7 +93,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 985,
+          "totalStars": 986,
           "forks": 114
         },
         "contributors": [
@@ -113,8 +113,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 852,
-          "forks": 160
+          "totalStars": 860,
+          "forks": 163
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/271389851?v=4"
@@ -174,7 +174,7 @@
         "stats": {
           "todayStars": "-",
           "totalStars": 766,
-          "forks": 169
+          "forks": 170
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/266242792?v=4"
@@ -193,7 +193,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 764,
+          "totalStars": 766,
           "forks": 57
         },
         "contributors": [
@@ -213,7 +213,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 690,
+          "totalStars": 691,
           "forks": 57
         },
         "contributors": [
@@ -275,7 +275,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 505,
+          "totalStars": 506,
           "forks": 39
         },
         "contributors": [
@@ -295,7 +295,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 454,
+          "totalStars": 459,
           "forks": 82
         },
         "contributors": [
@@ -307,6 +307,26 @@
       },
       {
         "rank": 5,
+        "name": "Robbyant/lingbot-map",
+        "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 448,
+          "forks": 23
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/212647524?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 6,
         "name": "bstnxbt/dflash-mlx",
         "description": "Lossless DFlash speculative decoding for MLX on Apple Silicon",
         "language": {
@@ -320,26 +340,6 @@
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/6129548?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "Robbyant/lingbot-map",
-        "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 443,
-          "forks": 23
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/212647524?v=4"
         ],
         "tags": [
           "#Python"
@@ -437,7 +437,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 690,
+          "totalStars": 691,
           "forks": 57
         },
         "contributors": [
@@ -497,8 +497,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 286,
-          "forks": 33
+          "totalStars": 287,
+          "forks": 34
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/109292896?v=4"
@@ -557,7 +557,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 214,
+          "totalStars": 216,
           "forks": 100
         },
         "contributors": [
@@ -639,8 +639,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 853,
-          "forks": 160
+          "totalStars": 862,
+          "forks": 163
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/271389851?v=4"
@@ -679,8 +679,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 136,
-          "forks": 39
+          "totalStars": 137,
+          "forks": 40
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/271389851?v=4"
@@ -731,26 +731,6 @@
       },
       {
         "rank": 6,
-        "name": "BootRiotControl/Lossless-Scaling-Smoother-Gaming",
-        "description": "Lossless Scaling is a powerful Windows tool for perfect upscaling and frame generation. Enjoy crisp integer scaling, AI-powered LSFG that can double or triple your FPS, and support for all major graphics APIs. Ideal for retro games, emulators, and modern titles. Get sharper visuals and smoother gameplay on any monitor.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 70,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/113141436?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 7,
         "name": "SaikoNadiro13/MOUSE-P.I.-For-Hire-Release-Game-Desktop-Version",
         "description": "MOUSE PI For Hire is a fun hand-drawn point-and-click detective adventure game for PC. Play as a clever mouse private investigator solving funny and challenging cases in a colorful cartoon world. Optimized desktop release with widescreen support, smooth controls, and high-resolution graphics.",
         "language": {
@@ -759,11 +739,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 70,
+          "totalStars": 73,
           "forks": 0
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/94567530?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "BootRiotControl/Lossless-Scaling-Smoother-Gaming",
+        "description": "Lossless Scaling is a powerful Windows tool for perfect upscaling and frame generation. Enjoy crisp integer scaling, AI-powered LSFG that can double or triple your FPS, and support for all major graphics APIs. Ideal for retro games, emulators, and modern titles. Get sharper visuals and smoother gameplay on any monitor.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 73,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/113141436?v=4"
         ],
         "tags": [
           "#C++"
@@ -779,7 +779,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 68,
+          "totalStars": 72,
           "forks": 0
         },
         "contributors": [
@@ -791,6 +791,26 @@
       },
       {
         "rank": 9,
+        "name": "Kaligali/FL-Production-25.2.5",
+        "description": "FL Production 25.2.5 Producer Edition is the version of the popular DAW for music production. Includes all plugins, improved workflow, VST3 support, and high performance. Perfect for beatmakers, producers, and composers. Works great on Windows 10/11 with low latency and a modern interface.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 67,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/100139826?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 10,
         "name": "zju3dv/habitat-gs",
         "description": "Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting",
         "language": {
@@ -804,26 +824,6 @@
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/48914724?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "Kaligali/FL-Production-25.2.5",
-        "description": "FL Production 25.2.5 Producer Edition is the version of the popular DAW for music production. Includes all plugins, improved workflow, VST3 support, and high performance. Perfect for beatmakers, producers, and composers. Works great on Windows 10/11 with low latency and a modern interface.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 63,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/100139826?v=4"
         ],
         "tags": [
           "#C++"
