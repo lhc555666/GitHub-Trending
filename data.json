@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026/04/17 03:21:21",
+  "lastUpdate": "2026/04/17 04:21:45",
   "charts": {
     "languageDistribution": {
       "TypeScript": 3,
@@ -17,7 +17,7 @@
       ],
       "data": [
         1135,
-        1013
+        1024
       ]
     }
   },
@@ -33,8 +33,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2310,
-          "forks": 156
+          "totalStars": 2325,
+          "forks": 157
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/265224789?v=4"
@@ -53,7 +53,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1085,
+          "totalStars": 1101,
           "forks": 35
         },
         "contributors": [
@@ -73,8 +73,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1078,
-          "forks": 264
+          "totalStars": 1093,
+          "forks": 265
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/28473201?v=4"
@@ -93,7 +93,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 986,
+          "totalStars": 994,
           "forks": 114
         },
         "contributors": [
@@ -113,8 +113,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 860,
-          "forks": 163
+          "totalStars": 891,
+          "forks": 168
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/271389851?v=4"
@@ -133,7 +133,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 802,
+          "totalStars": 805,
           "forks": 83
         },
         "contributors": [
@@ -153,8 +153,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 788,
-          "forks": 22
+          "totalStars": 797,
+          "forks": 23
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/111385605?v=4"
@@ -165,26 +165,6 @@
       },
       {
         "rank": 8,
-        "name": "yaojingang/GEOFlow",
-        "description": "Open-source GEO content production system with AI tasks, review workflow, and publishing.",
-        "language": {
-          "name": "PHP",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 766,
-          "forks": 170
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/266242792?v=4"
-        ],
-        "tags": [
-          "#PHP"
-        ]
-      },
-      {
-        "rank": 9,
         "name": "BuilderPulse/BuilderPulse",
         "description": "AI-powered daily intelligence for indie hackers and builders. 20 questions, 10+ sources, every morning.",
         "language": {
@@ -193,7 +173,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 766,
+          "totalStars": 775,
           "forks": 57
         },
         "contributors": [
@@ -201,6 +181,26 @@
         ],
         "tags": [
           "#Trending"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "yaojingang/GEOFlow",
+        "description": "Open-source GEO content production system with AI tasks, review workflow, and publishing.",
+        "language": {
+          "name": "PHP",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 769,
+          "forks": 172
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/266242792?v=4"
+        ],
+        "tags": [
+          "#PHP"
         ]
       },
       {
@@ -213,7 +213,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 691,
+          "totalStars": 699,
           "forks": 57
         },
         "contributors": [
@@ -235,7 +235,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 802,
+          "totalStars": 805,
           "forks": 83
         },
         "contributors": [
@@ -275,8 +275,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 506,
-          "forks": 39
+          "totalStars": 524,
+          "forks": 41
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/192012301?v=4"
@@ -288,15 +288,15 @@
       {
         "rank": 4,
         "name": "wbh604/UZI-Skill",
-        "description": "冰冷的钱就这样流进我的口袋-游资（UZI）Skills — 51位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 ",
+        "description": "冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 51位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 ",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 459,
-          "forks": 82
+          "totalStars": 477,
+          "forks": 86
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/16127958?v=4"
@@ -315,8 +315,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 448,
-          "forks": 23
+          "totalStars": 475,
+          "forks": 25
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/212647524?v=4"
@@ -335,7 +335,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 446,
+          "totalStars": 447,
           "forks": 24
         },
         "contributors": [
@@ -355,7 +355,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 387,
+          "totalStars": 389,
           "forks": 26
         },
         "contributors": [
@@ -415,7 +415,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 226,
+          "totalStars": 227,
           "forks": 9
         },
         "contributors": [
@@ -437,7 +437,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 691,
+          "totalStars": 699,
           "forks": 57
         },
         "contributors": [
@@ -457,7 +457,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 559,
+          "totalStars": 560,
           "forks": 103
         },
         "contributors": [
@@ -469,6 +469,26 @@
       },
       {
         "rank": 3,
+        "name": "bergside/design-md-chrome",
+        "description": "Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeUI",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 292,
+          "forks": 36
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/109292896?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 4,
         "name": "V-IOLE-T/hotmail-register-extension",
         "description": "基于Outlook Email的Chrome扩展：支持OpenAI OAuth古法注册与账号标签管理",
         "language": {
@@ -488,27 +508,27 @@
         ]
       },
       {
-        "rank": 4,
-        "name": "bergside/design-md-chrome",
-        "description": "Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeUI",
+        "rank": 5,
+        "name": "assai-id/nemesis",
+        "description": "暂无描述",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 287,
-          "forks": 34
+          "totalStars": 226,
+          "forks": 101
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/109292896?v=4"
+          "https://avatars.githubusercontent.com/u/275414185?v=4"
         ],
         "tags": [
           "#JavaScript"
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "name": "MangoLion/stretchystudio",
         "description": "FOSS 2D animation tool for turning static illustrations into mesh-deformable characters",
         "language": {
@@ -517,7 +537,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 216,
+          "totalStars": 217,
           "forks": 35
         },
         "contributors": [
@@ -528,7 +548,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 7,
         "name": "activetheory/activeframe",
         "description": "Custom .af video format for WebCodecs: frame-accurate playback without a video tag or third-party decoders.",
         "language": {
@@ -537,31 +557,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 216,
+          "totalStars": 217,
           "forks": 9
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/1118248?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "assai-id/nemesis",
-        "description": "暂无描述",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 216,
-          "forks": 100
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/275414185?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -577,7 +577,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 165,
+          "totalStars": 166,
           "forks": 26
         },
         "contributors": [
@@ -639,8 +639,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 862,
-          "forks": 163
+          "totalStars": 891,
+          "forks": 168
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/271389851?v=4"
@@ -679,8 +679,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 137,
-          "forks": 40
+          "totalStars": 141,
+          "forks": 41
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/271389851?v=4"
@@ -731,26 +731,6 @@
       },
       {
         "rank": 6,
-        "name": "SaikoNadiro13/MOUSE-P.I.-For-Hire-Release-Game-Desktop-Version",
-        "description": "MOUSE PI For Hire is a fun hand-drawn point-and-click detective adventure game for PC. Play as a clever mouse private investigator solving funny and challenging cases in a colorful cartoon world. Optimized desktop release with widescreen support, smooth controls, and high-resolution graphics.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 73,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/94567530?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 7,
         "name": "BootRiotControl/Lossless-Scaling-Smoother-Gaming",
         "description": "Lossless Scaling is a powerful Windows tool for perfect upscaling and frame generation. Enjoy crisp integer scaling, AI-powered LSFG that can double or triple your FPS, and support for all major graphics APIs. Ideal for retro games, emulators, and modern titles. Get sharper visuals and smoother gameplay on any monitor.",
         "language": {
@@ -759,11 +739,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 73,
+          "totalStars": 76,
           "forks": 0
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/113141436?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "SaikoNadiro13/MOUSE-P.I.-For-Hire-Release-Game-Desktop-Version",
+        "description": "MOUSE PI For Hire is a fun hand-drawn point-and-click detective adventure game for PC. Play as a clever mouse private investigator solving funny and challenging cases in a colorful cartoon world. Optimized desktop release with widescreen support, smooth controls, and high-resolution graphics.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 76,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/94567530?v=4"
         ],
         "tags": [
           "#C++"
@@ -779,7 +779,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 72,
+          "totalStars": 75,
           "forks": 0
         },
         "contributors": [
@@ -799,7 +799,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 67,
+          "totalStars": 71,
           "forks": 0
         },
         "contributors": [
