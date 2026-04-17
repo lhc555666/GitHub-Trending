@@ -123,36 +123,52 @@
                     }
                     return list;
                 });
+const initCharts = () => {
+                    // 1. 检查 Chart.js 是否成功加载
+                    if (typeof Chart === 'undefined') {
+                        console.error('Chart.js 尚未加载');
+                        return;
+                    }
 
-                const renderCharts = () => {
-                    if (typeof Chart === 'undefined') return;
                     const data = globalData.value;
                     if (!data || !data.charts) return;
 
-                    // 饼图
+                    // 2. 安全渲染饼图
                     const langCtx = document.getElementById('language-distribution-chart');
                     if (langCtx) {
                         const langData = data.charts.languageDistribution || {};
                         const langLabels = Object.keys(langData);
-                        if(langLabels.length > 0) {
+                        
+                        if (langLabels && langLabels.length > 0) {
                             new Chart(langCtx, {
                                 type: 'doughnut',
-                                data: { labels: langLabels, datasets: [{ data: Object.values(langData), backgroundColor: ['#3b82f6', '#eab308', '#a855f7', '#ec4899', '#22c55e', '#9ca3af'] }] },
+                                data: {
+                                    labels: langLabels,
+                                    datasets: [{ data: Object.values(langData), backgroundColor: ['#3b82f6', '#eab308', '#a855f7', '#ec4899', '#22c55e', '#9ca3af'] }]
+                                },
                                 options: { responsive: true, maintainAspectRatio: false }
                             });
                         }
                     }
 
-                    // 折线图
+                    // 3. 安全渲染折线图 (重点修复位置)
                     const starCtx = document.getElementById('star-growth-chart');
                     if (starCtx) {
-                        const starLabels = data.charts.starGrowth?.labels || ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'];
-                        const starValues = data.charts.starGrowth?.data || [0, 0, 0, 0, 0];
-                        new Chart(starCtx, {
-                            type: 'line',
-                            data: { labels: starLabels, datasets: [{ data: starValues, borderColor: '#ec4899', fill: true }] },
-                            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
-                        });
+                        const starGrowth = data.charts.starGrowth || {};
+                        // 强制保底，如果找不到 labels 就给个默认数组
+                        const starLabels = starGrowth.labels || ['暂无数据'];
+                        const starValues = starGrowth.data || [0];
+                        
+                        if (starLabels && starLabels.length > 0) {
+                            new Chart(starCtx, {
+                                type: 'line',
+                                data: {
+                                    labels: starLabels,
+                                    datasets: [{ data: starValues, borderColor: '#ec4899', fill: true }]
+                                },
+                                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+                            });
+                        }
                     }
                 };
 
