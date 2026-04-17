@@ -124,21 +124,13 @@
                     return list;
                 });
 
-                const renderCharts = () => {
-                    console.log("📊 探头1: 开始渲染图表，当前数据 ->", globalData.value);
-                    
-                    if (typeof Chart === 'undefined') {
-                        console.error('❌ 探头2: Chart.js 根本没有加载进来！检查网络。');
-                        return;
-                    }
-
+               const renderCharts = () => {
+                    console.log("📊 探头1: 开始渲染图表");
+                    if (typeof Chart === 'undefined') return;
                     const data = globalData.value;
-                    if (!data || !data.charts) {
-                        console.warn('⚠️ 探头3: data.json 里没有 charts 数据');
-                        return;
-                    }
+                    if (!data || !data.charts) return;
 
-                    // 渲染饼图 (加上 try-catch 防护服)
+                    // 🎨 1. 高级版饼图渲染
                     try {
                         const langCtx = document.getElementById('language-distribution-chart');
                         if (langCtx) {
@@ -147,17 +139,37 @@
                             if (langLabels.length > 0) {
                                 new Chart(langCtx, {
                                     type: 'doughnut',
-                                    data: { labels: langLabels, datasets: [{ data: Object.values(langData), backgroundColor: ['#3b82f6', '#eab308', '#a855f7', '#ec4899', '#22c55e', '#9ca3af'] }] },
-                                    options: { responsive: true, maintainAspectRatio: false }
+                                    data: { 
+                                        labels: langLabels, 
+                                        datasets: [{ 
+                                            data: Object.values(langData), 
+                                            backgroundColor: ['#3b82f6', '#eab308', '#a855f7', '#ec4899', '#22c55e', '#64748b'],
+                                            borderWidth: 2, // 增加白色边框，更清晰
+                                            borderColor: '#ffffff'
+                                        }] 
+                                    },
+                                    options: { 
+                                        responsive: true, 
+                                        maintainAspectRatio: false,
+                                        cutout: '65%', // 让环变细，更具现代感
+                                        plugins: {
+                                            legend: {
+                                                position: 'right', // 将拥挤的图例移到右侧
+                                                labels: { boxWidth: 12, font: { size: 12 } }
+                                            },
+                                            tooltip: {
+                                                callbacks: {
+                                                    label: (context) => ` ${context.label}: ${context.raw} 个项目`
+                                                }
+                                            }
+                                        }
+                                    }
                                 });
-                                console.log("✅ 饼图渲染成功！");
                             }
                         }
-                    } catch (error) {
-                        console.error("❌ 饼图渲染崩溃:", error);
-                    }
+                    } catch (error) { console.error("❌ 饼图渲染错误:", error); }
 
-                    // 渲染折线图 (加上 try-catch 防护服)
+                    // 📈 2. 高级版折线图渲染
                     try {
                         const starCtx = document.getElementById('star-growth-chart');
                         if (starCtx) {
@@ -168,15 +180,48 @@
                             if (starLabels.length > 0) {
                                 new Chart(starCtx, {
                                     type: 'line',
-                                    data: { labels: starLabels, datasets: [{ data: starValues, borderColor: '#ec4899', fill: true, tension: 0.1 }] },
-                                    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+                                    data: { 
+                                        labels: starLabels, 
+                                        datasets: [{ 
+                                            label: 'Top项目平均Star',
+                                            data: starValues, 
+                                            borderColor: '#ec4899', // 粉色线条
+                                            backgroundColor: 'rgba(236, 72, 153, 0.1)', // 底部淡粉色填充
+                                            fill: true, 
+                                            tension: 0.4, // 魔法属性：将生硬直线变成平滑曲线
+                                            pointBackgroundColor: '#ec4899',
+                                            pointBorderColor: '#fff',
+                                            pointBorderWidth: 2,
+                                            pointRadius: 4,
+                                            pointHoverRadius: 6
+                                        }] 
+                                    },
+                                    options: { 
+                                        responsive: true, 
+                                        maintainAspectRatio: false, 
+                                        plugins: { 
+                                            legend: { display: false },
+                                            tooltip: {
+                                                backgroundColor: 'rgba(17, 24, 39, 0.8)', // 深色提示框
+                                                padding: 10,
+                                                callbacks: {
+                                                    label: (context) => ` 平均获得: ${context.parsed.y} Stars`
+                                                }
+                                            }
+                                        },
+                                        scales: {
+                                            x: { grid: { display: false } }, // 隐藏多余的竖向网格线，更清爽
+                                            y: { 
+                                                border: { dash: [4, 4] }, // 把横向网格线变成虚线
+                                                grid: { color: '#e5e7eb' },
+                                                ticks: { precision: 0 } // 不显示小数
+                                            }
+                                        }
+                                    }
                                 });
-                                console.log("✅ 折线图渲染成功！");
                             }
                         }
-                    } catch (error) {
-                        console.error("❌ 折线图渲染崩溃:", error);
-                    }
+                    } catch (error) { console.error("❌ 折线图渲染错误:", error); }
                 };
 
                 onMounted(async () => {
