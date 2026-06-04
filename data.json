@@ -1,31 +1,30 @@
 {
-  "lastUpdate": "2026/06/03 02:54:56",
+  "lastUpdate": "2026/06/04 02:50:20",
   "charts": {
     "languageDistribution": {
       "JavaScript": 1,
       "TypeScript": 3,
-      "Python": 3,
-      "Go": 1,
-      "Rust": 1
+      "Rust": 1,
+      "Python": 3
     },
     "starGrowth": {
       "labels": [
-        "05-28",
         "05-29",
         "05-30",
         "05-31",
         "06-01",
         "06-02",
-        "06-03"
+        "06-03",
+        "06-04"
       ],
       "data": [
-        559,
         461,
         552,
         711,
         1711,
         3172,
-        4205
+        4205,
+        5352
       ]
     }
   },
@@ -41,8 +40,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 33949,
-          "forks": 4048
+          "totalStars": 44281,
+          "forks": 5125
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/229018391?v=4"
@@ -61,8 +60,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1522,
-          "forks": 437
+          "totalStars": 1953,
+          "forks": 539
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/88082356?v=4"
@@ -73,22 +72,22 @@
       },
       {
         "rank": 3,
-        "name": "Sophomoresty/gemini-web2api",
-        "description": "Convert Google Gemini web into OpenAI-compatible API. Zero auth, cross-platform, single file.",
+        "name": "b-nnett/goose",
+        "description": "Goose Swift proof-of-concept README",
         "language": {
-          "name": "Python",
+          "name": "Rust",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1265,
-          "forks": 327
+          "totalStars": 1476,
+          "forks": 420
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/94944221?v=4"
+          "https://avatars.githubusercontent.com/u/62760393?v=4"
         ],
         "tags": [
-          "#Python"
+          "#Rust"
         ]
       },
       {
@@ -101,8 +100,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1080,
-          "forks": 554
+          "totalStars": 1403,
+          "forks": 657
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/30143908?v=4"
@@ -113,86 +112,46 @@
       },
       {
         "rank": 5,
-        "name": "MatinSenPai/SenPaiScanner",
-        "description": "A light-weight scanner for Cloudflare IPs, written in Golang",
+        "name": "zgwl/chinese-buy-us-stock-guide",
+        "description": "美股指南",
         "language": {
-          "name": "Go",
+          "name": "Unknown",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 905,
-          "forks": 59
+          "totalStars": 1230,
+          "forks": 187
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/99926753?v=4"
+          "https://avatars.githubusercontent.com/u/6014068?v=4"
         ],
         "tags": [
-          "#Go"
+          "#Trending"
         ]
       },
       {
         "rank": 6,
-        "name": "b-nnett/goose",
-        "description": "Goose Swift proof-of-concept README",
+        "name": "cpaczek/skylight",
+        "description": "Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon, stars, ISS) and where each plane is headed.",
         "language": {
-          "name": "Rust",
+          "name": "TypeScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 779,
-          "forks": 244
+          "totalStars": 823,
+          "forks": 46
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/62760393?v=4"
+          "https://avatars.githubusercontent.com/u/25715982?v=4"
         ],
         "tags": [
-          "#Rust"
+          "#TypeScript"
         ]
       },
       {
         "rank": 7,
-        "name": "Michaelliv/pi-dynamic-workflows",
-        "description": "暂无描述",
-        "language": {
-          "name": "TypeScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 740,
-          "forks": 38
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/13676242?v=4"
-        ],
-        "tags": [
-          "#TypeScript"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "2aronS/Duel-Agents",
-        "description": "CLI, SDK, and IDE plugins for Duel Agents",
-        "language": {
-          "name": "TypeScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 683,
-          "forks": 19
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/106634141?v=4"
-        ],
-        "tags": [
-          "#TypeScript"
-        ]
-      },
-      {
-        "rank": 9,
         "name": "ClaudioDrews/memory-os",
         "description": "A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, auto-curated wiki, and surgical context injection. Runs locally, any LLM provider.",
         "language": {
@@ -201,11 +160,51 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 643,
-          "forks": 54
+          "totalStars": 762,
+          "forks": 74
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/242654945?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "SenhorH/tab-labeler",
+        "description": "Rename browser tabs locally and bring order to chaotic sessions.",
+        "language": {
+          "name": "TypeScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 561,
+          "forks": 38
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/140437827?v=4"
+        ],
+        "tags": [
+          "#TypeScript"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "qiuqiubuchongle-cloud/chokepoint-atlas",
+        "description": "暂无描述",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 529,
+          "forks": 115
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/227941353?v=4"
         ],
         "tags": [
           "#Python"
@@ -221,8 +220,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 489,
-          "forks": 73
+          "totalStars": 505,
+          "forks": 74
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/34064819?v=4"
@@ -235,26 +234,6 @@
     "Python": [
       {
         "rank": 1,
-        "name": "Sophomoresty/gemini-web2api",
-        "description": "Convert Google Gemini web into OpenAI-compatible API. Zero auth, cross-platform, single file.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1265,
-          "forks": 327
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/94944221?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 2,
         "name": "asz798838958/aBaiAutoplus",
         "description": "多平台 AI 账号自动注册与管理 · 协议化付款一键开通 ChatGPT Plus",
         "language": {
@@ -263,8 +242,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1080,
-          "forks": 554
+          "totalStars": 1403,
+          "forks": 657
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/30143908?v=4"
@@ -274,7 +253,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 2,
         "name": "ClaudioDrews/memory-os",
         "description": "A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, auto-curated wiki, and surgical context injection. Runs locally, any LLM provider.",
         "language": {
@@ -283,8 +262,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 643,
-          "forks": 54
+          "totalStars": 762,
+          "forks": 74
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/242654945?v=4"
@@ -294,7 +273,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 3,
         "name": "qiuqiubuchongle-cloud/chokepoint-atlas",
         "description": "暂无描述",
         "language": {
@@ -303,8 +282,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 422,
-          "forks": 98
+          "totalStars": 529,
+          "forks": 115
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/227941353?v=4"
@@ -314,7 +293,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 4,
         "name": "DannyMac180/skills",
         "description": "AI agent skills created by me: Dan McAteer",
         "language": {
@@ -323,11 +302,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 384,
-          "forks": 28
+          "totalStars": 400,
+          "forks": 29
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/24324638?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "tiantianGPU/reg-factory",
+        "description": "暂无描述",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 384,
+          "forks": 188
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/164491093?v=4"
         ],
         "tags": [
           "#Python"
@@ -343,8 +342,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 237,
-          "forks": 15
+          "totalStars": 327,
+          "forks": 28
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/149052137?v=4"
@@ -355,6 +354,26 @@
       },
       {
         "rank": 7,
+        "name": "bytedance/Bernini",
+        "description": "Bernini is a unified framework for video generation and editing that combines an MLLM-based semantic planner with a DiT-based renderer.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 302,
+          "forks": 22
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/4158466?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
         "name": "WUBING2023/ExamPass-Assistant",
         "description": "把课堂讲义变成考试利器 一键将 PPT、Word、PDF 课件转化为结构清晰的知识清单和交互式测试题，让复习事半功倍。 适用人群：大学生、各个阶段老师、其他需要对付短期考试的朋友",
         "language": {
@@ -363,8 +382,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 232,
-          "forks": 12
+          "totalStars": 278,
+          "forks": 14
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/242776933?v=4"
@@ -374,40 +393,20 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "tiantianGPU/reg-factory",
-        "description": "暂无描述",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 226,
-          "forks": 123
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/164491093?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
         "rank": 9,
-        "name": "johnmiddleton12/my-whoop",
-        "description": "暂无描述",
+        "name": "jd-opensource/JoyAI-Echo",
+        "description": "JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 221,
-          "forks": 112
+          "totalStars": 273,
+          "forks": 11
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/6627370?v=4"
+          "https://avatars.githubusercontent.com/u/75349771?v=4"
         ],
         "tags": [
           "#Python"
@@ -415,19 +414,19 @@
       },
       {
         "rank": 10,
-        "name": "OnlyTerp/UltraCode-Shim",
-        "description": "Give Claude Code's ultracode mode to ANY model you already pay for. A tiny local proxy + one config.json. Point your AI at AGENTS.md and it sets itself up.",
+        "name": "S-Sigdel/vimhjkl",
+        "description": "learn vim from your terminal with spaced repetition",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 216,
-          "forks": 17
+          "totalStars": 269,
+          "forks": 4
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/121772140?v=4"
+          "https://avatars.githubusercontent.com/u/108139412?v=4"
         ],
         "tags": [
           "#Python"
@@ -445,8 +444,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 33949,
-          "forks": 4047
+          "totalStars": 44281,
+          "forks": 5125
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/229018391?v=4"
@@ -457,19 +456,19 @@
       },
       {
         "rank": 2,
-        "name": "Sophomoresty/bpc-fetch",
-        "description": "Bypass paywall sites — search, discover, and batch fetch articles as Markdown. 936 sites supported.",
+        "name": "owenshuo/open-bounty-radar",
+        "description": "CLI radar for discovering and monitoring paid open-source issues and bounty opportunities",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 124,
-          "forks": 35
+          "totalStars": 101,
+          "forks": 4
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/94944221?v=4"
+          "https://avatars.githubusercontent.com/u/55501274?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -477,6 +476,26 @@
       },
       {
         "rank": 3,
+        "name": "mrdoob/draco.js",
+        "description": "A small, drop-in, pure-JavaScript Draco mesh loader for three.js.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 101,
+          "forks": 4
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/97088?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 4,
         "name": "andyhuo520/tang-changan",
         "description": "大唐长安 · 智机府 — Tang Changan web game",
         "language": {
@@ -485,31 +504,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 95,
-          "forks": 21
+          "totalStars": 98,
+          "forks": 23
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/187917479?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "bwjoke/fomo5000.com",
-        "description": "AI market map for scanning 5,000+ U.S.-listed stocks",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 88,
-          "forks": 18
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/1284814?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -525,7 +524,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 85,
+          "totalStars": 97,
           "forks": 1
         },
         "contributors": [
@@ -537,46 +536,6 @@
       },
       {
         "rank": 6,
-        "name": "one880808/gemini-web2api",
-        "description": "Sophomoresty/gemini-web2api 的 cf wokers 版本",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 70,
-          "forks": 20
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/288935571?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "tommy0103/obelisk",
-        "description": "Every past session, subagent, and workflow -- queryable by your agent.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 63,
-          "forks": 2
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/43411539?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 8,
         "name": "PanisHandsome/ai-rules-sync",
         "description": "Keep one source of truth for your AI coding-agent rules. Convert and sync between AGENTS.md, CLAUDE.md, .cursorrules, Copilot, Windsurf, Cline, Aider & Gemini — or scaffold a fresh AGENTS.md. Zero dependencies.",
         "language": {
@@ -585,7 +544,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 61,
+          "totalStars": 84,
           "forks": 0
         },
         "contributors": [
@@ -596,20 +555,60 @@
         ]
       },
       {
-        "rank": 9,
-        "name": "owenshuo/open-bounty-radar",
-        "description": "CLI radar for discovering and monitoring paid open-source issues and bounty opportunities",
+        "rank": 7,
+        "name": "one880808/gemini-web2api",
+        "description": "Sophomoresty/gemini-web2api 的 cf wokers 版本",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 61,
+          "totalStars": 72,
+          "forks": 22
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/288935571?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "CWS6206/Lucerne-Geo-AI-Searching",
+        "description": "Lucerne Geo-AI-Searching ist eine Applikation, die Standort- und Grundstücksanalysen im Kanton Luzern mithilfe von offiziellen Geodaten (WFS / ÖREB) und Künstlicher Intelligenz (AI) automatisiert.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 68,
+          "forks": 14
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/102139131?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "tommy0103/obelisk",
+        "description": "Every past session, subagent, and workflow -- queryable by your agent.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 65,
           "forks": 2
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/55501274?v=4"
+          "https://avatars.githubusercontent.com/u/43411539?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -647,8 +646,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 326,
-          "forks": 23
+          "totalStars": 348,
+          "forks": 28
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/6618041?v=4"
@@ -659,6 +658,26 @@
       },
       {
         "rank": 2,
+        "name": "eversinc33/MogVMP",
+        "description": "Static devirtualizer for VMProtect 3.0-3.5. Lifts virtualized code to LLVM using Remill and strips the VM layer through optimization.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 209,
+          "forks": 17
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/51821028?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 3,
         "name": "mavi9727stoke6893/Acrobat-Version-Pro-2",
         "description": "Adobe Acrobat Pro Professional 2026 – Industry-standard PDF editor for creating, editing, converting, and signing documents with advanced features.",
         "language": {
@@ -667,31 +686,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 201,
+          "totalStars": 200,
           "forks": 0
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/288400141?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "mudler/parakeet.cpp",
-        "description": "Parakeet implementation in C++ with ggml",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 194,
-          "forks": 10
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/2420543?v=4"
         ],
         "tags": [
           "#C++"
@@ -707,7 +706,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 180,
+          "totalStars": 181,
           "forks": 0
         },
         "contributors": [
@@ -719,66 +718,6 @@
       },
       {
         "rank": 5,
-        "name": "eversinc33/MogVMP",
-        "description": "Static devirtualizer for VMProtect 3.0-3.5. Lifts virtualized code to LLVM using Remill and strips the VM layer through optimization.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 179,
-          "forks": 16
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/51821028?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "faldyrd/Auto-2026",
-        "description": "autocad 2026 free download crack torrent x-force keygen product key activation windows 11 setup guide fix latest version",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 112,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/38848787?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "mani5717/hwid-spoofer-utility",
-        "description": "Spoof hardware identifiers to bypass system-level bans and restrictions.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 100,
-          "forks": 15
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/197091217?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 8,
         "name": "tony-cote/walletgen",
         "description": "WalletGen - Seed phrase generator and finder for Bitcoin, EVM (Ethereum) wallets. Recovery your lost BTC or ETH wallet via private key / seed phrase generation.",
         "language": {
@@ -787,8 +726,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 98,
-          "forks": 24
+          "totalStars": 144,
+          "forks": 32
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/272084732?v=4"
@@ -798,7 +737,7 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 6,
         "name": "gunnardorsey36725068/VapeV4-Client-2026",
         "description": "⭐️ Minecraft Vape V4 2026 Latest Download Updated Version Client | Vape Minecraft Client Release New Build Patch Update Installer | Setup File Edition V4 2026 Newest Latest Download | Vape V4 Minecraft Update Installer Setup File Edition | Client V4 2026 Release New Build Patch Update New ⭐️",
         "language": {
@@ -818,7 +757,7 @@
         ]
       },
       {
-        "rank": 10,
+        "rank": 7,
         "name": "hiljadelullo06060650479/Steam-KG-2026M1",
         "description": "Professional developer toolkit for managing, auditing, and organizing Steam product keys and digital distribution assets for indie publishers.",
         "language": {
@@ -832,6 +771,66 @@
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/288415076?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "cochransullivan52536512/LEGO-Batman-Legacy-of-the-Dark-Knight-PC-2026",
+        "description": "Easy-to-use PC utility and installer for LEGO Batman: Legacy of the Dark Knight, featuring a simple .exe setup. Built for speed and accessibility.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 77,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/288427190?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "sipaaryadi06864/Email-Security-Auditor",
+        "description": "An efficient utility for auditing email account security, validating credentials, and managing email lists.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 76,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/286365933?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "elfriedarosner02320114921/Easy-Anime-Downloader-2026",
+        "description": "The simplest Anime Downloader for Windows. Download your favorite anime episodes for offline viewing with one click. Fast, easy, and user-friendly.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 76,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/286362258?v=4"
         ],
         "tags": [
           "#C++"
