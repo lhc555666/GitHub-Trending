@@ -1,30 +1,31 @@
 {
-  "lastUpdate": "2026/06/06 02:25:51",
+  "lastUpdate": "2026/06/07 02:43:05",
   "charts": {
     "languageDistribution": {
-      "Python": 6,
-      "Rust": 2,
+      "Rust": 1,
       "TypeScript": 1,
-      "Go": 1
+      "Python": 6,
+      "Go": 1,
+      "JavaScript": 1
     },
     "starGrowth": {
       "labels": [
-        "05-31",
         "06-01",
         "06-02",
         "06-03",
         "06-04",
         "06-05",
-        "06-06"
+        "06-06",
+        "06-07"
       ],
       "data": [
-        711,
         1711,
         3172,
         4205,
         5352,
         6178,
-        6467
+        6467,
+        820
       ]
     }
   },
@@ -32,26 +33,6 @@
     "All": [
       {
         "rank": 1,
-        "name": "pewdiepie-archdaemon/odysseus",
-        "description": "Self-hosted AI workspace. ",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 55876,
-          "forks": 6634
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/229018391?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 2,
         "name": "b-nnett/goose",
         "description": "Goose Swift proof-of-concept README",
         "language": {
@@ -60,8 +41,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2120,
-          "forks": 494
+          "totalStars": 2168,
+          "forks": 506
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/62760393?v=4"
@@ -71,7 +52,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 2,
         "name": "cpaczek/skylight",
         "description": "Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon, stars, ISS) and where each plane is headed.",
         "language": {
@@ -80,8 +61,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1698,
-          "forks": 137
+          "totalStars": 2087,
+          "forks": 197
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/25715982?v=4"
@@ -91,47 +72,27 @@
         ]
       },
       {
+        "rank": 3,
+        "name": "jd-opensource/JoyAI-Echo",
+        "description": "JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 724,
+          "forks": 44
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/75349771?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
         "rank": 4,
-        "name": "asz798838958/aBaiAutoplus",
-        "description": "多平台 AI 账号自动注册与管理 · 协议化付款一键开通 ChatGPT Plus",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1533,
-          "forks": 695
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/30143908?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "ClaudioDrews/memory-os",
-        "description": "A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, auto-curated wiki, and surgical context injection. Runs locally, any LLM provider.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 882,
-          "forks": 87
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/242654945?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 6,
         "name": "qiuqiubuchongle-cloud/chokepoint-atlas",
         "description": "暂无描述",
         "language": {
@@ -140,7 +101,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 583,
+          "totalStars": 590,
           "forks": 125
         },
         "contributors": [
@@ -151,47 +112,27 @@
         ]
       },
       {
-        "rank": 7,
-        "name": "jd-opensource/JoyAI-Echo",
-        "description": "JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation",
+        "rank": 5,
+        "name": "VAST-AI-Research/TripoSplat",
+        "description": "TripoSplat converts a single 2D image into high-quality and variable number of 3D Gaussians, developed by TripoAI.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 577,
-          "forks": 38
+          "totalStars": 495,
+          "forks": 47
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/75349771?v=4"
+          "https://avatars.githubusercontent.com/u/149052137?v=4"
         ],
         "tags": [
           "#Python"
         ]
       },
       {
-        "rank": 8,
-        "name": "anomalyco/rift",
-        "description": "暂无描述",
-        "language": {
-          "name": "Rust",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 532,
-          "forks": 9
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/66570915?v=4"
-        ],
-        "tags": [
-          "#Rust"
-        ]
-      },
-      {
-        "rank": 9,
+        "rank": 6,
         "name": "tastyeffectco/sandboxes",
         "description": "Self-hosted dev sandboxes with preview URLs. One command. No Kubernetes, perfect for coding agents and Saas factories",
         "language": {
@@ -200,8 +141,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 440,
-          "forks": 8
+          "totalStars": 471,
+          "forks": 10
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/205345397?v=4"
@@ -211,149 +152,27 @@
         ]
       },
       {
-        "rank": 10,
-        "name": "VAST-AI-Research/TripoSplat",
-        "description": "TripoSplat converts a single 2D image into high-quality and variable number of 3D Gaussians, developed by TripoAI.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 435,
-          "forks": 41
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/149052137?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      }
-    ],
-    "Python": [
-      {
-        "rank": 1,
-        "name": "pewdiepie-archdaemon/odysseus",
-        "description": "Self-hosted AI workspace. ",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 55876,
-          "forks": 6633
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/229018391?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "asz798838958/aBaiAutoplus",
-        "description": "多平台 AI 账号自动注册与管理 · 协议化付款一键开通 ChatGPT Plus",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1533,
-          "forks": 695
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/30143908?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "ClaudioDrews/memory-os",
-        "description": "A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, auto-curated wiki, and surgical context injection. Runs locally, any LLM provider.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 882,
-          "forks": 87
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/242654945?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "qiuqiubuchongle-cloud/chokepoint-atlas",
-        "description": "暂无描述",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 583,
-          "forks": 125
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/227941353?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "jd-opensource/JoyAI-Echo",
-        "description": "JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 577,
-          "forks": 38
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/75349771?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "VAST-AI-Research/TripoSplat",
-        "description": "TripoSplat converts a single 2D image into high-quality and variable number of 3D Gaussians, developed by TripoAI.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 435,
-          "forks": 41
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/149052137?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
         "rank": 7,
+        "name": "Jane-xiaoer/xiaoer-videolab",
+        "description": "One click on the toolbar grabs the current page's video into ~/Downloads — local yt-dlp daemon, 1800+ sites. 小耳抓视频：一键把当前页视频抓到本地。",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 453,
+          "forks": 70
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/175961422?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 8,
         "name": "tiantianGPU/reg-factory",
         "description": "暂无描述",
         "language": {
@@ -362,31 +181,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 435,
-          "forks": 211
+          "totalStars": 443,
+          "forks": 215
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/164491093?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "S-Sigdel/vimhjkl",
-        "description": "learn vim from your terminal with spaced repetition",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 351,
-          "forks": 5
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/108139412?v=4"
         ],
         "tags": [
           "#Python"
@@ -402,8 +201,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 294,
-          "forks": 8
+          "totalStars": 392,
+          "forks": 9
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/285607428?v=4"
@@ -414,7 +213,49 @@
       },
       {
         "rank": 10,
-        "name": "vannyben7/course-learning-workspace",
+        "name": "S-Sigdel/vimhjkl",
+        "description": "learn vim from your terminal with spaced repetition",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 385,
+          "forks": 6
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/108139412?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      }
+    ],
+    "Python": [
+      {
+        "rank": 1,
+        "name": "jd-opensource/JoyAI-Echo",
+        "description": "JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 724,
+          "forks": 44
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/75349771?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "qiuqiubuchongle-cloud/chokepoint-atlas",
         "description": "暂无描述",
         "language": {
           "name": "Python",
@@ -422,11 +263,171 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 250,
-          "forks": 3
+          "totalStars": 590,
+          "forks": 125
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/274945576?v=4"
+          "https://avatars.githubusercontent.com/u/227941353?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "VAST-AI-Research/TripoSplat",
+        "description": "TripoSplat converts a single 2D image into high-quality and variable number of 3D Gaussians, developed by TripoAI.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 495,
+          "forks": 47
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/149052137?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "tiantianGPU/reg-factory",
+        "description": "暂无描述",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 443,
+          "forks": 215
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/164491093?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "Fullive-AI/Anima",
+        "description": "Make Every Hardware Intelligent — an open-source Agent OS for hardware intelligence",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 392,
+          "forks": 9
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/285607428?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "S-Sigdel/vimhjkl",
+        "description": "learn vim from your terminal with spaced repetition",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 385,
+          "forks": 6
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/108139412?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "openai/role-specific-plugins",
+        "description": "Role-specific Codex plugin templates",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 193,
+          "forks": 24
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/14957082?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "Soul-AILab/SoulX-Transcriber",
+        "description": "An end-to-end framework for multi-speaker transcription that jointly models who spoke, when, and what.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 192,
+          "forks": 8
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/232559637?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "rednote-hilab/dots.tts",
+        "description": "暂无描述",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 160,
+          "forks": 6
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/211634691?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "cellebrite-labs/ghidra-rpc",
+        "description": "A Ghidra agentic reverse engineering skill.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 158,
+          "forks": 11
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/58266997?v=4"
         ],
         "tags": [
           "#Python"
@@ -444,8 +445,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 386,
-          "forks": 63
+          "totalStars": 453,
+          "forks": 70
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/175961422?v=4"
@@ -456,6 +457,26 @@
       },
       {
         "rank": 2,
+        "name": "nevertoday/zhongguo-traditional-colors",
+        "description": "中华传统色演示、色卡浏览与颜色知识科普开源项目",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 268,
+          "forks": 33
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/166048?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 3,
         "name": "mrdoob/draco.js",
         "description": "A small, drop-in, pure-JavaScript Draco mesh loader for three.js.",
         "language": {
@@ -464,7 +485,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 144,
+          "totalStars": 152,
           "forks": 8
         },
         "contributors": [
@@ -475,7 +496,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "name": "Obsidian-Trades/polymarket-copy-trading-bot",
         "description": "polymarket trading bot, polymarket copy trading bot, polymarket trading bot, polymarket copy trading bot, polymarket trading bot, polymarket copy trading bot, polymarket trading bot, polymarket copy trading bot, polymarket trading bot, polymarket copy trading bot, polymarket trading bot, polymarket copy trading bot,",
         "language": {
@@ -484,31 +505,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 131,
+          "totalStars": 143,
           "forks": 455
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/287748270?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "PanisHandsome/ai-rules-sync",
-        "description": "Keep one source of truth for your AI coding-agent rules. Convert and sync between AGENTS.md, CLAUDE.md, .cursorrules, Copilot, Windsurf, Cline, Aider & Gemini — or scaffold a fresh AGENTS.md. Zero dependencies.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 105,
-          "forks": 3
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/272724896?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -524,7 +525,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 92,
+          "totalStars": 141,
           "forks": 348
         },
         "contributors": [
@@ -536,6 +537,46 @@
       },
       {
         "rank": 6,
+        "name": "PanisHandsome/ai-rules-sync",
+        "description": "Keep one source of truth for your AI coding-agent rules. Convert and sync between AGENTS.md, CLAUDE.md, .cursorrules, Copilot, Windsurf, Cline, Aider & Gemini — or scaffold a fresh AGENTS.md. Zero dependencies.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 112,
+          "forks": 3
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/272724896?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "techjarves/Local-AI-Image-Generator",
+        "description": "A fully self-contained, offline AI image generation studio for Windows. Runs Stable Diffusion (Safetensors/GGUF) locally with zero manual setup. Auto-configures CUDA for Nvidia GPUs and Vulkan for AMD/Intel Arc cards. Zero system-wide dependencies required.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 91,
+          "forks": 26
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/54399984?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 8,
         "name": "forter/agentic-readiness-guide",
         "description": "Agentic Readiness Guide",
         "language": {
@@ -544,7 +585,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 80,
+          "totalStars": 81,
           "forks": 3
         },
         "contributors": [
@@ -555,60 +596,20 @@
         ]
       },
       {
-        "rank": 7,
-        "name": "CWS6206/Lucerne-Geo-AI-Searching",
-        "description": "Lucerne Geo-AI-Searching ist eine Applikation, die Standort- und Grundstücksanalysen im Kanton Luzern mithilfe von offiziellen Geodaten (WFS / ÖREB) und Künstlicher Intelligenz (AI) automatisiert.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 65,
-          "forks": 13
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/102139131?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "emirhanyener/three-interior-plane",
-        "description": "Interior mapping with shader in Three.js. Color and texture of all surfaces can be individually changed using shader uniform.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 51,
-          "forks": 7
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/97049246?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
         "rank": 9,
-        "name": "BillLucky/echocut",
-        "description": "Turn raw footage into brand-ready, platform-optimized video with one command. Local-first: FFmpeg + WhisperX/MLX + Ollama.",
+        "name": "trueugenee/ai-linux-webapp-wrapper",
+        "description": "暂无描述",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 51,
-          "forks": 12
+          "totalStars": 72,
+          "forks": 1
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/8528590?v=4"
+          "https://avatars.githubusercontent.com/u/125207437?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -616,19 +617,19 @@
       },
       {
         "rank": 10,
-        "name": "NetworkSystemMound/blooket-bot",
-        "description": "best blooket-bot",
+        "name": "u7079256/paperjury",
+        "description": "Pre-submission AI review stress-test for research papers. A Claude Code skill: review, verdict, revise, verify.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 50,
-          "forks": 0
+          "totalStars": 67,
+          "forks": 6
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/270957836?v=4"
+          "https://avatars.githubusercontent.com/u/63005381?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -638,86 +639,6 @@
     "C++": [
       {
         "rank": 1,
-        "name": "MatixYo/ESP32-Plane-Radar",
-        "description": "Open-source ESP32 firmware for a 1.28″ round display that shows live ADS-B aircraft around your location as a sonar-style plane radar.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 387,
-          "forks": 34
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/6618041?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "eversinc33/MogVMP",
-        "description": "Static devirtualizer for VMProtect 3.0-3.5. Lifts virtualized code to LLVM using Remill and strips the VM layer through optimization.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 230,
-          "forks": 18
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/51821028?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "mavi9727stoke6893/Acrobat-Version-Pro-2",
-        "description": "Adobe Acrobat Pro Professional 2026 – Industry-standard PDF editor for creating, editing, converting, and signing documents with advanced features.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 200,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/288400141?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "gerardapennant96075336582/CapC-Pro-2",
-        "description": "CapCut Pro Studio (2026) — The ultimate high-performance video editing suite with all premium features unlocked. Experience 4K HDR exporting, AI-powered transitions, and a full professional asset library without limitations.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 181,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/288408324?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 5,
         "name": "Jasionf/smart-home-button",
         "description": "暂无描述",
         "language": {
@@ -726,7 +647,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 151,
+          "totalStars": 172,
           "forks": 5
         },
         "contributors": [
@@ -737,7 +658,27 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 2,
+        "name": "mchughalex/skate3recomp",
+        "description": "暂无描述",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 104,
+          "forks": 4
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/25671999?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 3,
         "name": "gunnardorsey36725068/VapeV4-Client-2026",
         "description": "⭐️ Minecraft Vape V4 2026 Latest Download Updated Version Client | Vape Minecraft Client Release New Build Patch Update Installer | Setup File Edition V4 2026 Newest Latest Download | Vape V4 Minecraft Update Installer Setup File Edition | Client V4 2026 Release New Build Patch Update New ⭐️",
         "language": {
@@ -757,20 +698,80 @@
         ]
       },
       {
-        "rank": 7,
-        "name": "hiljadelullo06060650479/Steam-KG-2026M1",
-        "description": "Professional developer toolkit for managing, auditing, and organizing Steam product keys and digital distribution assets for indie publishers.",
+        "rank": 4,
+        "name": "Aluccard992ad/twitchdropminer-desktop-setup",
+        "description": "Simple and automated desktop installer for TwitchDropMiner on Windows PC. Easily manage your stream notifications and event rewards.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 84,
+          "totalStars": 75,
           "forks": 0
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/288415076?v=4"
+          "https://avatars.githubusercontent.com/u/265602058?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "melojuve31-source/kahoottoolsai-desktop-app",
+        "description": "Simple and clean standalone desktop application for KahootToolsAi on Windows PC. Easily manage quizzes, study smarter, and generate educational insights with AI assistance.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 75,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/288142563?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "junjie8/robloxaccountmanager-desktop-app",
+        "description": "Simple and clean standalone desktop organization manager for RobloxAccountManager on Windows PC. Easily structure, view, and organize multiple local gaming profiles.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 75,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/139889954?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "hunternightechozerozero2057154/Easy-Anime-Downloader-2026",
+        "description": "The simplest Anime Downloader for Windows. Download your favorite anime episodes for offline viewing with one click. Fast, easy, and user-friendly.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 75,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/288770265?v=4"
         ],
         "tags": [
           "#C++"
@@ -778,19 +779,19 @@
       },
       {
         "rank": 8,
-        "name": "sipaaryadi06864/Email-Security-Auditor",
-        "description": "An efficient utility for auditing email account security, validating credentials, and managing email lists.",
+        "name": "kristybilbrew14180044521/Minecraft-Server-Optimizer-2026",
+        "description": "Minecraft Ultra Server Optimizer — High-Performance Tuning Suite for Paper, Purpur, and Forge. Advanced JVM Garbage Collection Tweaks, Asynchronous Chunk Processing, and Entity AI Optimization. Maximize TPS and reduce latency on high-player count servers for 2026.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 77,
+          "totalStars": 75,
           "forks": 0
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/286365933?v=4"
+          "https://avatars.githubusercontent.com/u/288769802?v=4"
         ],
         "tags": [
           "#C++"
@@ -798,19 +799,19 @@
       },
       {
         "rank": 9,
-        "name": "cochransullivan52536512/LEGO-Batman-Legacy-of-the-Dark-Knight-PC-2026",
-        "description": "Easy-to-use PC utility and installer for LEGO Batman: Legacy of the Dark Knight, featuring a simple .exe setup. Built for speed and accessibility.",
+        "name": "alfhamdy515-svg/monkemodmanager-windows-installer-2",
+        "description": "Simple and clean standalone desktop installation wizard for MonkeModManager on Windows PC. Easily manage, organize, and update your VR cosmetic configurations.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 77,
+          "totalStars": 75,
           "forks": 0
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/288427190?v=4"
+          "https://avatars.githubusercontent.com/u/289145822?v=4"
         ],
         "tags": [
           "#C++"
@@ -818,19 +819,19 @@
       },
       {
         "rank": 10,
-        "name": "strikeinfernohunter7074309/valo-ai-assistant-2026",
-        "description": "🤖 Valorant AI Assist - Smart AI-powered gaming assistant designed to help players analyze gameplay, improve reaction time, and enhance performance in real-time. Easy setup with a single .exe file!",
+        "name": "lashaundashirk67060242607/SpotAd-2026",
+        "description": "SpotiNexus Framework — Advanced High-Fidelity Audio Streamer & Local Metadata Researcher. Experimental Lossless Playback Suite with Integrated Buffer Optimization and Session Persistence. Open-source high-performance multimedia engine for 2026.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 76,
+          "totalStars": 75,
           "forks": 0
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/288473081?v=4"
+          "https://avatars.githubusercontent.com/u/288769286?v=4"
         ],
         "tags": [
           "#C++"
