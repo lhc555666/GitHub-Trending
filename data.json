@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026/06/10 02:37:14",
+  "lastUpdate": "2026/06/11 02:47:19",
   "charts": {
     "languageDistribution": {
-      "TypeScript": 3,
       "Swift": 1,
-      "JavaScript": 2,
-      "Python": 1,
-      "Rust": 1,
-      "HTML": 1
+      "TypeScript": 2,
+      "C++": 1,
+      "Python": 3,
+      "JavaScript": 1
     },
     "starGrowth": {
       "labels": [
-        "06-04",
         "06-05",
         "06-06",
         "06-07",
         "06-08",
         "06-09",
-        "06-10"
+        "06-10",
+        "06-11"
       ],
       "data": [
-        5352,
         6178,
         6467,
         820,
         816,
         482,
-        680
+        680,
+        789
       ]
     }
   },
@@ -34,26 +33,6 @@
     "All": [
       {
         "rank": 1,
-        "name": "diffusionstudio/lottie",
-        "description": "Open-source skill and harness for generating production ready Lottie animations with codex/claude code",
-        "language": {
-          "name": "TypeScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1547,
-          "forks": 78
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/135729001?v=4"
-        ],
-        "tags": [
-          "#TypeScript"
-        ]
-      },
-      {
-        "rank": 2,
         "name": "NoopApp/noop",
         "description": "Offline WHOOP companion — pair your strap over Bluetooth, keep all data on your own device. No cloud, no account, no subscription.",
         "language": {
@@ -62,8 +41,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1052,
-          "forks": 575
+          "totalStars": 1398,
+          "forks": 645
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/291537941?v=4"
@@ -73,27 +52,67 @@
         ]
       },
       {
-        "rank": 3,
-        "name": "JimLiu/baoyu-design",
-        "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus 4.8.",
+        "rank": 2,
+        "name": "XiaomiMiMo/MiMo-Code",
+        "description": "暂无描述",
         "language": {
-          "name": "JavaScript",
+          "name": "TypeScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 641,
-          "forks": 48
+          "totalStars": 1027,
+          "forks": 75
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/648674?v=4"
+          "https://avatars.githubusercontent.com/u/208276378?v=4"
         ],
         "tags": [
-          "#JavaScript"
+          "#TypeScript"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "MSNightmare/RoguePlanet",
+        "description": "RoguePlanet Windows Defender Vulnerability",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 930,
+          "forks": 401
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/291905677?v=4"
+        ],
+        "tags": [
+          "#C++"
         ]
       },
       {
         "rank": 4,
+        "name": "shadcn/improve",
+        "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+        "language": {
+          "name": "Unknown",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 919,
+          "forks": 27
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/124599?v=4"
+        ],
+        "tags": [
+          "#Trending"
+        ]
+      },
+      {
+        "rank": 5,
         "name": "GordenSun/GordenSuperPPTSkills",
         "description": "AI PPT赛道终结者，史上最最最强 PPT Skill！！！  使用GPT生成豪华的图片格式PPT，然后转换为完全可编辑的PPTX文件。",
         "language": {
@@ -102,8 +121,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 622,
-          "forks": 70
+          "totalStars": 732,
+          "forks": 78
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/3281492?v=4"
@@ -113,7 +132,47 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
+        "name": "JimLiu/baoyu-design",
+        "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus 4.8.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 697,
+          "forks": 55
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/648674?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "apple/coreai-models",
+        "description": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 621,
+          "forks": 36
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/10639145?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
         "name": "vorpus/performativeUI",
         "description": "暂无描述",
         "language": {
@@ -122,8 +181,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 523,
-          "forks": 13
+          "totalStars": 574,
+          "forks": 14
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/1922888?v=4"
@@ -133,7 +192,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 9,
         "name": "amElnagdy/guard-skills",
         "description": "Guard skills for coding agents, quality gates that catch AI-generated failure modes in code, tests, and docs",
         "language": {
@@ -142,8 +201,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 518,
-          "forks": 59
+          "totalStars": 555,
+          "forks": 61
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/7650147?v=4"
@@ -153,83 +212,23 @@
         ]
       },
       {
-        "rank": 7,
-        "name": "Jane-xiaoer/xiaoer-videolab",
-        "description": "One click on the toolbar grabs the current page's video into ~/Downloads — local yt-dlp daemon, 1800+ sites. 小耳抓视频：一键把当前页视频抓到本地。",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 494,
-          "forks": 76
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/175961422?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "zenhosta/9drive",
-        "description": "9Drive is a storage gateway web app for connecting multiple Google Drive accounts into one virtual storage dashboard. Users can connect Google Drive accounts, track quota, upload files, organize files with virtual folders, preview files, and let the backend route uploads to the Drive account with enough free space.",
-        "language": {
-          "name": "TypeScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 473,
-          "forks": 160
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/287358902?v=4"
-        ],
-        "tags": [
-          "#TypeScript"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "jeff141/meatshell",
-        "description": "一个轻量级、低内存占用的 SSH / 终端客户端（A lightweight, low-memory SSH / terminal client）",
-        "language": {
-          "name": "Rust",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 472,
-          "forks": 52
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/44336086?v=4"
-        ],
-        "tags": [
-          "#Rust"
-        ]
-      },
-      {
         "rank": 10,
-        "name": "wy51ai/edulab",
-        "description": "暂无描述",
+        "name": "Tencent-Hunyuan/UniRL",
+        "description": "UniRL is a Framework for Unified Multimodal Model Reinforcement Learning",
         "language": {
-          "name": "HTML",
+          "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 458,
-          "forks": 83
+          "totalStars": 446,
+          "forks": 23
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/253894366?v=4"
+          "https://avatars.githubusercontent.com/u/210980732?v=4"
         ],
         "tags": [
-          "#HTML"
+          "#Python"
         ]
       }
     ],
@@ -244,8 +243,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 622,
-          "forks": 70
+          "totalStars": 732,
+          "forks": 78
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/3281492?v=4"
@@ -256,26 +255,6 @@
       },
       {
         "rank": 2,
-        "name": "rednote-hilab/dots.tts",
-        "description": "暂无描述",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 391,
-          "forks": 22
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/211634691?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "apple/coreai-models",
         "description": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
         "language": {
@@ -284,11 +263,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 373,
-          "forks": 12
+          "totalStars": 621,
+          "forks": 36
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/10639145?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "Tencent-Hunyuan/UniRL",
+        "description": "UniRL is a Framework for Unified Multimodal Model Reinforcement Learning",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 446,
+          "forks": 23
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/210980732?v=4"
         ],
         "tags": [
           "#Python"
@@ -304,8 +303,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 351,
-          "forks": 52
+          "totalStars": 443,
+          "forks": 70
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/129160475?v=4"
@@ -316,19 +315,19 @@
       },
       {
         "rank": 5,
-        "name": "Tencent-Hunyuan/UniRL",
-        "description": "UniRL is a Framework for Unified Multimodal Model Reinforcement Learning",
+        "name": "Parcle-AI/parcle-memory",
+        "description": "暂无描述",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 300,
-          "forks": 14
+          "totalStars": 376,
+          "forks": 0
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/210980732?v=4"
+          "https://avatars.githubusercontent.com/u/290871470?v=4"
         ],
         "tags": [
           "#Python"
@@ -344,8 +343,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 277,
-          "forks": 46
+          "totalStars": 332,
+          "forks": 49
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/284298099?v=4"
@@ -364,8 +363,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 254,
-          "forks": 151
+          "totalStars": 329,
+          "forks": 180
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/292074598?v=4"
@@ -376,6 +375,26 @@
       },
       {
         "rank": 8,
+        "name": "ziqihe10-droid/xuefeng-agent",
+        "description": "AI 高考志愿顾问 — 会追问、会分析、敢说真话",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 275,
+          "forks": 35
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/284885724?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 9,
         "name": "hoolulu/deep-research",
         "description": "深度调研报告生成 Skill — 一个命令，十分钟，多语言，一份深度专业的调研报告 / Professional deep research report generation Skill · Supports 19 languages",
         "language": {
@@ -384,8 +403,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 252,
-          "forks": 23
+          "totalStars": 270,
+          "forks": 25
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/84072841?v=4"
@@ -395,40 +414,20 @@
         ]
       },
       {
-        "rank": 9,
-        "name": "beijingcao/binance-deribit-btc",
-        "description": "Binance and Deribit BTC cross-exchange arbitrage bot with Redis state recovery, Telegram alerts, and a Flask monitoring dashboard.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 208,
-          "forks": 76
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/81492083?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
         "rank": 10,
-        "name": "lbq110/weread-exporter",
-        "description": "微信读书全本导出工具 — Playwright + Canvas Hook 提取完整书籍内容为 Markdown",
+        "name": "jwangkun/claude-for-financial-services-cn",
+        "description": " 63 个 Claude Skills，为 A 股金融从业者而生  基于 Anthropic 官方 claude-for-financial-services 深度适配国内市场，现已开源。",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 203,
-          "forks": 52
+          "totalStars": 241,
+          "forks": 42
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/8669651?v=4"
+          "https://avatars.githubusercontent.com/u/3615494?v=4"
         ],
         "tags": [
           "#Python"
@@ -446,8 +445,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 641,
-          "forks": 48
+          "totalStars": 697,
+          "forks": 55
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/648674?v=4"
@@ -458,26 +457,6 @@
       },
       {
         "rank": 2,
-        "name": "Jane-xiaoer/xiaoer-videolab",
-        "description": "One click on the toolbar grabs the current page's video into ~/Downloads — local yt-dlp daemon, 1800+ sites. 小耳抓视频：一键把当前页视频抓到本地。",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 494,
-          "forks": 76
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/175961422?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "adamallcock/codex-chatgpt-control",
         "description": "Unofficial SDK for Codex agents controlling visible ChatGPT web sessions",
         "language": {
@@ -486,8 +465,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 177,
-          "forks": 13
+          "totalStars": 194,
+          "forks": 15
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/92055994?v=4"
@@ -497,27 +476,27 @@
         ]
       },
       {
-        "rank": 4,
-        "name": "techjarves/Local-AI-Image-Generator",
-        "description": "A fully self-contained, offline AI image generation studio for Windows. Runs Stable Diffusion (Safetensors/GGUF) locally with zero manual setup. Auto-configures CUDA for Nvidia GPUs and Vulkan for AMD/Intel Arc cards. Zero system-wide dependencies required.",
+        "rank": 3,
+        "name": "XBuilderLAB/cheat-on-money",
+        "description": "AI 时代靠谱兼职发现 + 反诈验证 skill：需求信号反推 + 实时时效核查 + 反诈 rubric + 个性化校准环",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 162,
-          "forks": 58
+          "totalStars": 172,
+          "forks": 19
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/54399984?v=4"
+          "https://avatars.githubusercontent.com/u/280592915?v=4"
         ],
         "tags": [
           "#JavaScript"
         ]
       },
       {
-        "rank": 5,
+        "rank": 4,
         "name": "wechat-miniprogram/ai-mode-demo",
         "description": "暂无描述",
         "language": {
@@ -526,11 +505,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 135,
-          "forks": 20
+          "totalStars": 161,
+          "forks": 24
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/40269642?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "emollick/concord",
+        "description": "Instrument-grade qualitative text analysis: AI-coded corpora, gold calibration, DSL/PPI-corrected statistics, Evidence Ladder",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 138,
+          "forks": 11
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/63437581?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -546,8 +545,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 112,
-          "forks": 33
+          "totalStars": 128,
+          "forks": 37
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/76566648?v=4"
@@ -558,19 +557,19 @@
       },
       {
         "rank": 7,
-        "name": "577206/knowledge-forge",
-        "description": "Local-first Obsidian knowledge ingestion workbench for PDFs, Markdown, TXT and spreadsheets.",
+        "name": "alchaincyf/fanbox",
+        "description": "暂无描述",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 101,
-          "forks": 10
+          "totalStars": 75,
+          "forks": 8
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/183115548?v=4"
+          "https://avatars.githubusercontent.com/u/127714341?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -586,7 +585,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 73,
+          "totalStars": 71,
           "forks": 1
         },
         "contributors": [
@@ -598,19 +597,19 @@
       },
       {
         "rank": 9,
-        "name": "emollick/concord",
-        "description": "Instrument-grade qualitative text analysis: AI-coded corpora, gold calibration, DSL/PPI-corrected statistics, Evidence Ladder",
+        "name": "cobusgreyling/loop-engineering",
+        "description": "Practical reference and patterns for loop engineering,  designing systems that prompt and orchestrate AI coding agents (inspired by Addy Osmani and Boris Cherny / Anthropic)",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 66,
-          "forks": 6
+          "totalStars": 58,
+          "forks": 8
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/63437581?v=4"
+          "https://avatars.githubusercontent.com/u/7868717?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -626,8 +625,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 48,
-          "forks": 24
+          "totalStars": 54,
+          "forks": 27
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/201198207?v=4"
@@ -640,26 +639,6 @@
     "C++": [
       {
         "rank": 1,
-        "name": "Unicornronote/Microsoft-Office-Activated",
-        "description": "📊 Microsoft Office Professional Edition — Complete Productivity & Document Management Suite for Windows (2026)",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 382,
-          "forks": 1
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/289427891?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 2,
         "name": "MSNightmare/RoguePlanet",
         "description": "RoguePlanet Windows Defender Vulnerability",
         "language": {
@@ -668,8 +647,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 227,
-          "forks": 78
+          "totalStars": 930,
+          "forks": 401
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/291905677?v=4"
@@ -679,20 +658,40 @@
         ]
       },
       {
-        "rank": 3,
-        "name": "Jasionf/smart-home-button",
-        "description": "暂无描述",
+        "rank": 2,
+        "name": "RafDDB18/Delta-Exec-PC",
+        "description": "Delta Roblox PC  exploit Lua Byfron Hyperion bypass keyless Fluxus Arceus X Codex Blox Fruits  hub game auto farm",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 185,
-          "forks": 7
+          "totalStars": 86,
+          "forks": 0
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/96040709?v=4"
+          "https://avatars.githubusercontent.com/u/169683190?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "danking6/veltoc",
+        "description": "Veltoc Model 01 is a ESP32 powered, retro-inspired environmental monitor with an E-Ink display. It can monitor temperature, humidity and air pressure. Connect to wifi to also display the current time.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 86,
+          "forks": 5
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/35265770?v=4"
         ],
         "tags": [
           "#C++"
@@ -700,26 +699,6 @@
       },
       {
         "rank": 4,
-        "name": "mchughalex/skate3recomp",
-        "description": "暂无描述",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 144,
-          "forks": 5
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/25671999?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 5,
         "name": "Shahamat21201839/sims4-dls-unlocker-desktop-2",
         "description": "Simple and clean standalone desktop organization manager for Sims 4 Dls Unlocker on Windows PC. Easily manage, index, and organize your local game expansion contents.",
         "language": {
@@ -739,27 +718,7 @@
         ]
       },
       {
-        "rank": 6,
-        "name": "mestankunter321391207/SketchUp-Vortex-Pro-2026",
-        "description": "⭐️ SketchUp Pro — full lifetime activated 3D modeling software. Intuitive and powerful tool for architecture, interior design, engineering and game design. Includes advanced rendering, layout tools and vast 3D Warehouse support on Windows 10/11. ⭐️",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 75,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/290393034?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 7,
+        "rank": 5,
         "name": "Aluccard992ad/twitchdropminer-desktop-setup",
         "description": "Simple and automated desktop installer for TwitchDropMiner on Windows PC. Easily manage your stream notifications and event rewards.",
         "language": {
@@ -779,7 +738,7 @@
         ]
       },
       {
-        "rank": 8,
+        "rank": 6,
         "name": "junjie8/robloxaccountmanager-desktop-app",
         "description": "Simple and clean standalone desktop organization manager for RobloxAccountManager on Windows PC. Easily structure, view, and organize multiple local gaming profiles.",
         "language": {
@@ -799,7 +758,7 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 7,
         "name": "lopacachonda0891-art/honkaistarrailexternalcheatmenu-overlay",
         "description": "Simple and clean standalone desktop overlay for HonkaiStarRailExternalCheatMenu on Windows PC. Easily monitor turn-based combat metrics, track farming paths, and manage stats.",
         "language": {
@@ -819,7 +778,7 @@
         ]
       },
       {
-        "rank": 10,
+        "rank": 8,
         "name": "alfhamdy515-svg/monkemodmanager-windows-installer-2",
         "description": "Simple and clean standalone desktop installation wizard for MonkeModManager on Windows PC. Easily manage, organize, and update your VR cosmetic configurations.",
         "language": {
@@ -833,6 +792,46 @@
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/289145822?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "Flavian2222/lunarclientminecraft-windows-installer",
+        "description": "Simple and clean desktop setup wizard for LunarClientMinecraft on Windows PC. Easily optimize game performance, manage your mods, and launch your sandbox worlds.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 75,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/110355038?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "Dogexxxe/optiscalerclient-desktop-setup",
+        "description": "Simple and clean desktop installation wizard for OptiscalerClient on Windows PC. Easily manage your game graphics, scaling configurations, and monitor frame rate optimizations.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 75,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/290762093?v=4"
         ],
         "tags": [
           "#C++"
