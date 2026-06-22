@@ -1,29 +1,30 @@
 {
-  "lastUpdate": "2026/06/21 02:51:18",
+  "lastUpdate": "2026/06/22 02:53:58",
   "charts": {
     "languageDistribution": {
       "TypeScript": 3,
-      "JavaScript": 1,
-      "Python": 2
+      "JavaScript": 2,
+      "Python": 1,
+      "C#": 1
     },
     "starGrowth": {
       "labels": [
-        "06-15",
         "06-16",
         "06-17",
         "06-18",
         "06-19",
         "06-20",
-        "06-21"
+        "06-21",
+        "06-22"
       ],
       "data": [
-        2824,
         3909,
         3582,
         4049,
         843,
         853,
-        599
+        599,
+        716
       ]
     }
   },
@@ -39,8 +40,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1873,
-          "forks": 121
+          "totalStars": 2098,
+          "forks": 150
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/14985020?v=4"
@@ -51,22 +52,22 @@
       },
       {
         "rank": 2,
-        "name": "alchaincyf/loop-engineering-orange-book",
-        "description": "别再问我什么是 Loop Engineering — 橙皮书系列。A plain-language guide to loop engineering (中文 + English PDF). Free.",
+        "name": "zhongerxin/Cowart",
+        "description": "暂无描述",
         "language": {
-          "name": "Unknown",
+          "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 717,
-          "forks": 62
+          "totalStars": 1315,
+          "forks": 112
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/127714341?v=4"
+          "https://avatars.githubusercontent.com/u/8215057?v=4"
         ],
         "tags": [
-          "#Trending"
+          "#JavaScript"
         ]
       },
       {
@@ -79,8 +80,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 550,
-          "forks": 49
+          "totalStars": 630,
+          "forks": 57
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/126284057?v=4"
@@ -99,8 +100,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 534,
-          "forks": 0
+          "totalStars": 611,
+          "forks": 1
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/273874842?v=4"
@@ -119,7 +120,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 516,
+          "totalStars": 518,
           "forks": 7
         },
         "contributors": [
@@ -131,26 +132,6 @@
       },
       {
         "rank": 6,
-        "name": "dongshuyan/compass-skills",
-        "description": "司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 397,
-          "forks": 34
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/17682201?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 7,
         "name": "ngrok/webernetes",
         "description": "Kubernetes in the browser.",
         "language": {
@@ -159,14 +140,34 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 360,
-          "forks": 22
+          "totalStars": 484,
+          "forks": 38
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/10625446?v=4"
         ],
         "tags": [
           "#TypeScript"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "boogu-project/Boogu-Image",
+        "description": "Boogu-Image-0.1 is an Apache-2.0 open-source image generation and editing model family that delivers near-closed-source performance with an order of magnitude less data.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 397,
+          "forks": 19
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/243518726?v=4"
+        ],
+        "tags": [
+          "#Python"
         ]
       },
       {
@@ -179,7 +180,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 355,
+          "totalStars": 380,
           "forks": 710
         },
         "contributors": [
@@ -191,26 +192,6 @@
       },
       {
         "rank": 9,
-        "name": "boogu-project/Boogu-Image",
-        "description": "Boogu-Image-0.1 is an Apache-2.0 open-source image generation and editing model family that delivers near-closed-source performance with an order of magnitude less data.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 353,
-          "forks": 16
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/243518726?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 10,
         "name": "ReulgeApmpetty0O/Back-End-Developer-Interview-Questions",
         "description": "A list of back-end related questions you can be inspired from to interview potential candidates, test yourself or completely ignore",
         "language": {
@@ -219,8 +200,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 337,
-          "forks": 291
+          "totalStars": 365,
+          "forks": 751
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/8236491?v=4"
@@ -228,31 +209,31 @@
         "tags": [
           "#Trending"
         ]
+      },
+      {
+        "rank": 10,
+        "name": "nnecrkvenuOX/formcms",
+        "description": "AI Agent: Open-source headless CMS built with ASP.NET Core (C#) and React, featuring REST APIs, GraphQL, and a GrapesJS page designer.",
+        "language": {
+          "name": "C#",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 362,
+          "forks": 898
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/8410841?v=4"
+        ],
+        "tags": [
+          "#C#"
+        ]
       }
     ],
     "Python": [
       {
         "rank": 1,
-        "name": "dongshuyan/compass-skills",
-        "description": "司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 397,
-          "forks": 34
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/17682201?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 2,
         "name": "boogu-project/Boogu-Image",
         "description": "Boogu-Image-0.1 is an Apache-2.0 open-source image generation and editing model family that delivers near-closed-source performance with an order of magnitude less data.",
         "language": {
@@ -261,8 +242,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 353,
-          "forks": 16
+          "totalStars": 397,
+          "forks": 19
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/243518726?v=4"
@@ -272,20 +253,40 @@
         ]
       },
       {
-        "rank": 3,
-        "name": "leyten/shard",
-        "description": "Pipeline-parallel LLM inference across GPUs on separate machines.",
+        "rank": 2,
+        "name": "lyra81604/zhengxi-views",
+        "description": "可溯源的郑希(易方达基金经理)投研 Agent Skill——基于他全部公开观点原文 + 有原话佐证的投资方法 + 全市场基金真实数据，能溯源问答、按他框架给基金打分，绝不杜撰。⚠️仅研究学习辅助，不构成投资建议‼️website是郑希主页！",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 266,
-          "forks": 27
+          "totalStars": 258,
+          "forks": 35
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/86632281?v=4"
+          "https://avatars.githubusercontent.com/u/235843849?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "clent267/FUNCAPTCHAV3",
+        "description": "暂无描述",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 238,
+          "forks": 234
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/138356434?v=4"
         ],
         "tags": [
           "#Python"
@@ -301,7 +302,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 227,
+          "totalStars": 229,
           "forks": 132
         },
         "contributors": [
@@ -321,7 +322,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 218,
+          "totalStars": 221,
           "forks": 4
         },
         "contributors": [
@@ -353,19 +354,19 @@
       },
       {
         "rank": 7,
-        "name": "kennethkhoocy/lit-review-orchestrator",
-        "description": "Document-driven literature-review pipeline with an anti-hallucination verification stage (confirm-or-drop against OpenAlex/Crossref/Semantic Scholar).",
+        "name": "sneakers-the-rat/ImportantCode",
+        "description": "This is a repository with a lot of high profile, high prestige code in it that new programmers can make pull requests to and build their reputation",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 175,
-          "forks": 4
+          "totalStars": 149,
+          "forks": 17
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/86765247?v=4"
+          "https://avatars.githubusercontent.com/u/12961499?v=4"
         ],
         "tags": [
           "#Python"
@@ -373,26 +374,6 @@
       },
       {
         "rank": 8,
-        "name": "Happy-Chen-CH/Educational_RAG_System",
-        "description": "面向教育场景的RAG智能问答系统，融合关键词匹配与语义检索双引擎，融合MySQL和RAG技术，先经过MySQL数据库的检索(还融合了Redis辅助储存和搜索)，若无符合条件答案，则进入RAG系统，RAG知识库中的知识储存在Milvus向量数据库中",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 140,
-          "forks": 2
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/276916375?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 9,
         "name": "LING71671/open-reverselab",
         "description": "暂无描述",
         "language": {
@@ -401,11 +382,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 134,
-          "forks": 52
+          "totalStars": 149,
+          "forks": 56
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/231181387?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "kelleylenc/Seed-Generator",
+        "description": "Professional BIP-39 seed phrase generator and HD wallet toolkit with 12–24-word mnemonics, checksum validation, and BIP-44/49/84 derivation. Supports BTC, ETH, SOL, LTC, DOGE, ADA, DOT, AVAX, ATOM, XRP, TRX, and Testnet. Offline CSPRNG generation, PBKDF2-HMAC-SHA512, AES-256-GCM encryption, wallet recovery, batch export, and custom paths.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 146,
+          "forks": 34
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/244562567?v=4"
         ],
         "tags": [
           "#Python"
@@ -421,7 +422,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 132,
+          "totalStars": 134,
           "forks": 71
         },
         "contributors": [
@@ -435,27 +436,7 @@
     "JavaScript": [
       {
         "rank": 1,
-        "name": "rebel0789/codexpro",
-        "description": "Use ChatGPT Developer Mode as a local coding agent for your repo through MCP.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 550,
-          "forks": 49
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/126284057?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "rpanigrahi222/intruth-factcheck",
+        "name": "zhongerxin/Cowart",
         "description": "暂无描述",
         "language": {
           "name": "JavaScript",
@@ -463,28 +444,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 232,
-          "forks": 39
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/173690125?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "zhongerxin/cowart",
-        "description": "暂无描述",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 213,
-          "forks": 12
+          "totalStars": 1315,
+          "forks": 112
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/8215057?v=4"
@@ -494,7 +455,87 @@
         ]
       },
       {
+        "rank": 2,
+        "name": "rebel0789/codexpro",
+        "description": "Use ChatGPT Developer Mode as a local coding agent for your repo through MCP.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 630,
+          "forks": 57
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/126284057?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "rpanigrahi222/intruth-factcheck",
+        "description": "暂无描述",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 256,
+          "forks": 41
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/173690125?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
         "rank": 4,
+        "name": "cloudflare/security-audit-skill",
+        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 241,
+          "forks": 22
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/314135?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "eooce/transfer-api",
+        "description": "Cloudflare Worker adapter for unlimited.surf OpenAI/Anthropic-compatible API routes.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 228,
+          "forks": 976
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/142894633?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 6,
         "name": "yolfinance/yolfi-agent",
         "description": "Yolfi Agent Kit SDK, CLI, and MCP server for AI coding agents.",
         "language": {
@@ -503,7 +544,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 163,
+          "totalStars": 179,
           "forks": 1
         },
         "contributors": [
@@ -514,27 +555,7 @@
         ]
       },
       {
-        "rank": 5,
-        "name": "cloudflare/security-audit-skill",
-        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 156,
-          "forks": 14
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/314135?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 6,
+        "rank": 7,
         "name": "Kato-Shoko705/Phoebe-Hub",
         "description": "全球最可爱的鸣潮角色菲比表情包收集站",
         "language": {
@@ -543,8 +564,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 152,
-          "forks": 1
+          "totalStars": 173,
+          "forks": 2
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/184828103?v=4"
@@ -554,7 +575,7 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 8,
         "name": "yeet-src/httpinspect",
         "description": "top, but for the HTTP endpoints on your host — a live dashboard of the most active plaintext HTTP endpoints, right in the terminal.",
         "language": {
@@ -563,7 +584,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 149,
+          "totalStars": 169,
           "forks": 11
         },
         "contributors": [
@@ -574,7 +595,7 @@
         ]
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "Ar9av/gemini-nano-chrome",
         "description": "Using Gemini Nano through Chrome's built-in Prompt API, with scripts to automate setup and verification",
         "language": {
@@ -583,8 +604,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 145,
-          "forks": 13
+          "totalStars": 157,
+          "forks": 14
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/29639685?v=4"
@@ -594,7 +615,7 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 10,
         "name": "LichAmnesia/awesome-ad-video-prompts",
         "description": "Curated, original high-craft prompts for AI video ads (Seedance 2.0 / Veo 3 / Kling / Runway). Companion to HeyDreaming.",
         "language": {
@@ -603,31 +624,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 144,
-          "forks": 5
+          "totalStars": 149,
+          "forks": 7
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/3425350?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "eooce/transfer-api",
-        "description": "Cloudflare Worker adapter for unlimited.surf OpenAI/Anthropic-compatible API routes.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 90,
-          "forks": 329
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/142894633?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -637,46 +638,6 @@
     "C++": [
       {
         "rank": 1,
-        "name": "soltia48/sdrplusplus-j-alert-plugin",
-        "description": "Out-of-tree decoder plugin for SDR++ that demodulates and decodes the J-ALERT (全国瞬時警報システム) satellite downlink.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 131,
-          "forks": 3
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/36096887?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "MohammdKopa/discord-server-booster-2026",
-        "description": "Discord Nexus Booster 2026 — Advanced Community Scaling & Engagement Automation Suite. High-speed Server Boosting via Token Synchronization, Automated Reward Management, and Infinite Invite Tracking. Cloud-based Infrastructure for Rapid Community Growth.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 124,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/65500530?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "roppik/tomodachi-pc",
         "description": "tomodachi pc port life simulator mii sharing qr codes island life citra fork panda3ds 3ds emulator github living the dream save editor transfer modding hd texture pack 60fps mod desktop utility macos linux open source community enhancement patch fan made translation gameplay simulation",
         "language": {
@@ -685,7 +646,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 114,
+          "totalStars": 151,
           "forks": 0
         },
         "contributors": [
@@ -696,7 +657,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 2,
         "name": "wring-hellcar/Tomadach-PC-2026-M2",
         "description": "Easy-to-use PC utility and installer for TomodachiShare, featuring a simple .exe setup. Built for speed and accessibility.",
         "language": {
@@ -705,7 +666,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 89,
+          "totalStars": 113,
           "forks": 0
         },
         "contributors": [
@@ -716,48 +677,48 @@
         ]
       },
       {
+        "rank": 3,
+        "name": "Firewalkeroffear/satisfactory-mod-manager",
+        "description": "satisfactory mod manager ficsit smm satisfactory mods github mod installer load order profile manager plugins dependencies game modding coffee stain studios desktop utility pc gaming factory simulation automation blueprint organizer clean build stable version modpack manager satisfactory calculator unreal engine modding game launcher update checker",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 109,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/25168518?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "Fahim-SS/lsfg-git",
+        "description": "lossless scaling lsfg 3 frame generation scaling tool steam github pc gaming amd fsr nvidia nis dlss alternative windowed mode frame multiplier latency reduction utility lsfg v3.22 display scaling screen resolution frame rate optimizer desktop utility performance enhancer gameplay smooth gaming scaling legacy games x2 x3 frame generation ",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 109,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/93438140?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
         "rank": 5,
-        "name": "VILDEV0205/Steam-KG-2026M1",
-        "description": "Professional developer toolkit for managing, auditing, and organizing Steam product keys and digital distribution assets for indie publishers.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 75,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/178444769?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "ratters69/Vanguard-Vision-Version-Pro-2026",
-        "description": "Vanguard Vision (2026) — High-performance external computer vision framework for Valorant. Features ultra-low latency color detection, Arduino/HID mouse automation support, and a kernel-safe visual overlay.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 75,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/289051500?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "rqubati/Crimson-Desert-2026-Wq",
+        "name": "hop68blackwolf/Crimson-Desert-2026-Wq",
         "description": "Easy-to-use PC utility and installer for Crimson Desert Save Editor, featuring a simple .exe setup. Built for speed and accessibility.",
         "language": {
           "name": "C++",
@@ -765,11 +726,51 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 74,
+          "totalStars": 69,
           "forks": 0
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/193001779?v=4"
+          "https://avatars.githubusercontent.com/u/292012887?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "YangSiYv/valo-ai-assistant-2026",
+        "description": "🤖 Valorant AI Assist - Smart AI-powered gaming assistant designed to help players analyze gameplay, improve reaction time, and enhance performance in real-time. Easy setup with a single .exe file!",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 65,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/197630303?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "ahmednasser04/honkaistarrailexternal-2",
+        "description": "Simple and clean standalone desktop overlay for HonkaiStarRailExternalCheatMenu on Windows PC. Easily monitor turn-based combat metrics, track farming paths, and manage stats.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 65,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/111324864?v=4"
         ],
         "tags": [
           "#C++"
@@ -777,19 +778,19 @@
       },
       {
         "rank": 8,
-        "name": "senayoub871-pixel/FPS-Tweak-26",
-        "description": "The easiest FPS Booster for Windows. Optimize your system for better gaming performance, reduce input lag, and get more frames in one click.",
+        "name": "nicechunk/nicechunk-guardian",
+        "description": "nicechunk-guardian split from NiceChunk",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 74,
+          "totalStars": 64,
           "forks": 0
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/270094788?v=4"
+          "https://avatars.githubusercontent.com/u/293527782?v=4"
         ],
         "tags": [
           "#C++"
@@ -797,19 +798,19 @@
       },
       {
         "rank": 9,
-        "name": "biolashonde/AI-Voice-Mod-Pro-Studio",
-        "description": "An open-source, local AI-powered voice changer and audio enhancement utility.",
+        "name": "natedemoss/cf-recommend",
+        "description": "Codeforces CLI tool",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 74,
-          "forks": 0
+          "totalStars": 40,
+          "forks": 1
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/32555249?v=4"
+          "https://avatars.githubusercontent.com/u/198101284?v=4"
         ],
         "tags": [
           "#C++"
@@ -817,19 +818,19 @@
       },
       {
         "rank": 10,
-        "name": "sadeqebrahimi/SpotAd-2026",
-        "description": "SpotiNexus Framework — Advanced High-Fidelity Audio Streamer & Local Metadata Researcher. Experimental Lossless Playback Suite with Integrated Buffer Optimization and Session Persistence. Open-source high-performance multimedia engine for 2026.",
+        "name": "illusionyy/ps-patch-system",
+        "description": "App patching system for PS4/PS5",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 73,
-          "forks": 0
+          "totalStars": 37,
+          "forks": 1
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/19221246?v=4"
+          "https://avatars.githubusercontent.com/u/37698908?v=4"
         ],
         "tags": [
           "#C++"
