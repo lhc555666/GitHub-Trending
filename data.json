@@ -1,29 +1,30 @@
 {
-  "lastUpdate": "2026/07/01 02:40:43",
+  "lastUpdate": "2026/07/02 02:30:05",
   "charts": {
     "languageDistribution": {
       "Python": 5,
-      "TypeScript": 3,
-      "Swift": 1
+      "JavaScript": 1,
+      "TypeScript": 1,
+      "QML": 1
     },
     "starGrowth": {
       "labels": [
-        "06-25",
         "06-26",
         "06-27",
         "06-28",
         "06-29",
         "06-30",
-        "07-01"
+        "07-01",
+        "07-02"
       ],
       "data": [
-        743,
         679,
         662,
         878,
         1080,
         1039,
-        1217
+        1217,
+        1227
       ]
     }
   },
@@ -39,8 +40,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 5337,
-          "forks": 424
+          "totalStars": 5756,
+          "forks": 462
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/148330874?v=4"
@@ -51,26 +52,6 @@
       },
       {
         "rank": 2,
-        "name": "baairon/torlink",
-        "description": "A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
-        "language": {
-          "name": "TypeScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1720,
-          "forks": 108
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/97924486?v=4"
-        ],
-        "tags": [
-          "#TypeScript"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "Krishnagangwal/CS-Fundamentals",
         "description": "Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering",
         "language": {
@@ -79,8 +60,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1224,
-          "forks": 96
+          "totalStars": 1332,
+          "forks": 107
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/175389609?v=4"
@@ -90,7 +71,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 3,
         "name": "yynxxxxx/Codex-5.5-codex-instruct-5.5",
         "description": "暂无描述",
         "language": {
@@ -99,8 +80,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 831,
-          "forks": 260
+          "totalStars": 1018,
+          "forks": 316
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/139136586?v=4"
@@ -110,27 +91,27 @@
         ]
       },
       {
-        "rank": 5,
-        "name": "winsznx/theeleven",
-        "description": "Eleven autonomous AI agents open live football prop markets on X Layer — custom Uniswap v4 hook, gasless USDT0 staking.",
+        "rank": 4,
+        "name": "Kulaxyz/self-learning-skills",
+        "description": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
         "language": {
-          "name": "TypeScript",
+          "name": "Unknown",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 691,
-          "forks": 2
+          "totalStars": 752,
+          "forks": 7
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/68760559?v=4"
+          "https://avatars.githubusercontent.com/u/47082676?v=4"
         ],
         "tags": [
-          "#TypeScript"
+          "#Trending"
         ]
       },
       {
-        "rank": 6,
+        "rank": 5,
         "name": "TianhangZhuzth/Fundamental-Ava",
         "description": "Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
         "language": {
@@ -139,8 +120,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 606,
-          "forks": 58
+          "totalStars": 721,
+          "forks": 69
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/219875975?v=4"
@@ -150,7 +131,47 @@
         ]
       },
       {
+        "rank": 6,
+        "name": "mekos2772/ios-location-spoofer",
+        "description": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 704,
+          "forks": 100
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/119464194?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
         "rank": 7,
+        "name": "aquace/CVE-2026-41940-PoC",
+        "description": "CVE-2026-41940 authentication bypass vulnerability proof-of-concept",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 571,
+          "forks": 13
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/32766565?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
         "name": "Pluviobyte/video-production-skills",
         "description": "Reusable AI video production skills library for creation, recreation, motion design, openers, and QA.",
         "language": {
@@ -159,8 +180,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 483,
-          "forks": 58
+          "totalStars": 492,
+          "forks": 59
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/94058511?v=4"
@@ -170,7 +191,7 @@
         ]
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "CopilotKit/OpenTag",
         "description": "OpenTag",
         "language": {
@@ -179,8 +200,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 464,
-          "forks": 51
+          "totalStars": 490,
+          "forks": 54
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/131273140?v=4"
@@ -190,43 +211,23 @@
         ]
       },
       {
-        "rank": 9,
-        "name": "tdeverx/contained-app",
-        "description": "A native macOS app for Apple's Container CLI",
-        "language": {
-          "name": "Swift",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 435,
-          "forks": 18
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/44447832?v=4"
-        ],
-        "tags": [
-          "#Swift"
-        ]
-      },
-      {
         "rank": 10,
-        "name": "cclank/lanshu-animated-architecture-diagram",
-        "description": "Premium hand-drawn animated architecture diagram Codex skill",
+        "name": "diinki/linux-antiquity",
+        "description": "A highly tasteful Linux-theme, reminiscent of art-nouveau and old drawings related to astronomy, science, and mythology.",
         "language": {
-          "name": "Python",
+          "name": "QML",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 388,
-          "forks": 47
+          "totalStars": 441,
+          "forks": 10
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/29557585?v=4"
+          "https://avatars.githubusercontent.com/u/56029514?v=4"
         ],
         "tags": [
-          "#Python"
+          "#QML"
         ]
       }
     ],
@@ -241,8 +242,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 5337,
-          "forks": 424
+          "totalStars": 5756,
+          "forks": 462
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/148330874?v=4"
@@ -261,8 +262,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 831,
-          "forks": 260
+          "totalStars": 1018,
+          "forks": 316
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/139136586?v=4"
@@ -281,8 +282,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 606,
-          "forks": 58
+          "totalStars": 721,
+          "forks": 69
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/219875975?v=4"
@@ -293,6 +294,26 @@
       },
       {
         "rank": 4,
+        "name": "aquace/CVE-2026-41940-PoC",
+        "description": "CVE-2026-41940 authentication bypass vulnerability proof-of-concept",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 571,
+          "forks": 13
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/32766565?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 5,
         "name": "Pluviobyte/video-production-skills",
         "description": "Reusable AI video production skills library for creation, recreation, motion design, openers, and QA.",
         "language": {
@@ -301,8 +322,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 483,
-          "forks": 58
+          "totalStars": 492,
+          "forks": 59
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/94058511?v=4"
@@ -312,7 +333,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "name": "cclank/lanshu-animated-architecture-diagram",
         "description": "Premium hand-drawn animated architecture diagram Codex skill",
         "language": {
@@ -321,8 +342,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 388,
-          "forks": 47
+          "totalStars": 419,
+          "forks": 52
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/29557585?v=4"
@@ -332,7 +353,27 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 7,
+        "name": "Leron-X/leronx",
+        "description": "LeronX — AI Image & Video Generation Platform",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 418,
+          "forks": 57
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/287681425?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
         "name": "Jia-Ethan/codex-keysmith",
         "description": "Codex CLI instruction-file installer for local configuration",
         "language": {
@@ -341,8 +382,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 345,
-          "forks": 63
+          "totalStars": 378,
+          "forks": 68
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/271507930?v=4"
@@ -352,7 +393,7 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 9,
         "name": "offchainthoughts/Amber",
         "description": "Bank the expensive compute once, then carry it offline as a single file that can prove it is what it claims to be.",
         "language": {
@@ -361,8 +402,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 322,
-          "forks": 201
+          "totalStars": 329,
+          "forks": 203
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/252279235?v=4"
@@ -372,60 +413,20 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "Zeeshan2899/System_Backup___Restore",
-        "description": "Create system images, backup files, and restore when needed. Protect your data from crashes and malware. Full system backup.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 223,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/191515260?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "zhujingqi/Twitter_Engagement_Tool",
-        "description": "Auto-tweet, follow/unfollow, and like/retweet scheduler. Schedule tweets, gain followers, like tweets, and reply to mentions. Grow your Twitter audience.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 223,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/76515195?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
         "rank": 10,
-        "name": "SrSCK/Virtual_Machine_Manager",
-        "description": "Run and manage virtual machines with ease. Supports VMware, VirtualBox, and Hyper-V. Create, start, and stop VMs.",
+        "name": "rjsdl56/All_Star_Tower_Defense_-_Auto-Place___Auto-Farm",
+        "description": "Auto-place and auto-farm for All Star Tower Defense, the anime tower defense game with 7.8 billion visits[reference:26]. Automatically place and upgrade towers, farm gems, and beat every wave.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 223,
+          "totalStars": 244,
           "forks": 0
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/152917361?v=4"
+          "https://avatars.githubusercontent.com/u/69948718?v=4"
         ],
         "tags": [
           "#Python"
@@ -435,6 +436,26 @@
     "JavaScript": [
       {
         "rank": 1,
+        "name": "mekos2772/ios-location-spoofer",
+        "description": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 704,
+          "forks": 100
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/119464194?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 2,
         "name": "downclash/clash",
         "description": "暂无描述",
         "language": {
@@ -443,31 +464,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 350,
+          "totalStars": 343,
           "forks": 0
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/164441173?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "blknoiz0632/CandyDrop",
-        "description": "Cut the rope. Feed the monster. Earn real Solana. A skill-based play-to-earn puzzle on @Solana — play, stack $CANDY, claim SOL. No wagers. Just skill.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 341,
-          "forks": 3
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/6333631?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -483,8 +484,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 187,
-          "forks": 78
+          "totalStars": 254,
+          "forks": 122
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/170342099?v=4"
@@ -503,8 +504,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 148,
-          "forks": 26
+          "totalStars": 153,
+          "forks": 30
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/297559850?v=4"
@@ -535,19 +536,19 @@
       },
       {
         "rank": 6,
-        "name": "yashkhatri45/Meccha-Chameleon-Trainer-Mod-Overlay",
-        "description": "Windows external trainer for MECCHA CHAMELEON on Steam — auto camo, unlimited paint, god mode hider, seeker vision, pose lock, no-clip, and overlay controls for 2–10 player hide-and-seek lobbies.",
+        "name": "MageByte-Zero/spec-superflow",
+        "description": "连通需求说清楚和代码写对路的 AI 编程工作流插件。整合 OpenSpec 规划 + Superpowers 纪律，7 平台支持，Spec-first，契约驱动。",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 120,
-          "forks": 0
+          "totalStars": 134,
+          "forks": 11
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/233270864?v=4"
+          "https://avatars.githubusercontent.com/u/11827533?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -555,6 +556,26 @@
       },
       {
         "rank": 7,
+        "name": "XBuilderLAB/cheat-on-skill",
+        "description": "帮你在 AI 时代找到一份高薪 × 你学得动 × 不会被 AI 吃掉的工作，并给出个性化学习陪跑计划。能力匹配 + 可学性闸门 + BOSS 直聘真实招聘数据 + 反诈。",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 106,
+          "forks": 8
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/280592915?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 8,
         "name": "zxS33/niantou-tongda-skill",
         "description": "念头通达skill",
         "language": {
@@ -574,26 +595,6 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "XBuilderLAB/cheat-on-skill",
-        "description": "帮你在 AI 时代找到一份高薪 × 你学得动 × 不会被 AI 吃掉的工作，并给出个性化学习陪跑计划。能力匹配 + 可学性闸门 + BOSS 直聘真实招聘数据 + 反诈。",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 100,
-          "forks": 8
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/280592915?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
         "rank": 9,
         "name": "hirotomasato/mekithil",
         "description": " Automated Xiaomi MiMo Open Platform registration",
@@ -603,8 +604,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 94,
-          "forks": 45
+          "totalStars": 97,
+          "forks": 46
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/198351389?v=4"
@@ -615,19 +616,19 @@
       },
       {
         "rank": 10,
-        "name": "MageByte-Zero/spec-superflow",
-        "description": "连通需求说清楚和代码写对路的 AI 编程工作流插件。整合 OpenSpec 规划 + Superpowers 纪律，7 平台支持，Spec-first，契约驱动。",
+        "name": "yashkhatri45/Meccha-Chameleon-Trainer-Mod-Overlay",
+        "description": "Windows external trainer for MECCHA CHAMELEON on Steam — auto camo, unlimited paint, god mode hider, seeker vision, pose lock, no-clip, and overlay controls for 2–10 player hide-and-seek lobbies.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 82,
-          "forks": 8
+          "totalStars": 87,
+          "forks": 0
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/11827533?v=4"
+          "https://avatars.githubusercontent.com/u/233270864?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -665,8 +666,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 135,
-          "forks": 5
+          "totalStars": 184,
+          "forks": 17
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/276274598?v=4"
@@ -685,7 +686,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 122,
+          "totalStars": 146,
           "forks": 0
         },
         "contributors": [
@@ -705,7 +706,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 74,
+          "totalStars": 98,
           "forks": 0
         },
         "contributors": [
@@ -725,7 +726,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 74,
+          "totalStars": 98,
           "forks": 0
         },
         "contributors": [
@@ -737,46 +738,6 @@
       },
       {
         "rank": 6,
-        "name": "geekyraghav/Earners_Cpp_1",
-        "description": "All source codes for DSA in CPP Earners Batch 1",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 71,
-          "forks": 4
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/49072935?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "2dom/keypad",
-        "description": "Open Source minimalist Keypad for Zigbee / Thread / Matter",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 70,
-          "forks": 1
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/4075404?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 8,
         "name": "xiaofan4122/Elevator-LIO",
         "description": "Elevator-LIO  Official implementation",
         "language": {
@@ -785,7 +746,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 50,
+          "totalStars": 60,
           "forks": 7
         },
         "contributors": [
@@ -796,7 +757,7 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 7,
         "name": "OpenCPIL/prima.cpp",
         "description": "[Official] prima.cpp: Fast 30-70B LLM inference on heterogeneous and everyday home devices",
         "language": {
@@ -805,7 +766,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 43,
+          "totalStars": 48,
           "forks": 5
         },
         "contributors": [
@@ -816,20 +777,60 @@
         ]
       },
       {
-        "rank": 10,
-        "name": "AnswearZZ/Efficient-pedestrian-tracker-for-remote-connection-between-Jetson-Orin-Nano-and-iPhone",
-        "description": "暂无描述",
+        "rank": 8,
+        "name": "BenMakesEverything/Pocket-Lab-Power-Supply",
+        "description": "A lab bench power supply, but pocket-sized and battery powered.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 31,
-          "forks": 0
+          "totalStars": 41,
+          "forks": 1
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/266976845?v=4"
+          "https://avatars.githubusercontent.com/u/133932153?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "jameslavrenz/memkit",
+        "description": "An embedded systems container library (for MPUs and MCUs) written in C++ with C++ and C APIs.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 38,
+          "forks": 6
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/164412027?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "real-lsy/That-nav",
+        "description": "A rapid ROS2 3D navigation integration for Unitree Go2-W with Livox MID360.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 24,
+          "forks": 2
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/152586075?v=4"
         ],
         "tags": [
           "#C++"
