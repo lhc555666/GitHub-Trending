@@ -1,31 +1,30 @@
 {
-  "lastUpdate": "2026/07/13 01:56:28",
+  "lastUpdate": "2026/07/14 01:43:18",
   "charts": {
     "languageDistribution": {
       "JavaScript": 1,
-      "Python": 4,
+      "Python": 7,
       "HTML": 1,
-      "TypeScript": 2,
-      "Swift": 1
+      "TypeScript": 1
     },
     "starGrowth": {
       "labels": [
-        "07-07",
         "07-08",
         "07-09",
         "07-10",
         "07-11",
         "07-12",
-        "07-13"
+        "07-13",
+        "07-14"
       ],
       "data": [
-        956,
         1236,
         1262,
         1246,
         985,
         947,
-        847
+        847,
+        964
       ]
     }
   },
@@ -41,8 +40,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2715,
-          "forks": 493
+          "totalStars": 2923,
+          "forks": 520
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/233045934?v=4"
@@ -61,8 +60,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 932,
-          "forks": 48
+          "totalStars": 1033,
+          "forks": 61
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/212647524?v=4"
@@ -81,8 +80,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 890,
-          "forks": 1851
+          "totalStars": 959,
+          "forks": 1970
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/298382259?v=4"
@@ -93,46 +92,6 @@
       },
       {
         "rank": 4,
-        "name": "Robbyant/lingbot-video",
-        "description": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 712,
-          "forks": 26
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/212647524?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "mereyabdenbekuly-ctrl/clodex-ide",
-        "description": "Local-first, zero-trust agentic IDE for verifiable autonomous software development.",
-        "language": {
-          "name": "TypeScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 640,
-          "forks": 136
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/234955825?v=4"
-        ],
-        "tags": [
-          "#TypeScript"
-        ]
-      },
-      {
-        "rank": 6,
         "name": "vinhhien112/Three.js-Object-Sculptor-Codex-Plugin",
         "description": "Codex plugin that turns attached object images into code-only, animation-ready procedural Three.js models.",
         "language": {
@@ -141,8 +100,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 619,
-          "forks": 80
+          "totalStars": 859,
+          "forks": 102
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/38987783?v=4"
@@ -152,57 +111,17 @@
         ]
       },
       {
-        "rank": 7,
-        "name": "op7418/guizang-material-illustration",
-        "description": "归藏的材质插画 skill：生成带字解释图、图表美化和参考辅助配图。",
-        "language": {
-          "name": "Unknown",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 589,
-          "forks": 63
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/13505770?v=4"
-        ],
-        "tags": [
-          "#Trending"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "xiaotianfotos/homerail",
-        "description": "Voice-first local agent orchestration runtime for auditable DAG workflows.",
-        "language": {
-          "name": "TypeScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 487,
-          "forks": 111
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/25025807?v=4"
-        ],
-        "tags": [
-          "#TypeScript"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "Robbyant/lingbot-vla-v2",
-        "description": "From Foundation to Application",
+        "rank": 5,
+        "name": "Robbyant/lingbot-video",
+        "description": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 474,
-          "forks": 27
+          "totalStars": 758,
+          "forks": 29
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/212647524?v=4"
@@ -212,23 +131,103 @@
         ]
       },
       {
-        "rank": 10,
-        "name": "gostonx/uninstally",
-        "description": "A clean, native macOS uninstaller. Completely removes apps and every file they leave behind using smart bundle-identifier detection. SwiftUI + Finder extension.",
+        "rank": 6,
+        "name": "mereyabdenbekuly-ctrl/clodex-ide",
+        "description": "Local-first, zero-trust agentic IDE for verifiable autonomous software development.",
         "language": {
-          "name": "Swift",
+          "name": "TypeScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 420,
-          "forks": 14
+          "totalStars": 696,
+          "forks": 148
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/281001366?v=4"
+          "https://avatars.githubusercontent.com/u/234955825?v=4"
         ],
         "tags": [
-          "#Swift"
+          "#TypeScript"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "littledivy/mimic",
+        "description": "Intercept any app, then call it from Python like a library",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 693,
+          "forks": 22
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/34997667?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "MDX-Tom/gpt-5.6-instruct",
+        "description": "A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 681,
+          "forks": 159
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/6468993?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "William-Lu-stack/LuxyAI",
+        "description": "AgenticOps for Kubernetes and cloud infrastructure.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 549,
+          "forks": 71
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/66623266?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "AlephAITech/WorkBuddyGuide",
+        "description": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 497,
+          "forks": 68
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/299104179?v=4"
+        ],
+        "tags": [
+          "#Python"
         ]
       }
     ],
@@ -243,8 +242,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 932,
-          "forks": 48
+          "totalStars": 1033,
+          "forks": 61
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/212647524?v=4"
@@ -255,26 +254,6 @@
       },
       {
         "rank": 2,
-        "name": "Robbyant/lingbot-video",
-        "description": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 712,
-          "forks": 26
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/212647524?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "vinhhien112/Three.js-Object-Sculptor-Codex-Plugin",
         "description": "Codex plugin that turns attached object images into code-only, animation-ready procedural Three.js models.",
         "language": {
@@ -283,8 +262,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 619,
-          "forks": 80
+          "totalStars": 859,
+          "forks": 102
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/38987783?v=4"
@@ -294,17 +273,17 @@
         ]
       },
       {
-        "rank": 4,
-        "name": "Robbyant/lingbot-vla-v2",
-        "description": "From Foundation to Application",
+        "rank": 3,
+        "name": "Robbyant/lingbot-video",
+        "description": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 474,
-          "forks": 27
+          "totalStars": 758,
+          "forks": 29
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/212647524?v=4"
@@ -314,20 +293,40 @@
         ]
       },
       {
-        "rank": 5,
-        "name": "CoscoAI/luxy-aisre",
-        "description": "AISRE for Cosco",
+        "rank": 4,
+        "name": "littledivy/mimic",
+        "description": "Intercept any app, then call it from Python like a library",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 379,
-          "forks": 12
+          "totalStars": 693,
+          "forks": 22
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/301984372?v=4"
+          "https://avatars.githubusercontent.com/u/34997667?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "MDX-Tom/gpt-5.6-instruct",
+        "description": "A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 681,
+          "forks": 159
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/6468993?v=4"
         ],
         "tags": [
           "#Python"
@@ -335,6 +334,66 @@
       },
       {
         "rank": 6,
+        "name": "William-Lu-stack/LuxyAI",
+        "description": "AgenticOps for Kubernetes and cloud infrastructure.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 549,
+          "forks": 71
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/66623266?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "AlephAITech/WorkBuddyGuide",
+        "description": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 497,
+          "forks": 68
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/299104179?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "Nanako0129/pilotfish",
+        "description": "Multi-model orchestration layer for Claude Code — the frontier model plans, cheaper models execute, verification guards quality. One-prompt install.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 427,
+          "forks": 31
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/44753291?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 9,
         "name": "Doriandarko/texts-to-transformer",
         "description": "Train a tiny Transformer from scratch on your iMessage history, entirely on your Mac.",
         "language": {
@@ -343,8 +402,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 368,
-          "forks": 36
+          "totalStars": 386,
+          "forks": 37
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/1247180?v=4"
@@ -354,80 +413,20 @@
         ]
       },
       {
-        "rank": 7,
-        "name": "WeZZard/jlens-qwen36",
-        "description": "J-space / Jacobian-lens visualizer for Qwen3.6-27B (4-bit) on Apple Silicon, ported to Apple MLX",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 311,
-          "forks": 20
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/960509?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "Liquid4All/antidoom",
-        "description": "暂无描述",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 281,
-          "forks": 24
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/134113674?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "DexCrancer/pm-ninesoulx",
-        "description": "暂无描述",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 272,
-          "forks": 87
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/89170499?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
         "rank": 10,
-        "name": "zerosupercycIe/risk-free-sniper",
-        "description": "暂无描述",
+        "name": "Kappaemme-git/codex-first-customer-finder-skill",
+        "description": "A Codex skill that finds evidence-backed potential first customers from recent public signals.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 267,
-          "forks": 822
+          "totalStars": 308,
+          "forks": 28
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/300760940?v=4"
+          "https://avatars.githubusercontent.com/u/203409268?v=4"
         ],
         "tags": [
           "#Python"
@@ -445,8 +444,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2715,
-          "forks": 493
+          "totalStars": 2923,
+          "forks": 520
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/233045934?v=4"
@@ -465,8 +464,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 202,
-          "forks": 26
+          "totalStars": 226,
+          "forks": 30
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/175961422?v=4"
@@ -477,26 +476,6 @@
       },
       {
         "rank": 3,
-        "name": "Matchameleon/moneyclaw",
-        "description": "openclaw agents for prepaid wallet, virtual card, OTP inbox, public docs, and skill",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 153,
-          "forks": 176
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/90712212?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 4,
         "name": "angieruiz17/claude-fintech-skills",
         "description": "claude fintech skills of running fintech infra, trading platforms, and borker-side systems in production",
         "language": {
@@ -505,7 +484,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 152,
+          "totalStars": 153,
           "forks": 1054
         },
         "contributors": [
@@ -516,9 +495,9 @@
         ]
       },
       {
-        "rank": 5,
-        "name": "angieruiz17/codex-gpt-plugin",
-        "description": "codex gpt plugin that gives agent a direct line to logged-in chatgpt pro session",
+        "rank": 4,
+        "name": "Matchameleon/moneyclaw",
+        "description": "openclaw agents for prepaid wallet, virtual card, OTP inbox, public docs, and skill",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
@@ -526,37 +505,17 @@
         "stats": {
           "todayStars": "-",
           "totalStars": 152,
-          "forks": 1048
+          "forks": 527
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/108318194?v=4"
+          "https://avatars.githubusercontent.com/u/90712212?v=4"
         ],
         "tags": [
           "#JavaScript"
         ]
       },
       {
-        "rank": 6,
-        "name": "Weebapp003/tradingview-mcp",
-        "description": "tradingview mcp which connect claude code via chrome devtools protocol",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 150,
-          "forks": 175
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/120244099?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 7,
+        "rank": 5,
         "name": "Matchameleon/gpt-codex-plugin",
         "description": "gpt codex plugin that prompts from codex to chatgpt through chrome session",
         "language": {
@@ -565,7 +524,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 122,
+          "totalStars": 151,
           "forks": 0
         },
         "contributors": [
@@ -576,27 +535,47 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "kaolti/monolith-terrain",
-        "description": "Interactive 3D topographic map — real-world elevation data rendered as a vintage USGS topo sheet with a sci-fi HUD. Three.js.",
+        "rank": 6,
+        "name": "angieruiz17/codex-gpt-plugin",
+        "description": "codex gpt plugin that gives agent a direct line to logged-in chatgpt pro session",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 84,
-          "forks": 10
+          "totalStars": 151,
+          "forks": 1048
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/6442937?v=4"
+          "https://avatars.githubusercontent.com/u/108318194?v=4"
         ],
         "tags": [
           "#JavaScript"
         ]
       },
       {
-        "rank": 9,
+        "rank": 7,
+        "name": "Weebapp003/tradingview-mcp",
+        "description": "tradingview mcp which connect claude code via chrome devtools protocol",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 150,
+          "forks": 526
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/120244099?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 8,
         "name": "ucsandman/marketing-studio",
         "description": "Agent-driven marketing studio for Claude Code: one /marketing command renders your product's full launch asset suite (logo reveal, demo, launch video, social clips, OG assets)",
         "language": {
@@ -605,8 +584,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 81,
-          "forks": 12
+          "totalStars": 98,
+          "forks": 14
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/128239567?v=4"
@@ -616,20 +595,40 @@
         ]
       },
       {
-        "rank": 10,
-        "name": "dennykim123/claude-codex-battery",
-        "description": "macOS menu bar widget showing Claude Code & Codex usage limits as battery icons 🔋",
+        "rank": 9,
+        "name": "MarvinSchwaibold/mri-grid-viewer",
+        "description": "Local-first MRI series grid viewer with a SwiftUI iOS wrapper",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 75,
-          "forks": 10
+          "totalStars": 96,
+          "forks": 12
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/169384631?v=4"
+          "https://avatars.githubusercontent.com/u/64643796?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "yeet-src/sigwire",
+        "description": "tail -f for signals. Every signal any process on the box raises — who sent it, who it hit, which signal, how it was raised (kill(2), the kernel, a POSIX timer), whether the target caught it and how long its handler ran, whether it tore a blocked syscall out with EINTR.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 77,
+          "forks": 2
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/125224316?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -639,26 +638,6 @@
     "C++": [
       {
         "rank": 1,
-        "name": "dk8827/ra-port",
-        "description": "Unofficial working port of Command & Conquer: Red Alert running natively on iOS, Android, Linux and macOS. SDL2 video/audio/input. No game assets included.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 147,
-          "forks": 15
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/121302433?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 2,
         "name": "extreme-inject/Extreme-Injector",
         "description": "dll injection tool memory injector manual map thread hijacking loadlibrary process selector game modding trainer windows 11 windows 10",
         "language": {
@@ -667,7 +646,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 128,
+          "totalStars": 134,
           "forks": 0
         },
         "contributors": [
@@ -678,27 +657,7 @@
         ]
       },
       {
-        "rank": 3,
-        "name": "luatools-steam/lua-steam-tools",
-        "description": "steam lua tools luatools lua tools steam millennium plugin opensteamtool steamtools lua scripts manifests game fixes fakeappid automatic downloader library management installer download link windows 11 desktop utility setup configuration guide tutorial troubleshooting license error fix",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 122,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/288490761?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 4,
+        "rank": 2,
         "name": "LazoVelko/neverclick",
         "description": "Never use a mouse again.",
         "language": {
@@ -707,8 +666,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 94,
-          "forks": 4
+          "totalStars": 99,
+          "forks": 6
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/22990491?v=4"
@@ -718,7 +677,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 3,
         "name": "thecodedose/kdashboard",
         "description": "暂无描述",
         "language": {
@@ -727,8 +686,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 85,
-          "forks": 10
+          "totalStars": 95,
+          "forks": 11
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/127669937?v=4"
@@ -738,7 +697,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 4,
         "name": "geode-gd/Geode-Geometry-Dash",
         "description": "geode geometry dash geode download mod loader geometry dash modding gd geode framework mods index custom textures installer download link windows 11 macos android desktop utility setup guide installation tutorial troubleshooting crash fix performance optimization steam integration",
         "language": {
@@ -747,7 +706,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 85,
+          "totalStars": 91,
           "forks": 0
         },
         "contributors": [
@@ -758,7 +717,27 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 5,
+        "name": "kigner/audio.cpp-webui",
+        "description": "audio.cpp with a full-task WebUI - pure C++ audio-model inference engine powered by ggml. TTS, ASR/STT, VAD, voice conversion, speaker diarization, music generation. No Python dependency.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 89,
+          "forks": 28
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/130829775?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 6,
         "name": "ImageLine-Project/fl-25.2.5",
         "description": "fl 25.2.5 image line daw digital audio workstation music production beat making vst plugins audio editing mixing mastering piano roll step sequencer audio interface asio4all producer edition desktop utility installation setup guide beginner tutorial workflow optimization",
         "language": {
@@ -767,7 +746,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 82,
+          "totalStars": 88,
           "forks": 0
         },
         "contributors": [
@@ -778,7 +757,47 @@
         ]
       },
       {
+        "rank": 7,
+        "name": "AbishekPonmudi/Dynloader",
+        "description": "DynLoader   A modular Windows loader focused on EDR evasion Built with indirect syscall (Tartarus Gate / Hell’s Gate), Manual PE parsing & Section mapping, API hashing & Dynamic resolution, fileless HTTP delivery (AES encrypted option)",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 50,
+          "forks": 5
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/135835548?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
         "rank": 8,
+        "name": "GOROman/famicom-rf-hackrf-decoder",
+        "description": "暂无描述",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 41,
+          "forks": 1
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/159089?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 9,
         "name": "marchildmann/BevelDesk",
         "description": "暂无描述",
         "language": {
@@ -798,7 +817,7 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 10,
         "name": "dk8827/cnc-port",
         "description": "Unofficial working port of Command & Conquer: Tiberian Dawn running natively on iOS, Android and macOS.",
         "language": {
@@ -812,26 +831,6 @@
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/121302433?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "kigner/audio.cpp-webui",
-        "description": "audio.cpp with a full-task WebUI - pure C++ audio-model inference engine powered by ggml. TTS, ASR/STT, VAD, voice conversion, speaker diarization, music generation. No Python dependency.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 37,
-          "forks": 9
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/130829775?v=4"
         ],
         "tags": [
           "#C++"
