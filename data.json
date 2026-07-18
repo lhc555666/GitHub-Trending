@@ -1,31 +1,31 @@
 {
-  "lastUpdate": "2026/07/17 01:53:15",
+  "lastUpdate": "2026/07/18 01:43:28",
   "charts": {
     "languageDistribution": {
       "Rust": 2,
-      "JavaScript": 1,
-      "Python": 3,
+      "JavaScript": 2,
       "TypeScript": 2,
+      "Python": 2,
       "Dockerfile": 2
     },
     "starGrowth": {
       "labels": [
-        "07-11",
         "07-12",
         "07-13",
         "07-14",
         "07-15",
         "07-16",
-        "07-17"
+        "07-17",
+        "07-18"
       ],
       "data": [
-        985,
         947,
         847,
         964,
         741,
         1094,
-        2604
+        2604,
+        3292
       ]
     }
   },
@@ -41,8 +41,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 12461,
-          "forks": 2182
+          "totalStars": 16548,
+          "forks": 3041
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/130314967?v=4"
@@ -61,8 +61,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 5647,
-          "forks": 652
+          "totalStars": 8708,
+          "forks": 928
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/100042407?v=4"
@@ -73,22 +73,22 @@
       },
       {
         "rank": 3,
-        "name": "MDX-Tom/gpt-5.6-instruct",
-        "description": "A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。",
+        "name": "pixel-point/aval",
+        "description": "A new open-source format for interactive video on the web, with a built-in state machine, frame-accurate transitions, and packed-alpha transparency.",
         "language": {
-          "name": "Python",
+          "name": "TypeScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1679,
-          "forks": 327
+          "totalStars": 1164,
+          "forks": 63
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/6468993?v=4"
+          "https://avatars.githubusercontent.com/u/29034027?v=4"
         ],
         "tags": [
-          "#Python"
+          "#TypeScript"
         ]
       },
       {
@@ -101,8 +101,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1105,
-          "forks": 56
+          "totalStars": 1149,
+          "forks": 67
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/34997667?v=4"
@@ -113,26 +113,6 @@
       },
       {
         "rank": 5,
-        "name": "pixel-point/aval",
-        "description": "A new open-source format for interactive video on the web, with a built-in state machine, frame-accurate transitions, and packed-alpha transparency.",
-        "language": {
-          "name": "TypeScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1050,
-          "forks": 61
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/29034027?v=4"
-        ],
-        "tags": [
-          "#TypeScript"
-        ]
-      },
-      {
-        "rank": 6,
         "name": "CluvexStudio/Aether",
         "description": "暂无描述",
         "language": {
@@ -141,8 +121,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 935,
-          "forks": 44
+          "totalStars": 1144,
+          "forks": 65
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/125141320?v=4"
@@ -152,7 +132,7 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 6,
         "name": "x4gKing/Marzban-Panel",
         "description": "暂无描述",
         "language": {
@@ -161,14 +141,34 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 846,
-          "forks": 1571
+          "totalStars": 914,
+          "forks": 1708
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/298382259?v=4"
         ],
         "tags": [
           "#Dockerfile"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "tandpfun/wardrobe",
+        "description": "Your clothes, extracted and organized with gpt-image.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 902,
+          "forks": 130
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/28990589?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
         ]
       },
       {
@@ -181,8 +181,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 829,
-          "forks": 148
+          "totalStars": 833,
+          "forks": 149
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/234955825?v=4"
@@ -201,8 +201,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 761,
-          "forks": 78
+          "totalStars": 789,
+          "forks": 81
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/203409268?v=4"
@@ -221,8 +221,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 727,
-          "forks": 1430
+          "totalStars": 777,
+          "forks": 1561
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/298382259?v=4"
@@ -235,26 +235,6 @@
     "Python": [
       {
         "rank": 1,
-        "name": "MDX-Tom/gpt-5.6-instruct",
-        "description": "A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1679,
-          "forks": 327
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/6468993?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 2,
         "name": "littledivy/mimic",
         "description": "Intercept any app, then call it from Python like a library",
         "language": {
@@ -263,8 +243,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1105,
-          "forks": 56
+          "totalStars": 1149,
+          "forks": 67
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/34997667?v=4"
@@ -274,7 +254,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 2,
         "name": "Kappaemme-git/codex-first-customer-finder-skill",
         "description": "A Codex skill that finds evidence-backed potential first customers from recent public signals.",
         "language": {
@@ -283,8 +263,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 761,
-          "forks": 78
+          "totalStars": 789,
+          "forks": 81
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/203409268?v=4"
@@ -294,7 +274,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 3,
         "name": "oil-oil/beautify-github-readme",
         "description": "Design clear, theme-specific GitHub README homepages with SVG titles, real proof, and maintainable Markdown",
         "language": {
@@ -303,8 +283,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 691,
-          "forks": 40
+          "totalStars": 757,
+          "forks": 44
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/57465570?v=4"
@@ -314,27 +294,27 @@
         ]
       },
       {
-        "rank": 5,
-        "name": "Git-creat7/grokRegister-cpa",
-        "description": "Grok 自动注册机 — 注册成功后自动入库 CLIProxyAPI (CPA)：支持本地 auth 目录与远程 Management API 上传",
+        "rank": 4,
+        "name": "PengZhang64/circuit-framework",
+        "description": "Circuit Framework — multi-agent LLM trading research system",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 339,
-          "forks": 119
+          "totalStars": 479,
+          "forks": 19
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/202784495?v=4"
+          "https://avatars.githubusercontent.com/u/156494645?v=4"
         ],
         "tags": [
           "#Python"
         ]
       },
       {
-        "rank": 6,
+        "rank": 5,
         "name": "QuantumByteOSS/quantumbyte",
         "description": "Open-source app builder engine — intent to working app",
         "language": {
@@ -343,8 +323,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 316,
-          "forks": 42
+          "totalStars": 324,
+          "forks": 44
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/305254032?v=4"
@@ -354,20 +334,40 @@
         ]
       },
       {
-        "rank": 7,
-        "name": "PengZhang64/circuit-framework",
-        "description": "Circuit Framework — multi-agent LLM trading research system",
+        "rank": 6,
+        "name": "Shadow-Weave/HMS",
+        "description": "暂无描述",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 290,
-          "forks": 17
+          "totalStars": 322,
+          "forks": 32
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/156494645?v=4"
+          "https://avatars.githubusercontent.com/u/304036409?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "Wan-Video/Wan-Dancer",
+        "description": "暂无描述",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 298,
+          "forks": 23
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/200620180?v=4"
         ],
         "tags": [
           "#Python"
@@ -383,8 +383,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 289,
-          "forks": 191
+          "totalStars": 297,
+          "forks": 192
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/43636332?v=4"
@@ -395,19 +395,19 @@
       },
       {
         "rank": 9,
-        "name": "Shadow-Weave/HMS",
-        "description": "暂无描述",
+        "name": "pyang5166/gbro-collage-broll",
+        "description": "半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 283,
-          "forks": 29
+          "totalStars": 274,
+          "forks": 26
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/304036409?v=4"
+          "https://avatars.githubusercontent.com/u/176493563?v=4"
         ],
         "tags": [
           "#Python"
@@ -415,19 +415,19 @@
       },
       {
         "rank": 10,
-        "name": "Wan-Video/Wan-Dancer",
-        "description": "暂无描述",
+        "name": "nihe0909/xiaohongshu-ai-workbench",
+        "description": "《小红书运营手册 · AI工作台》: free Codex Skills for Xiaohongshu operations",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 282,
-          "forks": 19
+          "totalStars": 234,
+          "forks": 16
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/200620180?v=4"
+          "https://avatars.githubusercontent.com/u/225317269?v=4"
         ],
         "tags": [
           "#Python"
@@ -445,8 +445,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 5648,
-          "forks": 652
+          "totalStars": 8708,
+          "forks": 928
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/100042407?v=4"
@@ -465,8 +465,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 644,
-          "forks": 86
+          "totalStars": 902,
+          "forks": 130
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/28990589?v=4"
@@ -485,8 +485,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 581,
-          "forks": 1
+          "totalStars": 646,
+          "forks": 3
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/268049402?v=4"
@@ -505,8 +505,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 290,
-          "forks": 61
+          "totalStars": 482,
+          "forks": 98
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/114044325?v=4"
@@ -517,26 +517,6 @@
       },
       {
         "rank": 5,
-        "name": "yeet-src/sigwire",
-        "description": "tail -f for signals. Every signal any process on the box raises — who sent it, who it hit, which signal, how it was raised (kill(2), the kernel, a POSIX timer), whether the target caught it and how long its handler ran, whether it tore a blocked syscall out with EINTR.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 137,
-          "forks": 3
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/125224316?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 6,
         "name": "HeiGeAi/heige-codex-skin-studio",
         "description": "给 Codex Desktop 一键换肤：OpenAI Codex/ChatGPT 桌面端主题工具，CDP 注入零修改应用，Miku/原神/鸣潮/火影/恋与深空 9 预设+自定义图片取色 | One-click theme & skin switcher for OpenAI Codex Desktop (macOS/Windows)",
         "language": {
@@ -545,8 +525,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 136,
-          "forks": 29
+          "totalStars": 221,
+          "forks": 40
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/221471965?v=4"
@@ -556,7 +536,47 @@
         ]
       },
       {
+        "rank": 6,
+        "name": "erickong/penecho",
+        "description": "Think with AI beyond the chat box. A shared canvas for handwriting, equations, diagrams, and spatial reasoning.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 142,
+          "forks": 19
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/1572768?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
         "rank": 7,
+        "name": "yeet-src/sigwire",
+        "description": "tail -f for signals. Every signal any process on the box raises — who sent it, who it hit, which signal, how it was raised (kill(2), the kernel, a POSIX timer), whether the target caught it and how long its handler ran, whether it tore a blocked syscall out with EINTR.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 140,
+          "forks": 4
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/125224316?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 8,
         "name": "blitzdotdev/blitzos",
         "description": "BlitzOS allows cloud agents to boot already knowing your work, and keep working with your laptop closed",
         "language": {
@@ -565,8 +585,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 121,
-          "forks": 13
+          "totalStars": 124,
+          "forks": 14
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/259449558?v=4"
@@ -576,7 +596,7 @@
         ]
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "MarvinSchwaibold/mri-grid-viewer",
         "description": "Local-first MRI series grid viewer with a SwiftUI iOS wrapper",
         "language": {
@@ -596,40 +616,20 @@
         ]
       },
       {
-        "rank": 9,
-        "name": "amirmushichge/world-cup-letter-flags",
-        "description": "Interactive typographic flags built from the 2026 World Cup final four squads.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 70,
-          "forks": 12
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/266672775?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
         "rank": 10,
-        "name": "ray4rt/yt-clip",
-        "description": "暂无描述",
+        "name": "Finderchangchang/codex-autoskin",
+        "description": "发一张图给你的 Codex，它自己给自己换肤 | Send one image to your Codex and it reskins itself. Agent-native skin engine for the Codex desktop app.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 68,
-          "forks": 10
+          "totalStars": 87,
+          "forks": 15
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/86026143?v=4"
+          "https://avatars.githubusercontent.com/u/7477876?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -647,8 +647,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 213,
-          "forks": 56
+          "totalStars": 227,
+          "forks": 63
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/291905677?v=4"
@@ -667,8 +667,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 152,
-          "forks": 39
+          "totalStars": 165,
+          "forks": 42
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/130829775?v=4"
@@ -687,8 +687,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 126,
-          "forks": 8
+          "totalStars": 155,
+          "forks": 9
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/272712626?v=4"
@@ -707,8 +707,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 122,
-          "forks": 6
+          "totalStars": 141,
+          "forks": 7
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/159089?v=4"
@@ -719,6 +719,26 @@
       },
       {
         "rank": 5,
+        "name": "vmx7/rust_pdb",
+        "description": "self-contained il2cpp to windows pdb generator (rust, x64, metadata v39)",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 57,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/304688363?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 6,
         "name": "Astharot15/COMLoaderAstharot",
         "description": "暂无描述",
         "language": {
@@ -727,7 +747,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 47,
+          "totalStars": 50,
           "forks": 9
         },
         "contributors": [
@@ -738,47 +758,7 @@
         ]
       },
       {
-        "rank": 6,
-        "name": "dk8827/cnc-port",
-        "description": "Unofficial working port of Command & Conquer: Tiberian Dawn running natively on iOS, Android and macOS.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 39,
-          "forks": 5
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/121302433?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
         "rank": 7,
-        "name": "JMBQ01/azurlan",
-        "description": "AL mod",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 33,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/300418340?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 8,
         "name": "matoslav/MicroGroove",
         "description": "A wallet-sized groovebox that turns $30 of hardware and a 3D printer into a four-track acid powerhouse | three mono/poly 303 voices, eight lanes of 808 & 909 drums, and a sampler that records the room or the machine itself. | M5Stack Cardputer-ADV | open source (MIT)",
         "language": {
@@ -787,11 +767,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 31,
+          "totalStars": 32,
           "forks": 1
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/7863777?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "tonydev15/walletgen",
+        "description": "WalletGen - Seed Phrase generator / checker for Bitcoin (BTC) and ETH (Ethereum) wallets. Find or recovery your wallet via brute force and brain wallet generation",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 25,
+          "forks": 4
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/285608140?v=4"
         ],
         "tags": [
           "#C++"
@@ -807,8 +807,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 19,
-          "forks": 4
+          "totalStars": 22,
+          "forks": 5
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/274816736?v=4"
@@ -819,19 +819,19 @@
       },
       {
         "rank": 10,
-        "name": "vmx7/rust_pdb",
-        "description": "self-contained il2cpp to windows pdb generator (rust, x64, metadata v39)",
+        "name": "menachem-dadon/SparkMoE",
+        "description": "暂无描述",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 18,
+          "totalStars": 17,
           "forks": 0
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/304688363?v=4"
+          "https://avatars.githubusercontent.com/u/174075160?v=4"
         ],
         "tags": [
           "#C++"
