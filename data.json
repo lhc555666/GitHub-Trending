@@ -1,30 +1,31 @@
 {
-  "lastUpdate": "2026/07/24 01:53:23",
+  "lastUpdate": "2026/07/25 01:53:00",
   "charts": {
     "languageDistribution": {
-      "Python": 4,
+      "Python": 2,
       "TypeScript": 4,
       "Swift": 1,
-      "JavaScript": 1
+      "JavaScript": 2,
+      "Go": 1
     },
     "starGrowth": {
       "labels": [
-        "07-18",
         "07-19",
         "07-20",
         "07-21",
         "07-22",
         "07-23",
-        "07-24"
+        "07-24",
+        "07-25"
       ],
       "data": [
-        3292,
         3610,
         3715,
         1814,
         846,
         821,
-        922
+        922,
+        1026
       ]
     }
   },
@@ -32,26 +33,6 @@
     "All": [
       {
         "rank": 1,
-        "name": "lopopolo/harness-engineering",
-        "description": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 2276,
-          "forks": 228
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/860434?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 2,
         "name": "andrewyng/openworker",
         "description": "暂无描述",
         "language": {
@@ -60,8 +41,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1328,
-          "forks": 198
+          "totalStars": 3443,
+          "forks": 459
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/3710007?v=4"
@@ -71,7 +52,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 2,
         "name": "Vincentwei1021/video-shotcraft",
         "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template",
         "language": {
@@ -80,8 +61,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 947,
-          "forks": 72
+          "totalStars": 1446,
+          "forks": 116
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/18239147?v=4"
@@ -91,7 +72,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 3,
         "name": "Jakubantalik/thinking-orbs",
         "description": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light",
         "language": {
@@ -100,8 +81,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 830,
-          "forks": 58
+          "totalStars": 933,
+          "forks": 69
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/14873517?v=4"
@@ -111,7 +92,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 4,
         "name": "Blaizzy/nativ",
         "description": "Local AI, native to your Mac. Chat, serve, monitor, and connect MLX models from one macOS app.",
         "language": {
@@ -120,8 +101,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 818,
-          "forks": 43
+          "totalStars": 861,
+          "forks": 45
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/23445657?v=4"
@@ -131,7 +112,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 5,
         "name": "powerycy/goutoujunshi",
         "description": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。",
         "language": {
@@ -140,8 +121,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 665,
-          "forks": 79
+          "totalStars": 803,
+          "forks": 90
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/36032407?v=4"
@@ -151,7 +132,7 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 6,
         "name": "pireel/pireel",
         "description": "Open-source, backend-free AI video editor for talking-head video — storyboarding, designed graphics, kinetic captions, themes and in-browser WebCodecs export. Drivable by any AI agent over MCP.",
         "language": {
@@ -160,8 +141,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 659,
-          "forks": 52
+          "totalStars": 710,
+          "forks": 56
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/304991498?v=4"
@@ -171,27 +152,7 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "xiejunjie524/handdraw-story-video",
-        "description": "Turn hand-drawn story illustrations into 35–45 second line-reveal and gradual-coloring videos with HyperFrames.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 634,
-          "forks": 97
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/128920834?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 9,
+        "rank": 7,
         "name": "gnipbao/story-to-handdrawn-video",
         "description": "Agent skill: convert Chinese story copy or ordered images into a hand-drawn diary-comic animation (silent MP4 picture track).",
         "language": {
@@ -200,8 +161,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 562,
-          "forks": 66
+          "totalStars": 608,
+          "forks": 69
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/16514704?v=4"
@@ -211,7 +172,27 @@
         ]
       },
       {
-        "rank": 10,
+        "rank": 8,
+        "name": "CatsJuice/sticker-forge",
+        "description": "A tactile WebGL sticker maker with rich text, image uploads, and interactive peel physics.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 522,
+          "forks": 46
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/39363750?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 9,
         "name": "0xhype/hyperliquid-tracker",
         "description": "Get notified when big trades happen on Hyperliquid.",
         "language": {
@@ -220,7 +201,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 504,
+          "totalStars": 509,
           "forks": 1
         },
         "contributors": [
@@ -229,31 +210,31 @@
         "tags": [
           "#TypeScript"
         ]
+      },
+      {
+        "rank": 10,
+        "name": "Charles-0509/Grok-Register",
+        "description": "Grok free-register CLI: register → OAuth → CPA JSON (Go)",
+        "language": {
+          "name": "Go",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 431,
+          "forks": 149
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/74674339?v=4"
+        ],
+        "tags": [
+          "#Go"
+        ]
       }
     ],
     "Python": [
       {
         "rank": 1,
-        "name": "lopopolo/harness-engineering",
-        "description": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 2276,
-          "forks": 228
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/860434?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 2,
         "name": "andrewyng/openworker",
         "description": "暂无描述",
         "language": {
@@ -262,8 +243,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1328,
-          "forks": 198
+          "totalStars": 3443,
+          "forks": 459
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/3710007?v=4"
@@ -273,7 +254,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 2,
         "name": "powerycy/goutoujunshi",
         "description": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。",
         "language": {
@@ -282,8 +263,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 665,
-          "forks": 79
+          "totalStars": 803,
+          "forks": 90
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/36032407?v=4"
@@ -293,20 +274,40 @@
         ]
       },
       {
-        "rank": 4,
-        "name": "xiejunjie524/handdraw-story-video",
-        "description": "Turn hand-drawn story illustrations into 35–45 second line-reveal and gradual-coloring videos with HyperFrames.",
+        "rank": 3,
+        "name": "slvDev/esp32-ai",
+        "description": "暂无描述",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 634,
-          "forks": 97
+          "totalStars": 427,
+          "forks": 55
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/128920834?v=4"
+          "https://avatars.githubusercontent.com/u/15254847?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "AdelanSupport/adelan-support",
+        "description": "暂无描述",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 388,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/307448642?v=4"
         ],
         "tags": [
           "#Python"
@@ -322,7 +323,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 343,
+          "totalStars": 387,
           "forks": 0
         },
         "contributors": [
@@ -334,26 +335,6 @@
       },
       {
         "rank": 6,
-        "name": "AdelanSupport/adelan-support",
-        "description": "暂无描述",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 340,
-          "forks": 0
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/307448642?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 7,
         "name": "berabuddies/redis-poc",
         "description": "RCE PoC for Redis 6.2.22, 7.4.9, 8.6.4, 8.8.0",
         "language": {
@@ -362,8 +343,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 308,
-          "forks": 88
+          "totalStars": 386,
+          "forks": 100
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/272903805?v=4"
@@ -373,20 +354,40 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "SeanJ1ang/design-judge-skills",
-        "description": "Evidence-driven Agent Skills for design award research, evaluation, award matching, entry writing, and submission readiness.",
+        "rank": 7,
+        "name": "TryCaspian/caspian-sdk",
+        "description": "One identity for your AI agent across Slack, Discord, Telegram, WhatsApp, Instagram, email, SMS, X — a single on_message handler. Open-source channel adapters + bot SDK (Python & TypeScript) + CLI.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 300,
-          "forks": 12
+          "totalStars": 218,
+          "forks": 75
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/191077179?v=4"
+          "https://avatars.githubusercontent.com/u/256783915?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "yokel1121/muyang-flat-animation",
+        "description": "将中文观点转成纸上钢笔线稿与彩铅风格的知识讲解动画素材",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 194,
+          "forks": 31
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/81351415?v=4"
         ],
         "tags": [
           "#Python"
@@ -394,19 +395,19 @@
       },
       {
         "rank": 9,
-        "name": "Gheat1/tuistore",
-        "description": "🛍️ The TUI app store — browse, search & one-key-install hundreds of terminal apps. Built on ricekit, seeded from awesome-tuis.",
+        "name": "eli-labz/Agent-Execution-Partnership",
+        "description": "Agent Execution Partnership AEE is an open-source control plane that ensures every AI agent action is authorized before it runs, observable while it runs, and verifiable after it completes.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 286,
-          "forks": 10
+          "totalStars": 187,
+          "forks": 49
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/64615952?v=4"
+          "https://avatars.githubusercontent.com/u/272680511?v=4"
         ],
         "tags": [
           "#Python"
@@ -414,19 +415,19 @@
       },
       {
         "rank": 10,
-        "name": "OpenBMB/MiniCPM-Robot",
-        "description": "A Smarter and Faster On-Device AI Brain for Robots",
+        "name": "Role1776/netmon",
+        "description": "Self-hosted network monitor — hourly speed tests, LAN device counts via ARP scan, and sarcastic AI-generated reports delivered to Telegram.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 233,
-          "forks": 15
+          "totalStars": 178,
+          "forks": 21
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/89920203?v=4"
+          "https://avatars.githubusercontent.com/u/184975966?v=4"
         ],
         "tags": [
           "#Python"
@@ -444,8 +445,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 562,
-          "forks": 66
+          "totalStars": 608,
+          "forks": 69
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/16514704?v=4"
@@ -464,8 +465,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 374,
-          "forks": 31
+          "totalStars": 522,
+          "forks": 46
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/39363750?v=4"
@@ -484,8 +485,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 359,
-          "forks": 75
+          "totalStars": 374,
+          "forks": 78
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/294822847?v=4"
@@ -504,8 +505,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 289,
-          "forks": 64
+          "totalStars": 308,
+          "forks": 65
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/53092331?v=4"
@@ -516,19 +517,19 @@
       },
       {
         "rank": 5,
-        "name": "joeseesun/qiaomu-cut-skill",
-        "description": "乔木智能视频导演 Skill：素材治理、双语字幕、品牌包装与可复现渲染 | Agent-native video director with governed sourcing and verifiable rendering",
+        "name": "melloworchid8rr6g/TG-Polymarket-bot",
+        "description": "Telegram bot that catches Polymarket whale trades in real time and lets you copy them in one tap — plus a free public alerts channel.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 254,
-          "forks": 33
+          "totalStars": 294,
+          "forks": 183
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/3236682?v=4"
+          "https://avatars.githubusercontent.com/u/308083624?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -536,6 +537,26 @@
       },
       {
         "rank": 6,
+        "name": "zeus-panel/ZEUS-PANEL",
+        "description": "A high-performance, serverless VLESS network proxy management panel deployed natively on Cloudflare Workers & D1 SQL Database.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 238,
+          "forks": 18
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/307096617?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 7,
         "name": "nicechunk/game",
         "description": "NiceChunk game client",
         "language": {
@@ -544,31 +565,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 214,
+          "totalStars": 215,
           "forks": 1
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/293527782?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "livetennisapi/livetennisapi-mcp",
-        "description": "MCP server for the Live Tennis API — give Claude, Cursor and other LLM agents real-time tennis scores, odds and model win-probability",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 205,
-          "forks": 83
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/306618864?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -584,8 +585,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 197,
-          "forks": 24
+          "totalStars": 205,
+          "forks": 26
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/108492647?v=4"
@@ -604,8 +605,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 163,
-          "forks": 25
+          "totalStars": 182,
+          "forks": 28
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/1421181?v=4"
@@ -616,19 +617,19 @@
       },
       {
         "rank": 10,
-        "name": "timethrough/xiaohei-Chrome",
-        "description": "谷歌多开",
+        "name": "danilo-znamerovszkij/draw-your-font",
+        "description": "Turn a photo of your handwriting into a real font (TTF/WOFF/WOFF2) - free, open source, no uploads. Node CLI + Claude Code skill.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 131,
-          "forks": 32
+          "totalStars": 140,
+          "forks": 17
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/108432148?v=4"
+          "https://avatars.githubusercontent.com/u/31888918?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -646,8 +647,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 147,
-          "forks": 16
+          "totalStars": 166,
+          "forks": 19
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/122239080?v=4"
@@ -678,26 +679,6 @@
       },
       {
         "rank": 3,
-        "name": "eandis/SDOJ-Recomp",
-        "description": "暂无描述",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 68,
-          "forks": 3
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/54418889?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 4,
         "name": "itshamzabendelladj/AIGuardSIEM",
         "description": "A production-grade SIEM/XDR platform for 1M+ EPS ingestion with sub-15ms detection latency. Built with C++, Go, and Python. Features DPDK capture, ONNX ML inference, Sigma rules, eBPF monitoring, and SOAR.",
         "language": {
@@ -706,8 +687,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 65,
-          "forks": 6
+          "totalStars": 70,
+          "forks": 7
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/208038094?v=4"
@@ -717,7 +698,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 4,
         "name": "lspr98/conformer-stt-s3",
         "description": "Automatic speech recognition (ASR) running on the ESP32-S3 based on a 13.1M parameters convolution transformer.",
         "language": {
@@ -737,27 +718,7 @@
         ]
       },
       {
-        "rank": 6,
-        "name": "chshersh/cppnew",
-        "description": "C++ project to create C++ projects",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 40,
-          "forks": 2
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/4276606?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 7,
+        "rank": 5,
         "name": "Zerie55699/transitink-os",
         "description": "Open-source ESP32-S3 e-paper transit dashboard firmware and browser installer.",
         "language": {
@@ -766,11 +727,51 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 39,
-          "forks": 2
+          "totalStars": 50,
+          "forks": 3
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/263606082?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "rmrf404/green-nx",
+        "description": "Xbox Cloud Gaming (xCloud) client for the Nintendo Switch — standalone homebrew with native WebRTC streaming, hardware H.264 decoding and zero-copy GPU rendering",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 44,
+          "forks": 3
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/270658185?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "chshersh/cppnew",
+        "description": "C++ project to create C++ projects",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 41,
+          "forks": 2
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/4276606?v=4"
         ],
         "tags": [
           "#C++"
@@ -786,7 +787,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 36,
+          "totalStars": 37,
           "forks": 0
         },
         "contributors": [
@@ -798,6 +799,26 @@
       },
       {
         "rank": 9,
+        "name": "sailay1996/HiveOracle",
+        "description": "Raw NTFS volume oracle: locked-file read and offline SAM hashes without LSASS",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 34,
+          "forks": 3
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/16739401?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 10,
         "name": "manhpham90vn/Deskhub",
         "description": "Stream + điều khiển ứng dụng từ xa. ",
         "language": {
@@ -806,31 +827,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 33,
+          "totalStars": 34,
           "forks": 7
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/40340023?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "rmrf404/green-nx",
-        "description": "Xbox Cloud Gaming (xCloud) client for the Nintendo Switch — standalone homebrew with native WebRTC streaming, hardware H.264 decoding and zero-copy GPU rendering",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 29,
-          "forks": 2
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/270658185?v=4"
         ],
         "tags": [
           "#C++"
