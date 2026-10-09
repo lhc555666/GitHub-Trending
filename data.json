@@ -1,33 +1,34 @@
 {
-  "lastUpdate": "2026/10/08 03:42:50",
+  "lastUpdate": "2026/10/09 03:48:17",
   "charts": {
     "languageDistribution": {
       "Lean": 1,
-      "JavaScript": 3,
-      "C": 1,
-      "TypeScript": 2,
-      "Go": 1,
+      "JavaScript": 1,
+      "TypeScript": 1,
+      "Rust": 3,
       "Python": 1,
-      "Rust": 1
+      "Swift": 1,
+      "C++": 1,
+      "Go": 1
     },
     "starGrowth": {
       "labels": [
-        "10-02",
         "10-03",
         "10-04",
         "10-05",
         "10-06",
         "10-07",
-        "10-08"
+        "10-08",
+        "10-09"
       ],
       "data": [
-        1944,
         2045,
         2037,
         1726,
         1571,
         1365,
-        2149
+        2149,
+        2364
       ]
     }
   },
@@ -43,8 +44,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 10044,
-          "forks": 1000
+          "totalStars": 12286,
+          "forks": 1287
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/14957082?v=4"
@@ -55,26 +56,6 @@
       },
       {
         "rank": 2,
-        "name": "QingYunA/answer-me-with-html",
-        "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 2120,
-          "forks": 143
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/41177312?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "alchaincyf/huashu-art-motion",
         "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
         "language": {
@@ -83,8 +64,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1812,
-          "forks": 206
+          "totalStars": 2539,
+          "forks": 267
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/127714341?v=4"
@@ -94,27 +75,7 @@
         ]
       },
       {
-        "rank": 4,
-        "name": "facebookincubator/muse-gadget-sdk",
-        "description": "Open source SDK to build Muse gadgets",
-        "language": {
-          "name": "C",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1675,
-          "forks": 337
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/19538647?v=4"
-        ],
-        "tags": [
-          "#C"
-        ]
-      },
-      {
-        "rank": 5,
+        "rank": 3,
         "name": "kargulstudio/sales-crm",
         "description": "暂无描述",
         "language": {
@@ -123,8 +84,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1637,
-          "forks": 357
+          "totalStars": 1659,
+          "forks": 360
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/245261909?v=4"
@@ -134,47 +95,27 @@
         ]
       },
       {
-        "rank": 6,
-        "name": "mizorewww/x_gift_bot",
-        "description": "X Premium gift CLI and redemption site",
+        "rank": 4,
+        "name": "nullmoth/nvidia-macos-driver",
+        "description": "Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.",
         "language": {
-          "name": "Go",
+          "name": "Rust",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 968,
-          "forks": 327
+          "totalStars": 1235,
+          "forks": 117
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/252857002?v=4"
+          "https://avatars.githubusercontent.com/u/333880792?v=4"
         ],
         "tags": [
-          "#Go"
+          "#Rust"
         ]
       },
       {
-        "rank": 7,
-        "name": "sganggs/Stronghold-Protocol",
-        "description": "明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 929,
-          "forks": 205
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/64717086?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 8,
+        "rank": 5,
         "name": "Jakeschincariol/replica-skill",
         "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
         "language": {
@@ -183,8 +124,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 897,
-          "forks": 105
+          "totalStars": 1124,
+          "forks": 142
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/196724947?v=4"
@@ -194,40 +135,100 @@
         ]
       },
       {
-        "rank": 9,
-        "name": "rauchg/gdp-ts",
-        "description": "暂无描述",
+        "rank": 6,
+        "name": "alejandrobujan/tendedero",
+        "description": "Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen.",
         "language": {
-          "name": "TypeScript",
+          "name": "Swift",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 741,
-          "forks": 19
+          "totalStars": 1052,
+          "forks": 90
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/13041?v=4"
+          "https://avatars.githubusercontent.com/u/62165585?v=4"
         ],
         "tags": [
-          "#TypeScript"
+          "#Swift"
         ]
       },
       {
-        "rank": 10,
-        "name": "elstongun/leviathan",
-        "description": "**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
+        "rank": 7,
+        "name": "LoreanXavier/pt-pc",
+        "description": "Native PC port of P.T. (runs from your own PS4 game files)",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1027,
+          "forks": 64
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/41537900?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "mhtsec/ARTEX",
+        "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+        "language": {
+          "name": "Go",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 997,
+          "forks": 2572
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/83952182?v=4"
+        ],
+        "tags": [
+          "#Go"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "storytold/wordcraft",
+        "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": {
           "name": "Rust",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 672,
-          "forks": 35
+          "totalStars": 888,
+          "forks": 325
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/75282682?v=4"
+          "https://avatars.githubusercontent.com/u/76897702?v=4"
+        ],
+        "tags": [
+          "#Rust"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "storytold/cadcraft",
+        "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
+        "language": {
+          "name": "Rust",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 838,
+          "forks": 375
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/76897702?v=4"
         ],
         "tags": [
           "#Rust"
@@ -245,8 +246,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 897,
-          "forks": 105
+          "totalStars": 1124,
+          "forks": 142
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/196724947?v=4"
@@ -257,19 +258,19 @@
       },
       {
         "rank": 2,
-        "name": "zzzz7788990213-ops/EvoVLM",
-        "description": "Evolving Multimodal Inference Programs: LLM-guided evolutionary search for accurate and efficient vision-language inference.",
+        "name": "LosaLosSantos/aurelio-finance",
+        "description": "Self-hosted personal wealth analysis: portfolio & net-worth tracking with AI insights. FastAPI + React.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 507,
-          "forks": 5
+          "totalStars": 700,
+          "forks": 79
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/246614082?v=4"
+          "https://avatars.githubusercontent.com/u/154470154?v=4"
         ],
         "tags": [
           "#Python"
@@ -277,6 +278,26 @@
       },
       {
         "rank": 3,
+        "name": "zhongerxin/iPhone-use",
+        "description": "让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 616,
+          "forks": 55
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/8215057?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 4,
         "name": "szabadkai/c64-keyboard-font",
         "description": "Photo-based reconstruction of classic Commodore 64 keycap lettering, with desktop fonts, webfont, editable outlines, and a specimen.",
         "language": {
@@ -285,7 +306,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 492,
+          "totalStars": 562,
           "forks": 11
         },
         "contributors": [
@@ -296,7 +317,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 5,
         "name": "BQ-Wang0511/TalkLikeYou-Streaming-RealTime-Demo",
         "description": "Real-time browser demo for Talk Like You",
         "language": {
@@ -305,8 +326,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 456,
-          "forks": 2
+          "totalStars": 541,
+          "forks": 5
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/204159916?v=4"
@@ -316,40 +337,20 @@
         ]
       },
       {
-        "rank": 5,
-        "name": "Vincentwei1021/mg-styles-15",
-        "description": "15 motion design styles, each made by Claude Opus 5.5 writing code from one prompt: watch the films, copy the prompts, read the full source.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 421,
-          "forks": 73
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/18239147?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
         "rank": 6,
-        "name": "LosaLosSantos/aurelio-finance",
-        "description": "Self-hosted personal wealth analysis: portfolio & net-worth tracking with AI insights. FastAPI + React.",
+        "name": "mushigaite/short-video-maker",
+        "description": "A free open-source project designed to turn youtube-videos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content: no pre-clip credits or any watermarks. Designed for creators who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for free.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 244,
-          "forks": 27
+          "totalStars": 255,
+          "forks": 75
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/154470154?v=4"
+          "https://avatars.githubusercontent.com/u/310725007?v=4"
         ],
         "tags": [
           "#Python"
@@ -365,7 +366,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 224,
+          "totalStars": 250,
           "forks": 10
         },
         "contributors": [
@@ -377,6 +378,26 @@
       },
       {
         "rank": 8,
+        "name": "kandinskylab/kandinsky-6",
+        "description": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 232,
+          "forks": 14
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/242813463?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 9,
         "name": "empero-org/brewery-ai",
         "description": "An intuitive console agent to fine-tune AI models with little to no experience required! ",
         "language": {
@@ -396,40 +417,20 @@
         ]
       },
       {
-        "rank": 9,
-        "name": "BQ-Wang0511/TalkLikeYou",
-        "description": "Official implementation of Talk Like You",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 194,
-          "forks": 8
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/204159916?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
         "rank": 10,
-        "name": "kandinskylab/kandinsky-6",
-        "description": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+        "name": "Pluviobyte/dot2api",
+        "description": "Turn your OpenAI Dot into an OpenAI- and Claude-compatible API",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 191,
-          "forks": 11
+          "totalStars": 193,
+          "forks": 19
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/242813463?v=4"
+          "https://avatars.githubusercontent.com/u/94058511?v=4"
         ],
         "tags": [
           "#Python"
@@ -439,26 +440,6 @@
     "JavaScript": [
       {
         "rank": 1,
-        "name": "QingYunA/answer-me-with-html",
-        "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 2120,
-          "forks": 143
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/41177312?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 2,
         "name": "alchaincyf/huashu-art-motion",
         "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
         "language": {
@@ -467,8 +448,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1812,
-          "forks": 206
+          "totalStars": 2539,
+          "forks": 267
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/127714341?v=4"
@@ -478,20 +459,40 @@
         ]
       },
       {
-        "rank": 3,
-        "name": "sganggs/Stronghold-Protocol",
-        "description": "明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）",
+        "rank": 2,
+        "name": "shadany7824/playgta5",
+        "description": "A source code for playgta5.com.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 929,
-          "forks": 205
+          "totalStars": 774,
+          "forks": 419
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/64717086?v=4"
+          "https://avatars.githubusercontent.com/u/183978316?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "GTKottman/mortiflix-oss",
+        "description": "A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Bring your own Claude Code or API key.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 470,
+          "forks": 14
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/259927371?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -507,7 +508,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 429,
+          "totalStars": 446,
           "forks": 30
         },
         "contributors": [
@@ -519,26 +520,6 @@
       },
       {
         "rank": 5,
-        "name": "GTKottman/mortiflix-oss",
-        "description": "A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Bring your own Claude Code or API key.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 395,
-          "forks": 12
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/259927371?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 6,
         "name": "gr8rstudio/gr8r-studio",
         "description": "Gr8r Studio: a calm, structured project management workspace. Vite + plain ES modules.",
         "language": {
@@ -547,11 +528,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 202,
-          "forks": 42
+          "totalStars": 339,
+          "forks": 79
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/252478527?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "Nonco-Organization/multicoin-address-validator",
+        "description": "Useful library for validation of Bitcoin, Litecoin, Ethereum and other cryptocoin addresses",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 231,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/339759213?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -567,8 +568,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 165,
-          "forks": 22
+          "totalStars": 227,
+          "forks": 33
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/129889057?v=4"
@@ -587,7 +588,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 164,
+          "totalStars": 184,
           "forks": 26
         },
         "contributors": [
@@ -627,7 +628,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 119,
+          "totalStars": 131,
           "forks": 4
         },
         "contributors": [
@@ -649,8 +650,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 565,
-          "forks": 39
+          "totalStars": 1027,
+          "forks": 64
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/41537900?v=4"
@@ -661,26 +662,6 @@
       },
       {
         "rank": 2,
-        "name": "Dingo-Shenanigans/ReSkate",
-        "description": "暂无描述",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 519,
-          "forks": 80
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/327657586?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "Adolanium/hermes-gadget-sdk",
         "description": "Build voice and text devices for your Hermes Agent, with ESP32 firmware, a Linux client, and a desktop simulator.",
         "language": {
@@ -689,11 +670,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 324,
+          "totalStars": 336,
           "forks": 50
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/94890352?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "droogie/bbhost",
+        "description": "Definitive Bloodborne PC Experience",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 300,
+          "forks": 18
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/1254882?v=4"
         ],
         "tags": [
           "#C++"
@@ -709,8 +710,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 194,
-          "forks": 11
+          "totalStars": 209,
+          "forks": 13
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/196841780?v=4"
@@ -721,46 +722,6 @@
       },
       {
         "rank": 5,
-        "name": "BrinooTk/PS5X360",
-        "description": "Experimental Xbox 360 emulator for PlayStation 5, built on Xenia Canary with native audio, DualSense input and RADV Vulkan graphics.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 174,
-          "forks": 20
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/126296596?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "luki-1/ArkWeb",
-        "description": "Spider-Man Remastered's web swinging in Batman: Arkham Knight's Gotham (experimental mod)",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 157,
-          "forks": 15
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/37488014?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 7,
         "name": "1314521gjy/ninfer-fusion-kvmem",
         "description": "暂无描述",
         "language": {
@@ -769,8 +730,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 147,
-          "forks": 14
+          "totalStars": 193,
+          "forks": 18
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/299195089?v=4"
@@ -780,20 +741,60 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "blackbearreloaded/ProsperoStore",
-        "description": "Native PS5 app store for the homebrew catalog at homebrew.page (title PPSA99000)",
+        "rank": 6,
+        "name": "snuri00/psp-web-recomp",
+        "description": "PSP games in the browser without an emulator: static recompilation to WebAssembly, an HLE kernel and a WebGL2 renderer",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 140,
+          "totalStars": 188,
           "forks": 5
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/316784285?v=4"
+          "https://avatars.githubusercontent.com/u/142660054?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "BrinooTk/PS5X360",
+        "description": "Experimental Xbox 360 emulator for PlayStation 5, built on Xenia Canary with native audio, DualSense input and RADV Vulkan graphics.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 185,
+          "forks": 25
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/126296596?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "mw00/project-maya",
+        "description": "Project Maya - GLM-5.3-Flash (321B MoE) on your own NVIDIA GPU(s): engine, server, dashboard, quant tools. Built on Strata.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 143,
+          "forks": 21
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/14845178?v=4"
         ],
         "tags": [
           "#C++"
@@ -809,7 +810,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 127,
+          "totalStars": 132,
           "forks": 12
         },
         "contributors": [
@@ -821,19 +822,19 @@
       },
       {
         "rank": 10,
-        "name": "droogie/bbhost",
-        "description": "Definitive Bloodborne PC Experience",
+        "name": "elripalda/Porpoise-Dolphin-Emulator-for-PS5",
+        "description": "A native GameCube and Wii emulator for jailbroken PS5, powered by Dolphin. Cover-flow library, box art, memory cards, original music.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 125,
-          "forks": 7
+          "totalStars": 111,
+          "forks": 16
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/1254882?v=4"
+          "https://avatars.githubusercontent.com/u/224081549?v=4"
         ],
         "tags": [
           "#C++"
