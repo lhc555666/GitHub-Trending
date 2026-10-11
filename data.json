@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026/10/10 03:31:33",
+  "lastUpdate": "2026/10/11 03:04:23",
   "charts": {
     "languageDistribution": {
       "Lean": 1,
+      "Rust": 5,
       "JavaScript": 1,
       "Go": 1,
-      "Rust": 4,
-      "Python": 2,
-      "TypeScript": 1
+      "Python": 2
     },
     "starGrowth": {
       "labels": [
-        "10-04",
         "10-05",
         "10-06",
         "10-07",
         "10-08",
         "10-09",
-        "10-10"
+        "10-10",
+        "10-11"
       ],
       "data": [
-        2037,
         1726,
         1571,
         1365,
         2149,
         2364,
-        3024
+        3024,
+        3558
       ]
     }
   },
@@ -42,8 +41,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 13169,
-          "forks": 1433
+          "totalStars": 13714,
+          "forks": 1511
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/14957082?v=4"
@@ -54,6 +53,26 @@
       },
       {
         "rank": 2,
+        "name": "storytold/wordcraft",
+        "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+        "language": {
+          "name": "Rust",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 3253,
+          "forks": 960
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/76897702?v=4"
+        ],
+        "tags": [
+          "#Rust"
+        ]
+      },
+      {
+        "rank": 3,
         "name": "alchaincyf/huashu-art-motion",
         "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
         "language": {
@@ -62,8 +81,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2937,
-          "forks": 314
+          "totalStars": 3232,
+          "forks": 356
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/127714341?v=4"
@@ -73,7 +92,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "name": "mhtsec/ARTEX",
         "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
         "language": {
@@ -82,34 +101,14 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2344,
-          "forks": 4680
+          "totalStars": 2939,
+          "forks": 5356
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/83952182?v=4"
         ],
         "tags": [
           "#Go"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "storytold/wordcraft",
-        "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
-        "language": {
-          "name": "Rust",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1995,
-          "forks": 596
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/76897702?v=4"
-        ],
-        "tags": [
-          "#Rust"
         ]
       },
       {
@@ -122,8 +121,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1956,
-          "forks": 186
+          "totalStars": 2593,
+          "forks": 263
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/8215057?v=4"
@@ -142,8 +141,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1947,
-          "forks": 173
+          "totalStars": 2321,
+          "forks": 213
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/333880792?v=4"
@@ -154,26 +153,6 @@
       },
       {
         "rank": 7,
-        "name": "kargulstudio/sales-crm",
-        "description": "暂无描述",
-        "language": {
-          "name": "TypeScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1677,
-          "forks": 364
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/245261909?v=4"
-        ],
-        "tags": [
-          "#TypeScript"
-        ]
-      },
-      {
-        "rank": 8,
         "name": "LosaLosSantos/aurelio-finance",
         "description": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
         "language": {
@@ -182,8 +161,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1556,
-          "forks": 126
+          "totalStars": 2094,
+          "forks": 215
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/154470154?v=4"
@@ -193,7 +172,7 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 8,
         "name": "storytold/cadcraft",
         "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
         "language": {
@@ -202,8 +181,28 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1415,
-          "forks": 594
+          "totalStars": 1908,
+          "forks": 811
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/76897702?v=4"
+        ],
+        "tags": [
+          "#Rust"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "storytold/gridcraft",
+        "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
+        "language": {
+          "name": "Rust",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1884,
+          "forks": 719
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/76897702?v=4"
@@ -214,19 +213,19 @@
       },
       {
         "rank": 10,
-        "name": "storytold/gridcraft",
-        "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
+        "name": "noahdunnagan/fsearch",
+        "description": "Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.",
         "language": {
           "name": "Rust",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1248,
-          "forks": 494
+          "totalStars": 1645,
+          "forks": 106
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/76897702?v=4"
+          "https://avatars.githubusercontent.com/u/119903110?v=4"
         ],
         "tags": [
           "#Rust"
@@ -244,8 +243,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1956,
-          "forks": 186
+          "totalStars": 2593,
+          "forks": 263
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/8215057?v=4"
@@ -264,8 +263,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1556,
-          "forks": 126
+          "totalStars": 2094,
+          "forks": 215
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/154470154?v=4"
@@ -276,19 +275,19 @@
       },
       {
         "rank": 3,
-        "name": "BQ-Wang0511/TalkLikeYou-Streaming-RealTime-Demo",
-        "description": "Real-time browser demo for Talk Like You",
+        "name": "n1tr00-10/tiktok-web-signature",
+        "description": "tiktok web signature reverse engineer generates valid tiktok signatures for API requets",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 610,
-          "forks": 10
+          "totalStars": 706,
+          "forks": 0
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/204159916?v=4"
+          "https://avatars.githubusercontent.com/u/240963972?v=4"
         ],
         "tags": [
           "#Python"
@@ -296,6 +295,26 @@
       },
       {
         "rank": 4,
+        "name": "anthropics/oss-scanner",
+        "description": "暂无描述",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 667,
+          "forks": 342
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/76263028?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 5,
         "name": "szabadkai/c64-keyboard-font",
         "description": "Photo-based reconstruction of classic Commodore 64 keycap lettering, with desktop fonts, webfont, editable outlines, and a specimen.",
         "language": {
@@ -304,7 +323,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 585,
+          "totalStars": 593,
           "forks": 11
         },
         "contributors": [
@@ -315,40 +334,20 @@
         ]
       },
       {
-        "rank": 5,
-        "name": "anthropics/oss-scanner",
-        "description": "暂无描述",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 401,
-          "forks": 260
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/76263028?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
         "rank": 6,
-        "name": "mushigaite/short-video-maker",
-        "description": "A free open-source project designed to turn youtube-videos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content: no pre-clip credits or any watermarks. Designed for creators who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for free.",
+        "name": "sirioberati/Genjustsu-Open-Source-Workflow",
+        "description": "Open-source AI video replacement workflow by TEIN. Combine depth maps, SAM segmentation, face meshes, and audio processing to replace characters and objects with Seedance. Includes a local web UI to prepare inputs, review masks, preview generations, and export with original audio.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 288,
-          "forks": 75
+          "totalStars": 491,
+          "forks": 143
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/310725007?v=4"
+          "https://avatars.githubusercontent.com/u/128729078?v=4"
         ],
         "tags": [
           "#Python"
@@ -356,26 +355,6 @@
       },
       {
         "rank": 7,
-        "name": "chengyi-ai/cy-carousel-skill",
-        "description": "图文轮播 Skill（cy-carousel）：给一个选题，查证、找素材、排版、检查、打包，交付封面＋10 页",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 266,
-          "forks": 36
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/252342592?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 8,
         "name": "nullmoth/1401",
         "description": "1401: macOS on the PC you already own. Free, never for sale.",
         "language": {
@@ -384,11 +363,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 255,
-          "forks": 20
+          "totalStars": 332,
+          "forks": 21
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/333880792?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "mushigaite/short-video-maker",
+        "description": "A free open-source project designed to turn youtube-videos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content: no pre-clip credits or any watermarks. Designed for creators who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for free.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 291,
+          "forks": 75
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/310725007?v=4"
         ],
         "tags": [
           "#Python"
@@ -404,8 +403,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 244,
-          "forks": 15
+          "totalStars": 251,
+          "forks": 16
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/242813463?v=4"
@@ -416,19 +415,19 @@
       },
       {
         "rank": 10,
-        "name": "BinceQu/RoboHarness",
-        "description": "A robotic harness that gives LLM agents a visual-geometric control panel so that they can directly understand and invoke embodied tasks.",
+        "name": "Jakeschincariol/founder-skill",
+        "description": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 223,
-          "forks": 18
+          "totalStars": 246,
+          "forks": 22
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/129478693?v=4"
+          "https://avatars.githubusercontent.com/u/196724947?v=4"
         ],
         "tags": [
           "#Python"
@@ -446,8 +445,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2937,
-          "forks": 314
+          "totalStars": 3232,
+          "forks": 356
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/127714341?v=4"
@@ -466,8 +465,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1027,
-          "forks": 530
+          "totalStars": 1217,
+          "forks": 629
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/183978316?v=4"
@@ -486,8 +485,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 498,
-          "forks": 16
+          "totalStars": 546,
+          "forks": 19
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/259927371?v=4"
@@ -506,8 +505,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 356,
-          "forks": 19
+          "totalStars": 545,
+          "forks": 35
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/176013?v=4"
@@ -518,6 +517,46 @@
       },
       {
         "rank": 5,
+        "name": "marclou/mailcheap",
+        "description": "Self-hosted newsletters on Amazon SES. About $0.10 per 1,000 emails.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 511,
+          "forks": 124
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/12645328?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "tcchen2026/VibeOffice",
+        "description": "A free office suite that runs in your browser, in the style of Office 2003. Nothing to install, no account, no server: documents are opened, edited and saved on your own computer.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 424,
+          "forks": 65
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/264924385?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 7,
         "name": "gr8rstudio/gr8r-studio",
         "description": "Gr8r Studio: a calm, structured project management workspace. Vite + plain ES modules.",
         "language": {
@@ -526,8 +565,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 354,
-          "forks": 81
+          "totalStars": 384,
+          "forks": 86
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/252478527?v=4"
@@ -537,27 +576,47 @@
         ]
       },
       {
-        "rank": 6,
-        "name": "cth9191/animate",
-        "description": "Procedural animation in any style for Claude Code: short single-file canvas videos with story, look and storyboard check-ins. 7 built-in styles or one matched from your references, your own music (beat-mapped), real product screenshots, every format from one piece.",
+        "rank": 8,
+        "name": "wheresryan22/anatomy",
+        "description": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 296,
-          "forks": 50
+          "totalStars": 324,
+          "forks": 44
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/129889057?v=4"
+          "https://avatars.githubusercontent.com/u/96392276?v=4"
         ],
         "tags": [
           "#JavaScript"
         ]
       },
       {
-        "rank": 7,
+        "rank": 9,
+        "name": "FeiZhuLulu/DeepSeek-Bot",
+        "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 300,
+          "forks": 22
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/279467036?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 10,
         "name": "Nonco-Organization/multicoin-address-validator",
         "description": "Useful library for validation of Bitcoin, Litecoin, Ethereum and other cryptocoin addresses",
         "language": {
@@ -575,66 +634,6 @@
         "tags": [
           "#JavaScript"
         ]
-      },
-      {
-        "rank": 8,
-        "name": "Hiteater-wzm/eeo",
-        "description": "An open community where brands define themselves for AI",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 203,
-          "forks": 26
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/338094245?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "rumoii/streamfirefly",
-        "description": "网页媒体嗅探与下载工具，包含浏览器扩展和 Windows 本地助手。Web media detection and download tool with a browser extension and a Windows native helper.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 159,
-          "forks": 9
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/123233666?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "yoge7388095s/eth-trading-bot",
-        "description": "Automated trading bot for Ethereum with gas preview, router support and terminal menu.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 156,
-          "forks": 121
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/312658268?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
       }
     ],
     "C++": [
@@ -648,8 +647,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1219,
-          "forks": 81
+          "totalStars": 1339,
+          "forks": 88
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/41537900?v=4"
@@ -668,8 +667,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 380,
-          "forks": 23
+          "totalStars": 444,
+          "forks": 34
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/1254882?v=4"
@@ -680,26 +679,6 @@
       },
       {
         "rank": 3,
-        "name": "1314521gjy/ninfer-fusion-kvmem",
-        "description": "暂无描述",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 229,
-          "forks": 19
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/299195089?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 4,
         "name": "mw00/project-maya",
         "description": "Project Maya - GLM-5.3-Flash (321B MoE) on your own NVIDIA GPU(s): engine, server, dashboard, quant tools. Built on Strata.",
         "language": {
@@ -708,8 +687,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 221,
-          "forks": 35
+          "totalStars": 306,
+          "forks": 45
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/14845178?v=4"
@@ -719,7 +698,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 4,
         "name": "snuri00/psp-web-recomp",
         "description": "PSP games in the browser without an emulator: static recompilation to WebAssembly, an HLE kernel and a WebGL2 renderer",
         "language": {
@@ -728,8 +707,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 204,
-          "forks": 9
+          "totalStars": 213,
+          "forks": 10
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/142660054?v=4"
@@ -739,7 +718,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 5,
         "name": "SpeedBreakerProject/speedbreaker",
         "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
         "language": {
@@ -748,8 +727,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 143,
-          "forks": 4
+          "totalStars": 174,
+          "forks": 6
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/338247991?v=4"
@@ -759,20 +738,40 @@
         ]
       },
       {
-        "rank": 7,
-        "name": "MisaDev4/bo1-zombies-decompiled",
-        "description": "bo1 zombies decompiled",
+        "rank": 6,
+        "name": "LingCore/WinShun",
+        "description": "Windows 上的快速搜索启动器：双击 Ctrl 呼出，按文件名、拼音和文本内容搜索。Qt 6 + C++20。",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 131,
-          "forks": 51
+          "totalStars": 137,
+          "forks": 15
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/187329196?v=4"
+          "https://avatars.githubusercontent.com/u/53141949?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "Aeka0/Overlord",
+        "description": "VR mod for H2(Call of Duty: Modern Warfare 2 Campaign Remastered)",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 123,
+          "forks": 7
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/124626301?v=4"
         ],
         "tags": [
           "#C++"
@@ -780,26 +779,6 @@
       },
       {
         "rank": 8,
-        "name": "elripalda/Porpoise-Dolphin-Emulator-for-PS5",
-        "description": "A native GameCube and Wii emulator for jailbroken PS5, powered by Dolphin. Cover-flow library, box art, memory cards, original music.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 121,
-          "forks": 15
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/224081549?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 9,
         "name": "TekRantGaming/king-kong-recompiled",
         "description": "Native PC port of Peter Jackson's King Kong (Xbox 360) via static recompilation",
         "language": {
@@ -808,7 +787,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 109,
+          "totalStars": 119,
           "forks": 4
         },
         "contributors": [
@@ -819,9 +798,9 @@
         ]
       },
       {
-        "rank": 10,
-        "name": "Aeka0/Overlord",
-        "description": "VR mod for H2(Call of Duty: Modern Warfare 2 Campaign Remastered)",
+        "rank": 9,
+        "name": "DingoOz/TraceMaker",
+        "description": "暂无描述",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
@@ -829,10 +808,30 @@
         "stats": {
           "todayStars": "-",
           "totalStars": 109,
-          "forks": 5
+          "forks": 12
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/124626301?v=4"
+          "https://avatars.githubusercontent.com/u/1388693?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "kenkorasu/seed-phrase-generator",
+        "description": "WalletGen - Seed Phrase generator / checker / finder / bruteforce for Bitcoin (BTC) and ETH (Ethereum) wallets. Find or recovery your wallet via brute force and brain wallet generation",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 108,
+          "forks": 8
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/314910312?v=4"
         ],
         "tags": [
           "#C++"
