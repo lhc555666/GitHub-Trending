@@ -1,33 +1,32 @@
 {
-  "lastUpdate": "2026/10/20 02:44:57",
+  "lastUpdate": "2026/10/21 02:38:31",
   "charts": {
     "languageDistribution": {
-      "Java": 1,
-      "Go": 1,
-      "C#": 1,
+      "Python": 4,
+      "Java": 2,
       "C": 1,
-      "TypeScript": 2,
+      "TypeScript": 1,
       "C++": 1,
-      "Python": 3
+      "Go": 1
     },
     "starGrowth": {
       "labels": [
-        "10-14",
         "10-15",
         "10-16",
         "10-17",
         "10-18",
         "10-19",
-        "10-20"
+        "10-20",
+        "10-21"
       ],
       "data": [
-        2785,
         1575,
         1747,
         1979,
         1827,
         1774,
-        2035
+        2035,
+        4031
       ]
     }
   },
@@ -35,6 +34,26 @@
     "All": [
       {
         "rank": 1,
+        "name": "deepseek-ai/DeepInfer",
+        "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 13440,
+          "forks": 1242
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/148330874?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 2,
         "name": "Gathin23/cleanyourtv",
         "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
         "language": {
@@ -43,8 +62,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 5796,
-          "forks": 700
+          "totalStars": 12454,
+          "forks": 1392
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/94786511?v=4"
@@ -54,47 +73,7 @@
         ]
       },
       {
-        "rank": 2,
-        "name": "feder-cr/git-ai",
-        "description": "Git designed for AI agents.",
-        "language": {
-          "name": "Go",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 2461,
-          "forks": 270
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/85809106?v=4"
-        ],
-        "tags": [
-          "#Go"
-        ]
-      },
-      {
         "rank": 3,
-        "name": "ahwootech/BRUTAL",
-        "description": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld's Waylith engine.",
-        "language": {
-          "name": "C#",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1998,
-          "forks": 111
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/189169933?v=4"
-        ],
-        "tags": [
-          "#C#"
-        ]
-      },
-      {
-        "rank": 4,
         "name": "ly05010419/MacNativeGames",
         "description": "暂无描述",
         "language": {
@@ -103,8 +82,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1849,
-          "forks": 295
+          "totalStars": 2910,
+          "forks": 428
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/1425386?v=4"
@@ -114,47 +93,7 @@
         ]
       },
       {
-        "rank": 5,
-        "name": "chenglou/handwired",
-        "description": "Turn your regular JavaScript code into a neural net.",
-        "language": {
-          "name": "TypeScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1816,
-          "forks": 151
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/1909539?v=4"
-        ],
-        "tags": [
-          "#TypeScript"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "Supermedo/uncharted_pc",
-        "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1595,
-          "forks": 82
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/28518750?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 7,
+        "rank": 4,
         "name": "Leonxlnx/earshot",
         "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
         "language": {
@@ -163,8 +102,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1571,
-          "forks": 94
+          "totalStars": 1965,
+          "forks": 113
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/219127460?v=4"
@@ -174,43 +113,103 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "Caho1/open-claude-ui",
-        "description": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
+        "rank": 5,
+        "name": "simbasjungles/free-my-tv",
+        "description": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
+        "language": {
+          "name": "Java",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1879,
+          "forks": 192
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/192837953?v=4"
+        ],
+        "tags": [
+          "#Java"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "chenglou/handwired",
+        "description": "Turn your regular JavaScript code into a neural net.",
         "language": {
           "name": "TypeScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1255,
-          "forks": 266
+          "totalStars": 1853,
+          "forks": 155
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/124897849?v=4"
+          "https://avatars.githubusercontent.com/u/1909539?v=4"
         ],
         "tags": [
           "#TypeScript"
         ]
       },
       {
-        "rank": 9,
+        "rank": 7,
+        "name": "Supermedo/uncharted_pc",
+        "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1730,
+          "forks": 92
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/28518750?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 8,
         "name": "xiaoyang111222/cn-math-taxonomy",
-        "description": "中小学数学知识图谱 + 前置诊断：课标对齐、人教版一–九年级、531 知识点、2271 题、自适应诊断",
+        "description": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中），课标对齐、人教版，1244 知识点、5123 题、自适应诊断",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1007,
-          "forks": 231
+          "totalStars": 1625,
+          "forks": 364
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/79557224?v=4"
         ],
         "tags": [
           "#Python"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "feder-cr/git-ai",
+        "description": "Git designed for AI agents.",
+        "language": {
+          "name": "Go",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1279,
+          "forks": 124
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/85809106?v=4"
+        ],
+        "tags": [
+          "#Go"
         ]
       },
       {
@@ -223,8 +222,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1003,
-          "forks": 153
+          "totalStars": 1183,
+          "forks": 178
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/167222040?v=4"
@@ -237,6 +236,26 @@
     "Python": [
       {
         "rank": 1,
+        "name": "deepseek-ai/DeepInfer",
+        "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 13440,
+          "forks": 1242
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/148330874?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 2,
         "name": "Leonxlnx/earshot",
         "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
         "language": {
@@ -245,8 +264,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1571,
-          "forks": 94
+          "totalStars": 1965,
+          "forks": 113
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/219127460?v=4"
@@ -256,17 +275,17 @@
         ]
       },
       {
-        "rank": 2,
+        "rank": 3,
         "name": "xiaoyang111222/cn-math-taxonomy",
-        "description": "中小学数学知识图谱 + 前置诊断：课标对齐、人教版一–九年级、531 知识点、2271 题、自适应诊断",
+        "description": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中），课标对齐、人教版，1244 知识点、5123 题、自适应诊断",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1007,
-          "forks": 231
+          "totalStars": 1625,
+          "forks": 364
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/79557224?v=4"
@@ -276,7 +295,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "name": "aicodeking/leanrea",
         "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
         "language": {
@@ -285,31 +304,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1003,
-          "forks": 153
+          "totalStars": 1183,
+          "forks": 178
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/167222040?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "Tencent-Hunyuan/Hy-Memory",
-        "description": "暂无描述",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 982,
-          "forks": 81
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/210980732?v=4"
         ],
         "tags": [
           "#Python"
@@ -325,8 +324,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 960,
-          "forks": 45
+          "totalStars": 1176,
+          "forks": 57
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/156300419?v=4"
@@ -337,6 +336,26 @@
       },
       {
         "rank": 6,
+        "name": "Tencent-Hunyuan/Hy-Memory",
+        "description": "暂无描述",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1080,
+          "forks": 92
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/210980732?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 7,
         "name": "LiCinCan/blender-ai-mcp-addon",
         "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.",
         "language": {
@@ -345,8 +364,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 917,
-          "forks": 382
+          "totalStars": 937,
+          "forks": 385
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/343139124?v=4"
@@ -356,17 +375,37 @@
         ]
       },
       {
-        "rank": 7,
-        "name": "mistralai/timestral",
-        "description": "暂无描述",
+        "rank": 8,
+        "name": "cranebeaker/coop-anything",
+        "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 579,
-          "forks": 40
+          "totalStars": 715,
+          "forks": 89
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/343430477?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "mistralai/timestral",
+        "description": "Repository for Timestral, the time-series foundation model by Mistral AI",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 673,
+          "forks": 49
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/132372032?v=4"
@@ -376,27 +415,7 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "dipa-studio/ios-sweet",
-        "description": "iOS 16 userland + XNU on Redmi Note 10 Pro (sweet, SM7150)",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 518,
-          "forks": 187
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/183933817?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 9,
+        "rank": 10,
         "name": "zcbacxc/mcd-party-planner",
         "description": "麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill",
         "language": {
@@ -405,31 +424,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 501,
-          "forks": 23
+          "totalStars": 645,
+          "forks": 33
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/67365069?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "StoopwenpueNq/jackie-fmri-sim",
-        "description": "jackie-fmri-sim",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 468,
-          "forks": 47
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/15234191?v=4"
         ],
         "tags": [
           "#Python"
@@ -447,8 +446,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 961,
-          "forks": 103
+          "totalStars": 1162,
+          "forks": 118
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/127714341?v=4"
@@ -467,8 +466,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 606,
-          "forks": 49
+          "totalStars": 1005,
+          "forks": 91
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/107297384?v=4"
@@ -479,19 +478,19 @@
       },
       {
         "rank": 3,
-        "name": "showheyohtaki/motion-prompt",
-        "description": "暂无描述",
+        "name": "typecraft-dev/oma-cast",
+        "description": "omarchy rebuild of raycast",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 488,
-          "forks": 53
+          "totalStars": 286,
+          "forks": 24
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/41701394?v=4"
+          "https://avatars.githubusercontent.com/u/158004072?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -499,26 +498,6 @@
       },
       {
         "rank": 4,
-        "name": "Leonxlnx/athenaion",
-        "description": "A massive ancient Greek world built entirely in code with three.js. Zero assets, made with Claude Code (Opus 5.5)",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 218,
-          "forks": 40
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/219127460?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 5,
         "name": "ip-please/ip-please.github.io",
         "description": "暂无描述",
         "language": {
@@ -527,8 +506,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 207,
-          "forks": 17
+          "totalStars": 276,
+          "forks": 25
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/344425403?v=4"
@@ -538,20 +517,40 @@
         ]
       },
       {
-        "rank": 6,
-        "name": "parthh01/sphinx",
-        "description": "You can outsource your thinking, but not your understanding. A hook for agent-assisted development that quizzes you on the changes before you push to prod.",
+        "rank": 5,
+        "name": "Leonxlnx/athenaion",
+        "description": "A massive ancient Greek world built entirely in code with three.js. Zero assets, made with Claude Code (Opus 5.5)",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 203,
+          "totalStars": 256,
+          "forks": 45
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/219127460?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "kailashsr38/ascii-magic-art",
+        "description": "634 animated ASCII art pieces for web pages, READMEs, wallpapers and terminals. Browse them in your terminal with npx ascii-magic-art and add one to your project in one prompt.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 189,
           "forks": 6
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/53018067?v=4"
+          "https://avatars.githubusercontent.com/u/272974351?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -559,19 +558,19 @@
       },
       {
         "rank": 7,
-        "name": "c1overzz/dsh-bili-scroll",
-        "description": "DSH 插件：每天替你刷一轮 B站，读字幕挑出值得的、写一份日报，值得的 @ 你",
+        "name": "ZiChuanLan/pi-purge",
+        "description": "pi extension: /purge swaps pi's built-in assistant persona for your own prompt file",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 198,
-          "forks": 29
+          "totalStars": 165,
+          "forks": 49
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/336343453?v=4"
+          "https://avatars.githubusercontent.com/u/139305401?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -579,26 +578,6 @@
       },
       {
         "rank": 8,
-        "name": "InukaAsith/TwinDesk",
-        "description": "Use two computers as one desk: Mac,     Windows and Linux on the same network. Share screens, mouse and keyboard, clipboard, files, sound, notifications, terminals and apps.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 188,
-          "forks": 17
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/70461117?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 9,
         "name": "byJoey/cfnew-panel",
         "description": "CFnew 独立面板：Vercel 一键部署、订阅生成与 Worker 配置管理",
         "language": {
@@ -607,8 +586,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 155,
-          "forks": 217
+          "totalStars": 163,
+          "forks": 229
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/36790372?v=4"
@@ -618,20 +597,40 @@
         ]
       },
       {
-        "rank": 10,
-        "name": "kergee/mcd-undercover",
-        "description": "把真实门店菜单变成 3～8 人的同机谁是卧底游戏（麦当劳 MCP 参赛项目）",
+        "rank": 9,
+        "name": "alextnetto/res",
+        "description": "Agent skill to reverse engineer a SaaS product through the browser into a knowledge base for rebuilding it: screens, rules, data model, design tokens and production barriers, without touching production data.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 110,
-          "forks": 5
+          "totalStars": 148,
+          "forks": 29
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/3995388?v=4"
+          "https://avatars.githubusercontent.com/u/56097505?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "nthnclrk/CleanFrame",
+        "description": "A personal home screen for Samsung The Frame. A starting point to fork and adapt.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 138,
+          "forks": 16
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/3250382?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -649,8 +648,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1595,
-          "forks": 82
+          "totalStars": 1730,
+          "forks": 92
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/28518750?v=4"
@@ -661,26 +660,6 @@
       },
       {
         "rank": 2,
-        "name": "MyLuxy/overdrive",
-        "description": "Overdrive, a PS5 homebrew game store with 1,800+ games.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 916,
-          "forks": 215
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/240354279?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "OverkillLabs3/driveclub-recomp",
         "description": "DriveClub (PS4, version 1.28) running natively on Windows",
         "language": {
@@ -689,8 +668,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 383,
-          "forks": 17
+          "totalStars": 457,
+          "forks": 21
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/338085035?v=4"
@@ -700,67 +679,7 @@
         ]
       },
       {
-        "rank": 4,
-        "name": "BelmanteGu/SuperMarioWonderRecomp",
-        "description": "Super Mario Bros. Wonder static recompilation (NVN on Vulkan/MoltenVK), macOS, Android and Windows. No game assets.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 326,
-          "forks": 36
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/151742873?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port",
-        "description": "Uncharted: The Nathan Drake Collection PC port (no game files)",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 280,
-          "forks": 9
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/41289168?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "Spark198rus/black-pc",
-        "description": "Unofficial native Windows port of BLACK (Xbox, NTSC-U). Runs your own copy of the game's code on the PC; no game data included.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 264,
-          "forks": 21
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/37002490?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 7,
+        "rank": 3,
         "name": "LTSharpe/OblivionRemasteredPerformanceFix",
         "description": "Engine-level performance fix for Oblivion Remastered (UE5): higher fps in towns, far fewer travel hitches, same image. Source, benchmark and docs.",
         "language": {
@@ -769,8 +688,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 247,
-          "forks": 12
+          "totalStars": 324,
+          "forks": 15
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/37770520?v=4"
@@ -780,27 +699,7 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "mateussmeneses/theorder1886-port",
-        "description": "暂无描述",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 230,
-          "forks": 12
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/99338335?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 9,
+        "rank": 4,
         "name": "ondrejeder/Driveclub-pc-wrapper",
         "description": "暂无描述",
         "language": {
@@ -809,7 +708,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 211,
+          "totalStars": 222,
           "forks": 7
         },
         "contributors": [
@@ -820,7 +719,7 @@
         ]
       },
       {
-        "rank": 10,
+        "rank": 5,
         "name": "lesca-191204/killzone-shadowfall-pc",
         "description": "暂无描述",
         "language": {
@@ -829,11 +728,111 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 190,
-          "forks": 4
+          "totalStars": 211,
+          "forks": 6
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/342688438?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "DustinYe/gesture-media-controller",
+        "description": "Infrared gesture-based BLE media controller for AtomS3R and PAJ7620U2; C++ firmware, trajectory replay, and documented v24 baseline.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 180,
+          "forks": 30
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/113092471?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "ZiZc3/LiveShell",
+        "description": "Animated backgrounds for PS5 home screen.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 165,
+          "forks": 11
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/60833584?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "nace-ai/kapitsa",
+        "description": "Blazing fast Apple Silicon optimized inference engine built for Qwen and Nemotron. OpenAI + Anthropic API compatible. Built by folks from nace.ai",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 159,
+          "forks": 25
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/167709996?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "OAleex/ShaolinMonksRecomp",
+        "description": "Native port of Mortal Kombat: Shaolin Monks (Xbox) through static recompilation.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 145,
+          "forks": 8
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/178439598?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "Animal2404/xeno-executor",
+        "description": "Published: 2026-10-19",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 110,
+          "forks": 15
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/123326832?v=4"
         ],
         "tags": [
           "#C++"
