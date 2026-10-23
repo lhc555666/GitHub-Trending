@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2026/10/22 02:36:29",
+  "lastUpdate": "2026/10/23 02:40:48",
   "charts": {
     "languageDistribution": {
       "Java": 2,
-      "Python": 4,
       "C": 1,
       "Kotlin": 1,
+      "Python": 3,
+      "Assembly": 1,
       "JavaScript": 1
     },
     "starGrowth": {
       "labels": [
-        "10-16",
         "10-17",
         "10-18",
         "10-19",
         "10-20",
         "10-21",
-        "10-22"
+        "10-22",
+        "10-23"
       ],
       "data": [
-        1747,
         1979,
         1827,
         1774,
         2035,
         4031,
-        5405
+        5405,
+        4564
       ]
     }
   },
@@ -41,8 +42,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 19692,
-          "forks": 2128
+          "totalStars": 24455,
+          "forks": 2687
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/94786511?v=4"
@@ -53,26 +54,6 @@
       },
       {
         "rank": 2,
-        "name": "deepseek-ai/DeepInfer",
-        "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 18169,
-          "forks": 1871
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/148330874?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "ly05010419/MacNativeGames",
         "description": "暂无描述",
         "language": {
@@ -81,8 +62,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 3938,
-          "forks": 554
+          "totalStars": 4518,
+          "forks": 642
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/1425386?v=4"
@@ -92,7 +73,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 3,
         "name": "simbasjungles/free-my-tv",
         "description": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
         "language": {
@@ -101,8 +82,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2777,
-          "forks": 343
+          "totalStars": 3484,
+          "forks": 492
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/192837953?v=4"
@@ -112,7 +93,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 4,
         "name": "pengchujin/aerial-tv",
         "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
         "language": {
@@ -121,8 +102,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2228,
-          "forks": 161
+          "totalStars": 3205,
+          "forks": 229
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/16513318?v=4"
@@ -132,199 +113,57 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 5,
         "name": "xiaoyang111222/cn-math-taxonomy",
-        "description": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中、高中），课标对齐、人教版，1503 知识点、6159 题、自适应诊断",
+        "description": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2004,
-          "forks": 456
+          "totalStars": 2220,
+          "forks": 513
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/79557224?v=4"
         ],
         "tags": [
           "#Python"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "tek-sys-hub/Rubix-lang",
+        "description": "The 100% Pure x86-64 Assembly Systems Language",
+        "language": {
+          "name": "Assembly",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1902,
+          "forks": 2
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/249392719?v=4"
+        ],
+        "tags": [
+          "#Assembly"
         ]
       },
       {
         "rank": 7,
-        "name": "JoasASantos/REA-Prompts",
-        "description": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
-        "language": {
-          "name": "Unknown",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1354,
-          "forks": 203
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/34966120?v=4"
-        ],
-        "tags": [
-          "#Trending"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "OpenMOSS/MOSS-Image",
-        "description": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1305,
-          "forks": 64
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/156300419?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "aicodeking/leanrea",
-        "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1299,
-          "forks": 194
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/167222040?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "alchaincyf/huashu-motion",
-        "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1288,
-          "forks": 126
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/127714341?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      }
-    ],
-    "Python": [
-      {
-        "rank": 1,
-        "name": "deepseek-ai/DeepInfer",
-        "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 18169,
-          "forks": 1871
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/148330874?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "xiaoyang111222/cn-math-taxonomy",
-        "description": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中、高中），课标对齐、人教版，1503 知识点、6159 题、自适应诊断",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 2004,
-          "forks": 456
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/79557224?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "OpenMOSS/MOSS-Image",
-        "description": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1305,
-          "forks": 64
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/156300419?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "aicodeking/leanrea",
-        "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1299,
-          "forks": 194
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/167222040?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 5,
         "name": "ikow/php2shell-poc",
-        "description": "CVE-2026-109618/109619 PHP session.upload_progress Exploit Research — POC & Analysis",
+        "description": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1047,
-          "forks": 379
+          "totalStars": 1544,
+          "forks": 549
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/5469411?v=4"
@@ -334,57 +173,139 @@
         ]
       },
       {
-        "rank": 6,
-        "name": "cranebeaker/coop-anything",
-        "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 797,
-          "forks": 100
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/343430477?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "eagle-hq/EAGLE-4",
-        "description": "Official Inference Code of EAGLE-4",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 740,
-          "forks": 20
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/283747567?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
         "rank": 8,
-        "name": "9bie/php2shell-bypass-aslr-exp",
-        "description": "暂无描述",
+        "name": "JoasASantos/REA-Prompts",
+        "description": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
+        "language": {
+          "name": "Unknown",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1490,
+          "forks": 224
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/34966120?v=4"
+        ],
+        "tags": [
+          "#Trending"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "alchaincyf/huashu-motion",
+        "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1451,
+          "forks": 140
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/127714341?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "aicodeking/leanrea",
+        "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 546,
+          "totalStars": 1371,
           "forks": 207
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/167222040?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      }
+    ],
+    "Python": [
+      {
+        "rank": 1,
+        "name": "xiaoyang111222/cn-math-taxonomy",
+        "description": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 2220,
+          "forks": 513
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/79557224?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "ikow/php2shell-poc",
+        "description": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1544,
+          "forks": 549
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/5469411?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "aicodeking/leanrea",
+        "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1371,
+          "forks": 207
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/167222040?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "9bie/php2shell-bypass-aslr-exp",
+        "description": "A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 967,
+          "forks": 342
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/12439321?v=4"
@@ -394,7 +315,27 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 5,
+        "name": "eagle-hq/EAGLE-4",
+        "description": "Official Inference Code of EAGLE-4",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 878,
+          "forks": 25
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/283747567?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 6,
         "name": "UniXNU/UniXNU",
         "description": "Run iOS and macOS on non-Apple ARM64 hardware through UEFI.",
         "language": {
@@ -403,8 +344,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 541,
-          "forks": 63
+          "totalStars": 781,
+          "forks": 124
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/344663807?v=4"
@@ -414,7 +355,7 @@
         ]
       },
       {
-        "rank": 10,
+        "rank": 7,
         "name": "NVIDIA/flare-local-inference",
         "description": "暂无描述",
         "language": {
@@ -423,11 +364,71 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 524,
-          "forks": 50
+          "totalStars": 610,
+          "forks": 61
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/1728152?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "Acelogic/Snapintosh",
+        "description": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 577,
+          "forks": 34
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/7362641?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "Jakeschincariol/day-trader-skill",
+        "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 543,
+          "forks": 102
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/196724947?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "interplains/zero-breach",
+        "description": "Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 534,
+          "forks": 39
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/39777629?v=4"
         ],
         "tags": [
           "#Python"
@@ -445,8 +446,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1288,
-          "forks": 126
+          "totalStars": 1451,
+          "forks": 140
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/127714341?v=4"
@@ -457,26 +458,6 @@
       },
       {
         "rank": 2,
-        "name": "humblemuzzu/dumbtv",
-        "description": "暂无描述",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1170,
-          "forks": 98
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/107297384?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "openai/php2shell-checker",
         "description": "暂无描述",
         "language": {
@@ -485,8 +466,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 443,
-          "forks": 31
+          "totalStars": 833,
+          "forks": 83
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/14957082?v=4"
@@ -496,87 +477,7 @@
         ]
       },
       {
-        "rank": 4,
-        "name": "typecraft-dev/oma-cast",
-        "description": "omarchy rebuild of raycast",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 356,
-          "forks": 30
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/158004072?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "WoYun520/dsh-purge",
-        "description": "DeepSeek Harness 破甲 (mirror of mmparko/dsh-purge) — 全量镜像：全部分支/100 个 tag/完整提交历史。原作者署名见 README。",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 307,
-          "forks": 575
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/329836734?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "ip-please/ip-please.github.io",
-        "description": "暂无描述",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 306,
-          "forks": 28
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/344425403?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "Leonxlnx/athenaion",
-        "description": "A massive ancient Greek world built entirely in code with three.js. Zero assets, made with Claude Code (Opus 5.5)",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 268,
-          "forks": 46
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/219127460?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 8,
+        "rank": 3,
         "name": "nthnclrk/CleanFrame",
         "description": "A personal home screen for Samsung The Frame. A starting point to fork and adapt.",
         "language": {
@@ -585,8 +486,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 255,
-          "forks": 29
+          "totalStars": 440,
+          "forks": 62
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/3250382?v=4"
@@ -596,27 +497,107 @@
         ]
       },
       {
-        "rank": 9,
-        "name": "kailashsr38/ascii-magic-art",
-        "description": "634 animated ASCII art pieces for web pages, READMEs, wallpapers and terminals. Browse them in your terminal with npx ascii-magic-art and add one to your project in one prompt.",
+        "rank": 4,
+        "name": "WoYun520/dsh-purge",
+        "description": "DeepSeek Harness 破甲 (mirror of mmparko/dsh-purge) — 全量镜像：全部分支/100 个 tag/完整提交历史。原作者署名见 README。",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 252,
-          "forks": 8
+          "totalStars": 406,
+          "forks": 692
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/272974351?v=4"
+          "https://avatars.githubusercontent.com/u/329836734?v=4"
         ],
         "tags": [
           "#JavaScript"
         ]
       },
       {
-        "rank": 10,
+        "rank": 5,
+        "name": "typecraft-dev/oma-cast",
+        "description": "omarchy rebuild of raycast",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 399,
+          "forks": 42
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/158004072?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "JeffKeeping/dsh-purge-plus",
+        "description": "dsh-purge 的非官方分支（fork）：适配 DeepSeek Harness 0.2.1-rc.2、破甲内核 v3、设置页 UI 重做 / unofficial fork of YuJunZhiXue/dsh-purge (MIT)",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 336,
+          "forks": 315
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/154228543?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "ip-please/ip-please.github.io",
+        "description": "暂无描述",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 327,
+          "forks": 29
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/344425403?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "blendi-remade/prompt2rig",
+        "description": "Type a motion, watch a rigged character perform it: fast video model + GVHMR + live Mixamo retargeting",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 310,
+          "forks": 44
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/173838289?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 9,
         "name": "ZiChuanLan/pi-purge",
         "description": "pi extension: /purge swaps pi's built-in assistant persona for your own prompt file",
         "language": {
@@ -625,11 +606,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 248,
-          "forks": 98
+          "totalStars": 284,
+          "forks": 124
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/139305401?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "Leonxlnx/athenaion",
+        "description": "A massive ancient Greek world built entirely in code with three.js. Zero assets, made with Claude Code (Opus 5.5)",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 275,
+          "forks": 50
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/219127460?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -639,26 +640,6 @@
     "C++": [
       {
         "rank": 1,
-        "name": "OverkillLabs3/driveclub-recomp",
-        "description": "DriveClub (PS4, version 1.28) running natively on Windows",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 501,
-          "forks": 24
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/338085035?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 2,
         "name": "LTSharpe/OblivionRemasteredPerformanceFix",
         "description": "Engine-level performance fix for Oblivion Remastered (UE5): higher fps in towns, far fewer travel hitches, same image. Source, benchmark and docs.",
         "language": {
@@ -667,7 +648,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 371,
+          "totalStars": 394,
           "forks": 15
         },
         "contributors": [
@@ -678,7 +659,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 2,
         "name": "Animal2404/xeno-executor",
         "description": "Published: 2026-10-19",
         "language": {
@@ -698,87 +679,7 @@
         ]
       },
       {
-        "rank": 4,
-        "name": "nace-ai/kapitsa",
-        "description": "Blazing fast Apple Silicon optimized inference engine built for Qwen and Nemotron. OpenAI + Anthropic API compatible. Built by folks from nace.ai",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 230,
-          "forks": 36
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/167709996?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "lesca-191204/killzone-shadowfall-pc",
-        "description": "暂无描述",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 228,
-          "forks": 7
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/342688438?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "ondrejeder/Driveclub-pc-wrapper",
-        "description": "暂无描述",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 225,
-          "forks": 7
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/59771841?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "Liu-zhongxian/zongzhu-bot",
-        "description": "宗主：Waveshare 1.75C 圆屏 ESP32 上的 Grok Bot 语音终端，会眨眼的眼睛表情、字幕与朗读，含固件和后端源码（2.5.2.9）",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 217,
-          "forks": 3
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/161414155?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 8,
+        "rank": 3,
         "name": "DustinYe/gesture-media-controller",
         "description": "Infrared gesture-based BLE media controller for AtomS3R and PAJ7620U2; C++ firmware, trajectory replay, and documented v24 baseline.",
         "language": {
@@ -787,7 +688,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 191,
+          "totalStars": 197,
           "forks": 36
         },
         "contributors": [
@@ -798,7 +699,7 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 4,
         "name": "OAleex/ShaolinMonksRecomp",
         "description": "Native port of Mortal Kombat: Shaolin Monks (Xbox) through static recompilation.",
         "language": {
@@ -807,7 +708,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 166,
+          "totalStars": 173,
           "forks": 9
         },
         "contributors": [
@@ -818,7 +719,7 @@
         ]
       },
       {
-        "rank": 10,
+        "rank": 5,
         "name": "RanggaCasper/Black-Android",
         "description": "An unofficial native Android port of the original Xbox version of Black, with touch controls, gyroscope aiming, controller support and extended graphics options.",
         "language": {
@@ -827,11 +728,111 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 128,
-          "forks": 13
+          "totalStars": 156,
+          "forks": 16
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/76829603?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "Castlesea/infamous-second-son-pc-port",
+        "description": "Native Windows port of inFAMOUS Second Son (PS4): custom runtime + Vulkan renderer derived from shadPS4. Bring your own game.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 114,
+          "forks": 11
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/206963839?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "Karimov-Akbar/sa-coop",
+        "description": "Cooperative mod for GTA: San Andreas",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 114,
+          "forks": 8
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/50082248?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "crazyriddler/FinestHourRemastered",
+        "description": "A native PC port of Call of Duty: Finest Hour (original Xbox) with a remastered renderer",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 108,
+          "forks": 1
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/185976514?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "josiahg2502-glitch/NewSuperPaperBros",
+        "description": "Native PC port of Super Paper Mario (Wii) by static recompilation: 4K, cinematic widescreen, 120 fps, HQ music, HD textures, gamepad and pointer support. Bring your own disc.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 104,
+          "forks": 1
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/339941312?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "tek-95/ViceBounce",
+        "description": "Make classic GTA Vice City bounce to your own music.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 93,
+          "forks": 5
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/10106297?v=4"
         ],
         "tags": [
           "#C++"
