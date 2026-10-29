@@ -1,30 +1,30 @@
 {
-  "lastUpdate": "2026/10/28 03:13:33",
+  "lastUpdate": "2026/10/29 03:38:48",
   "charts": {
     "languageDistribution": {
-      "C": 2,
-      "Python": 3,
+      "C": 1,
+      "Python": 4,
       "TypeScript": 2,
-      "HTML": 1
+      "HTML": 2
     },
     "starGrowth": {
       "labels": [
-        "10-22",
         "10-23",
         "10-24",
         "10-25",
         "10-26",
         "10-27",
-        "10-28"
+        "10-28",
+        "10-29"
       ],
       "data": [
-        5405,
         4564,
         2139,
         0,
         2073,
         1997,
-        2178
+        2178,
+        2713
       ]
     }
   },
@@ -40,8 +40,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 4304,
-          "forks": 557
+          "totalStars": 4432,
+          "forks": 568
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/62031663?v=4"
@@ -60,8 +60,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 3493,
-          "forks": 296
+          "totalStars": 4387,
+          "forks": 396
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/5119232?v=4"
@@ -72,26 +72,6 @@
       },
       {
         "rank": 3,
-        "name": "designfuchen/word-atlas",
-        "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
-        "language": {
-          "name": "TypeScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 2652,
-          "forks": 606
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/17679892?v=4"
-        ],
-        "tags": [
-          "#TypeScript"
-        ]
-      },
-      {
-        "rank": 4,
         "name": "unclebob/ub-mode",
         "description": "暂无描述",
         "language": {
@@ -100,8 +80,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2495,
-          "forks": 114
+          "totalStars": 3899,
+          "forks": 210
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/36901?v=4"
@@ -111,7 +91,47 @@
         ]
       },
       {
+        "rank": 4,
+        "name": "designfuchen/word-atlas",
+        "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
+        "language": {
+          "name": "TypeScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 3085,
+          "forks": 681
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/17679892?v=4"
+        ],
+        "tags": [
+          "#TypeScript"
+        ]
+      },
+      {
         "rank": 5,
+        "name": "interplains/Zero-Breach-Toolkit",
+        "description": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 2862,
+          "forks": 306
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/39777629?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 6,
         "name": "t3dotgg/tstack",
         "description": "The agent skills I use every day. Works with Claude Code and Codex.",
         "language": {
@@ -120,8 +140,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2028,
-          "forks": 121
+          "totalStars": 2281,
+          "forks": 139
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/6751787?v=4"
@@ -131,67 +151,27 @@
         ]
       },
       {
-        "rank": 6,
-        "name": "oosexgang/hackios-xnu-kernel",
-        "description": "暂无描述",
-        "language": {
-          "name": "C",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1826,
-          "forks": 318
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/343646710?v=4"
-        ],
-        "tags": [
-          "#C"
-        ]
-      },
-      {
         "rank": 7,
-        "name": "morganlinton/BeautifulRust",
-        "description": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
+        "name": "anhao/ai-pose-gallery-zh",
+        "description": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
         "language": {
-          "name": "Python",
+          "name": "HTML",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1320,
-          "forks": 58
+          "totalStars": 2067,
+          "forks": 542
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/41390763?v=4"
+          "https://avatars.githubusercontent.com/u/9844218?v=4"
         ],
         "tags": [
-          "#Python"
+          "#HTML"
         ]
       },
       {
         "rank": 8,
-        "name": "DLSS-5-Swaper-New/.github",
-        "description": "DLSS 5 Swapper is a specialized Windows utility for PC gaming enthusiasts interested in managing compatible graphics components and exploring rendering configurations.",
-        "language": {
-          "name": "Unknown",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1280,
-          "forks": 1
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/348993019?v=4"
-        ],
-        "tags": [
-          "#Trending"
-        ]
-      },
-      {
-        "rank": 9,
         "name": "enesozturk/dimensional-drawing",
         "description": "Create Apple style dimensional drawings of UI components.",
         "language": {
@@ -200,14 +180,34 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1269,
-          "forks": 79
+          "totalStars": 1423,
+          "forks": 89
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/19428358?v=4"
         ],
         "tags": [
           "#HTML"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "morganlinton/BeautifulRust",
+        "description": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1371,
+          "forks": 62
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/41390763?v=4"
+        ],
+        "tags": [
+          "#Python"
         ]
       },
       {
@@ -220,8 +220,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1118,
-          "forks": 266
+          "totalStars": 1328,
+          "forks": 304
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/187917479?v=4"
@@ -242,8 +242,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 3493,
-          "forks": 296
+          "totalStars": 4387,
+          "forks": 396
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/5119232?v=4"
@@ -254,6 +254,26 @@
       },
       {
         "rank": 2,
+        "name": "interplains/Zero-Breach-Toolkit",
+        "description": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 2862,
+          "forks": 306
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/39777629?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 3,
         "name": "t3dotgg/tstack",
         "description": "The agent skills I use every day. Works with Claude Code and Codex.",
         "language": {
@@ -262,8 +282,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2028,
-          "forks": 121
+          "totalStars": 2281,
+          "forks": 139
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/6751787?v=4"
@@ -273,7 +293,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "name": "morganlinton/BeautifulRust",
         "description": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
         "language": {
@@ -282,8 +302,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1320,
-          "forks": 58
+          "totalStars": 1371,
+          "forks": 62
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/41390763?v=4"
@@ -293,7 +313,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 5,
         "name": "DenisSergeevitch/ex-ussr-kinship-research",
         "description": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
         "language": {
@@ -302,31 +322,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1064,
-          "forks": 106
+          "totalStars": 1185,
+          "forks": 128
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/2140110?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "Snapintosh/Snapintosh",
-        "description": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1015,
-          "forks": 59
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/346728985?v=4"
         ],
         "tags": [
           "#Python"
@@ -342,7 +342,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 961,
+          "totalStars": 986,
           "forks": 145
         },
         "contributors": [
@@ -354,46 +354,6 @@
       },
       {
         "rank": 7,
-        "name": "assetnote/php2shell-scanner",
-        "description": "High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 949,
-          "forks": 138
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/35264812?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "interplains/Zero-Breach-Toolkit",
-        "description": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 915,
-          "forks": 99
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/39777629?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 9,
         "name": "Motionsites-AI/claude-skill",
         "description": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
         "language": {
@@ -402,8 +362,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 533,
-          "forks": 59
+          "totalStars": 923,
+          "forks": 98
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/348156401?v=4"
@@ -413,7 +373,27 @@
         ]
       },
       {
-        "rank": 10,
+        "rank": 8,
+        "name": "anonnerdfrenzy/survival-llm",
+        "description": "A free AI assistant and survival library that runs on your own computer, with no internet needed. Shows the source of every answer.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 603,
+          "forks": 49
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/120387240?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 9,
         "name": "stormydayy/halo-overlay",
         "description": "Lightweight opensource AI overlay for live conversations. Hears, sees, suggests.",
         "language": {
@@ -422,7 +402,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 515,
+          "totalStars": 516,
           "forks": 36
         },
         "contributors": [
@@ -430,6 +410,430 @@
         ],
         "tags": [
           "#Python"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "deepopen-com/deepopen-3d-webs",
+        "description": "Image-driven 3D scene generation system. Users provide a reference image and prompt words, and the system generates previewable, replayable, and traceable scene results according to the camera trajectory; official 3D demonstration assets allow direct viewing of color/depth animations and Gaussian point clouds in the browser 图像驱动的三维场景生成系统",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 497,
+          "forks": 1
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/331844194?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      }
+    ],
+    "JavaScript": [
+      {
+        "rank": 1,
+        "name": "ZiChuanLan/agent-purge",
+        "description": "One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 823,
+          "forks": 608
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/139305401?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "misshexa66/OunceCake",
+        "description": "Tool to dump unencrypted romFS and exeFS for Switch 2 games",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 506,
+          "forks": 61
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/275284869?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "mochiiwuff/capri-desktop",
+        "description": "Capri, the Project Capricorn construct from Cyberpunk: Edgerunners 2, living on your desktop and narrating what Claude Code is doing.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 375,
+          "forks": 67
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/321940728?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "Jestions-dev/BlueFatFish",
+        "description": "蓝色大肥鱼的新标签页：蓝底玩具箱 + 自定义壁纸/标签，纯本地，断网也能用",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 295,
+          "forks": 14
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/272715639?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "haydenschmitty/floorplan",
+        "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 279,
+          "forks": 25
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/348570593?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "Charonyuu/whatsmyagentdoing",
+        "description": "See what every Claude Code and Codex agent on your machine is doing — live, in a little office.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 278,
+          "forks": 26
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/88021016?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "jacke-pp/open-yoki",
+        "description": "An AI live-stream host that runs on one server: voice, face, chat, memory, posts. The base yoki runs on. By Jacke_pp · contact: DM @Jacke_pp on X",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 245,
+          "forks": 1
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/316605581?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "Moessif/code-video-showcase",
+        "description": "A pure-code beat-synced showcase-video Agent Skill: HTML/Canvas/SVG/Three.js frame-by-frame + Python numpy/scipy score + FFmpeg. No generative models.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 176,
+          "forks": 10
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/83865951?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "Mieksido/surfcore",
+        "description": "暂无描述",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 172,
+          "forks": 13
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/113783930?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "jacke-pp/ai-wallet-binance",
+        "description": "让任何 AI 用你自己的币安 AI 钱包交易：秒买秒卖、狙击 Agent 专属发射台（Four、Flap、GANG）、AI 专属 Mint、本机交易页面。币安签名，不碰私钥。免费开源 MIT · 作者：Jacke_pp · 联系：X @Jacke_pp（私信）",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 167,
+          "forks": 5
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/316605581?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      }
+    ],
+    "C++": [
+      {
+        "rank": 1,
+        "name": "mirkobrombin/raven",
+        "description": "A Windows your apps recognize.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 524,
+          "forks": 12
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/9479903?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "x86rc/unthemidator",
+        "description": "An automated Themida / Code Virtualizer / WinLicense (v3.0-v4) unpacker and dump fixer tool",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 352,
+          "forks": 50
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/283953767?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "NotRexed/SkyboundTotk",
+        "description": "暂无描述",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 319,
+          "forks": 24
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/179062254?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "ryderclanky/BotW-Native",
+        "description": "Breath of the Wild (Wii U, v1.5.0) statically recompiled to a native Windows program with a Vulkan renderer. ",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 277,
+          "forks": 14
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/256620642?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "Shagg88/COGBox",
+        "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 199,
+          "forks": 4
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/343598286?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "cutetailbud/ff-ruyijs",
+        "description": "Run any site JavaScript from Python with the real Firefox engine. Headless SpiderMonkey + Necko for automation and scraping.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 106,
+          "forks": 125
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/212403118?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "Kristian8606/esp32-airplay2-surround",
+        "description": "暂无描述",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 106,
+          "forks": 4
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/34716572?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "Brandon04Gonzalez/p5r-android",
+        "description": "Persona 5 Royal for Android: a native port that runs your own dump (the APK holds no game code or data)",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 84,
+          "forks": 6
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/171833918?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "RanggaCasper/MostWanted-Android",
+        "description": "Unofficial native Android port of Need for Speed: Most Wanted (Xbox Black Edition). The x86 code is statically recompiled to C++ with XboxXBE-Recomp and built for arm64, with a Vulkan renderer, SDL3, touch/controller/keyboard input, and extended graphics options. No emulator, no game assets included.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 82,
+          "forks": 2
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/76829603?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "santiagovalencia109/Wario-Land-Shake-It-Native-PC",
+        "description": "Unofficial native PC port of Wario Land: Shake It! (Wii), statically recompiled with WiiCompiled. Testing build.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 75,
+          "forks": 3
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/14898979?v=4"
+        ],
+        "tags": [
+          "#C++"
         ]
       }
     ]
