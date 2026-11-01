@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026/10/31 03:25:53",
+  "lastUpdate": "2026/11/01 03:27:59",
   "charts": {
     "languageDistribution": {
-      "TypeScript": 4,
-      "Python": 1,
-      "Dart": 1,
-      "C": 1,
+      "TypeScript": 3,
+      "JavaScript": 2,
       "Kotlin": 1,
-      "JavaScript": 1
+      "C": 1,
+      "Go": 1,
+      "HTML": 1
     },
     "starGrowth": {
       "labels": [
-        "10-25",
         "10-26",
         "10-27",
         "10-28",
         "10-29",
         "10-30",
-        "10-31"
+        "10-31",
+        "11-01"
       ],
       "data": [
-        0,
         2073,
         1997,
         2178,
         2713,
         2708,
-        2710
+        2710,
+        2509
       ]
     }
   },
@@ -34,26 +34,6 @@
     "All": [
       {
         "rank": 1,
-        "name": "unclebob/ub-mode",
-        "description": "暂无描述",
-        "language": {
-          "name": "Unknown",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 5424,
-          "forks": 300
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/36901?v=4"
-        ],
-        "tags": [
-          "#Trending"
-        ]
-      },
-      {
-        "rank": 2,
         "name": "anhao/ai-pose-gallery-zh",
         "description": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
         "language": {
@@ -62,8 +42,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 4046,
-          "forks": 1035
+          "totalStars": 4749,
+          "forks": 1204
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/9844218?v=4"
@@ -73,107 +53,47 @@
         ]
       },
       {
-        "rank": 3,
-        "name": "interplains/Zero-Breach-Toolkit",
-        "description": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.",
+        "rank": 2,
+        "name": "heydamir/unslop",
+        "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
         "language": {
-          "name": "Python",
+          "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 3884,
-          "forks": 416
+          "totalStars": 3646,
+          "forks": 179
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/39777629?v=4"
+          "https://avatars.githubusercontent.com/u/97800728?v=4"
         ],
         "tags": [
-          "#Python"
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "deepseek-ai/dsh-superagent-prototype",
+        "description": "Towards a More Autonomous Agent System",
+        "language": {
+          "name": "TypeScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 3202,
+          "forks": 289
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/148330874?v=4"
+        ],
+        "tags": [
+          "#TypeScript"
         ]
       },
       {
         "rank": 4,
-        "name": "designfuchen/word-atlas",
-        "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
-        "language": {
-          "name": "TypeScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 3398,
-          "forks": 743
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/17679892?v=4"
-        ],
-        "tags": [
-          "#TypeScript"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "ccch1mneyyy/dsh-Go",
-        "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-        "language": {
-          "name": "Dart",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 2678,
-          "forks": 114
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/268149062?v=4"
-        ],
-        "tags": [
-          "#Dart"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "valentderah/totk-pc-recomp",
-        "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
-        "language": {
-          "name": "C",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1701,
-          "forks": 103
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/41872026?v=4"
-        ],
-        "tags": [
-          "#C"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "andyhuo520/digital-human-koubo",
-        "description": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
-        "language": {
-          "name": "TypeScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1558,
-          "forks": 354
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/187917479?v=4"
-        ],
-        "tags": [
-          "#TypeScript"
-        ]
-      },
-      {
-        "rank": 8,
         "name": "wangzan101/Mika",
         "description": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
         "language": {
@@ -182,8 +102,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1548,
-          "forks": 247
+          "totalStars": 2861,
+          "forks": 461
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/102038245?v=4"
@@ -193,89 +113,129 @@
         ]
       },
       {
-        "rank": 9,
-        "name": "qybaihe/bla",
-        "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+        "rank": 5,
+        "name": "valentderah/totk-pc-recomp",
+        "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
+        "language": {
+          "name": "C",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 2679,
+          "forks": 209
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/41872026?v=4"
+        ],
+        "tags": [
+          "#C"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "paipiange/nvzhuang",
+        "description": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+        "language": {
+          "name": "Go",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1745,
+          "forks": 468
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/133310917?v=4"
+        ],
+        "tags": [
+          "#Go"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "aschmelyun/print-my-profile-pic",
+        "description": "Say cheese! Star this repo and your profile picture gets printed out on a receipt printer.",
+        "language": {
+          "name": "Unknown",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1650,
+          "forks": 4
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/3395980?v=4"
+        ],
+        "tags": [
+          "#Trending"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "andyhuo520/digital-human-koubo",
+        "description": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
         "language": {
           "name": "TypeScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1455,
-          "forks": 197
+          "totalStars": 1595,
+          "forks": 365
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/137127051?v=4"
+          "https://avatars.githubusercontent.com/u/187917479?v=4"
         ],
         "tags": [
           "#TypeScript"
         ]
       },
       {
-        "rank": 10,
-        "name": "heydamir/unslop",
-        "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+        "rank": 9,
+        "name": "patch-gg/pixelfx",
+        "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1413,
-          "forks": 69
+          "totalStars": 1533,
+          "forks": 185
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/97800728?v=4"
+          "https://avatars.githubusercontent.com/u/337959018?v=4"
         ],
         "tags": [
           "#JavaScript"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "lexifina/global-law",
+        "description": "Git for Global Law: the law of every country as one git history, each country's record a submodule, every commit one law taking effect",
+        "language": {
+          "name": "HTML",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1430,
+          "forks": 117
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/217036878?v=4"
+        ],
+        "tags": [
+          "#HTML"
         ]
       }
     ],
     "Python": [
       {
         "rank": 1,
-        "name": "interplains/Zero-Breach-Toolkit",
-        "description": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 3884,
-          "forks": 416
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/39777629?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 2,
-        "name": "DenisSergeevitch/ex-ussr-kinship-research",
-        "description": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1347,
-          "forks": 138
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/2140110?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "Motionsites-AI/claude-skill",
         "description": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
         "language": {
@@ -284,8 +244,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1199,
-          "forks": 125
+          "totalStars": 1301,
+          "forks": 131
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/348156401?v=4"
@@ -295,27 +255,7 @@
         ]
       },
       {
-        "rank": 4,
-        "name": "KillaBoi/StealMyBitcoin-PoC",
-        "description": "A public release of the Steal My Bitcoin challenge",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1018,
-          "forks": 147
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/46409262?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 5,
+        "rank": 2,
         "name": "deepopen-com/deepopen-3d-webs",
         "description": "Image-driven 3D scene generation system. Users provide a reference image and prompt words, and the system generates previewable, replayable, and traceable scene results according to the camera trajectory; official 3D demonstration assets allow direct viewing of color/depth animations and Gaussian point clouds in the browser 图像驱动的三维场景生成系统",
         "language": {
@@ -324,8 +264,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 909,
-          "forks": 2
+          "totalStars": 1131,
+          "forks": 111
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/331844194?v=4"
@@ -335,7 +275,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 3,
         "name": "BryceYuuu/RUN",
         "description": "RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）",
         "language": {
@@ -344,8 +284,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 698,
-          "forks": 37
+          "totalStars": 957,
+          "forks": 56
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/153735320?v=4"
@@ -355,7 +295,7 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 4,
         "name": "konlu/story-studio",
         "description": "从选题到剪映草稿的一站式 AI 短视频内容创作 Agent Skill",
         "language": {
@@ -364,8 +304,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 537,
-          "forks": 118
+          "totalStars": 561,
+          "forks": 125
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/198685879?v=4"
@@ -375,7 +315,47 @@
         ]
       },
       {
-        "rank": 8,
+        "rank": 5,
+        "name": "ramenvr/autopilot",
+        "description": "Play any game",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 532,
+          "forks": 33
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/48219470?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "toyxyz/toyxyz_RGBMocap",
+        "description": "Native Windows video motion capture with ExMR, FlowHMR and GVHMR, contact correction, humanoid retargeting, and FBX/VMD export.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 492,
+          "forks": 59
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/8006000?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 7,
         "name": "MiniMax-AI/mcode-stack",
         "description": "The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use.",
         "language": {
@@ -384,7 +364,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 464,
+          "totalStars": 485,
           "forks": 36
         },
         "contributors": [
@@ -395,7 +375,7 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 8,
         "name": "patch-gg/anymove",
         "description": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
         "language": {
@@ -404,7 +384,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 441,
+          "totalStars": 449,
           "forks": 46
         },
         "contributors": [
@@ -415,20 +395,40 @@
         ]
       },
       {
-        "rank": 10,
-        "name": "toyxyz/toyxyz_RGBMocap",
-        "description": "Native Windows video motion capture with ExMR, FlowHMR and GVHMR, contact correction, humanoid retargeting, and FBX/VMD export.",
+        "rank": 9,
+        "name": "oxnw/ai-phone",
+        "description": "A SIP phone daemon with local speech and language models on Apple Silicon.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 410,
-          "forks": 50
+          "totalStars": 362,
+          "forks": 61
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/8006000?v=4"
+          "https://avatars.githubusercontent.com/u/13040117?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "N1nEmAn/sapper-v2",
+        "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 361,
+          "forks": 319
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/118088443?v=4"
         ],
         "tags": [
           "#Python"
@@ -446,8 +446,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1413,
-          "forks": 69
+          "totalStars": 3646,
+          "forks": 179
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/97800728?v=4"
@@ -458,19 +458,19 @@
       },
       {
         "rank": 2,
-        "name": "ZiChuanLan/agent-purge",
-        "description": "One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.",
+        "name": "patch-gg/pixelfx",
+        "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 914,
-          "forks": 662
+          "totalStars": 1533,
+          "forks": 185
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/139305401?v=4"
+          "https://avatars.githubusercontent.com/u/337959018?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -478,6 +478,26 @@
       },
       {
         "rank": 3,
+        "name": "haydenschmitty/floorplan",
+        "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 919,
+          "forks": 63
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/348570593?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 4,
         "name": "HRuiCcc/RuiC-PoseAtlas",
         "description": "RuiC-PoseAtlas｜姿态 + 衣装双图鉴：288 组人体姿态 × 5 视角 × 1,439 张人台线稿，加 1,407 套无人物衣装 × 8 分类 × 86 个三语标签。中/英/日切换、搜索筛选、键盘浏览、原图下载，纯静态零依赖。",
         "language": {
@@ -486,31 +506,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 673,
-          "forks": 186
+          "totalStars": 869,
+          "forks": 221
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/319719670?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "misshexa66/OunceCake",
-        "description": "Tool to dump unencrypted romFS and exeFS for Switch 2 games",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 542,
-          "forks": 63
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/275284869?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -526,8 +526,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 496,
-          "forks": 33
+          "totalStars": 620,
+          "forks": 42
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/316605581?v=4"
@@ -538,19 +538,19 @@
       },
       {
         "rank": 6,
-        "name": "haydenschmitty/floorplan",
-        "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+        "name": "sleepy-zone/ai-ref-library-cn",
+        "description": "暂无描述",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 489,
-          "forks": 42
+          "totalStars": 511,
+          "forks": 138
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/348570593?v=4"
+          "https://avatars.githubusercontent.com/u/131369648?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -566,8 +566,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 443,
-          "forks": 61
+          "totalStars": 502,
+          "forks": 70
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/257292434?v=4"
@@ -578,19 +578,19 @@
       },
       {
         "rank": 8,
-        "name": "mochiiwuff/capri-desktop",
-        "description": "Capri, the Project Capricorn construct from Cyberpunk: Edgerunners 2, living on your desktop and narrating what Claude Code is doing.",
+        "name": "NiazMorshed2007/reanimate",
+        "description": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 439,
-          "forks": 86
+          "totalStars": 489,
+          "forks": 40
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/321940728?v=4"
+          "https://avatars.githubusercontent.com/u/77217706?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -598,19 +598,19 @@
       },
       {
         "rank": 9,
-        "name": "sleepy-zone/ai-ref-library-cn",
-        "description": "暂无描述",
+        "name": "elvarofficial/teardown",
+        "description": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 439,
-          "forks": 120
+          "totalStars": 469,
+          "forks": 81
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/131369648?v=4"
+          "https://avatars.githubusercontent.com/u/350203459?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -618,19 +618,19 @@
       },
       {
         "rank": 10,
-        "name": "patch-gg/pixelfx",
-        "description": "232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+        "name": "Balanov/svoi",
+        "description": "Free local-first Windows companion for job search and everyday work, with editable responses.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 371,
-          "forks": 44
+          "totalStars": 377,
+          "forks": 0
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/337959018?v=4"
+          "https://avatars.githubusercontent.com/u/29678847?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -648,8 +648,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 543,
-          "forks": 65
+          "totalStars": 1357,
+          "forks": 175
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/76681596?v=4"
@@ -668,8 +668,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 435,
-          "forks": 38
+          "totalStars": 455,
+          "forks": 39
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/179062254?v=4"
@@ -688,8 +688,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 246,
-          "forks": 215
+          "totalStars": 355,
+          "forks": 231
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/212403118?v=4"
@@ -700,6 +700,26 @@
       },
       {
         "rank": 4,
+        "name": "gothamor/gta-vcs-recomp",
+        "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 320,
+          "forks": 14
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/339028930?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 5,
         "name": "Shagg88/COGBox",
         "description": "This is an open source, all-in-one, static recompilation project that I built from the ground up for the Xbox 360 Gears of War series.",
         "language": {
@@ -708,7 +728,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 240,
+          "totalStars": 307,
           "forks": 6
         },
         "contributors": [
@@ -719,7 +739,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "name": "Villagers654/Venture",
         "description": "A Meta Quest emulator for PC VR. Play the Quest games you own on Windows and Linux.",
         "language": {
@@ -728,31 +748,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 199,
+          "totalStars": 219,
           "forks": 12
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/110007851?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "gothamor/gta-vcs-recomp",
-        "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 148,
-          "forks": 7
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/339028930?v=4"
         ],
         "tags": [
           "#C++"
@@ -768,8 +768,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 112,
-          "forks": 6
+          "totalStars": 125,
+          "forks": 7
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/18194091?v=4"
@@ -780,26 +780,6 @@
       },
       {
         "rank": 8,
-        "name": "Brandon04Gonzalez/p5r-android",
-        "description": "Persona 5 Royal for Android: a native port that runs your own dump (the APK holds no game code or data)",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 108,
-          "forks": 8
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/171833918?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 9,
         "name": "gminustwo/msr2ds",
         "description": "Metroid: Samus Returns as a single-screen PC game, built on the Azahar 3DS emulator. Bring your own dump.",
         "language": {
@@ -808,11 +788,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 107,
+          "totalStars": 124,
           "forks": 3
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/347583672?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "CrossCommissioner/CrystalDiskMark-Portable",
+        "description": "CrystalDiskMark Portable – pre‑packaged, password‑protected portable edition of the industry‑standard disk benchmark. Fast, reliable, zero‑install. For Windows 10/11.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 105,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/320026221?v=4"
         ],
         "tags": [
           "#C++"
@@ -828,8 +828,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 101,
-          "forks": 39
+          "totalStars": 103,
+          "forks": 70
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/70724239?v=4"
