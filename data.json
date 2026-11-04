@@ -1,35 +1,34 @@
 {
-  "lastUpdate": "2026/11/03 04:42:09",
+  "lastUpdate": "2026/11/04 04:03:21",
   "charts": {
     "languageDistribution": {
       "TypeScript": 1,
-      "JavaScript": 2,
-      "Kotlin": 1,
       "Rust": 1,
+      "JavaScript": 2,
+      "Kotlin": 2,
       "C": 1,
-      "C++": 1,
-      "Go": 1,
       "Python": 1,
-      "HTML": 1
+      "C++": 1,
+      "Go": 1
     },
     "starGrowth": {
       "labels": [
-        "10-28",
         "10-29",
         "10-30",
         "10-31",
         "11-01",
         "11-02",
-        "11-03"
+        "11-03",
+        "11-04"
       ],
       "data": [
-        2178,
         2713,
         2708,
         2710,
         2509,
         3673,
-        4694
+        4694,
+        5898
       ]
     }
   },
@@ -45,8 +44,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 14073,
-          "forks": 1496
+          "totalStars": 17249,
+          "forks": 1863
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/148330874?v=4"
@@ -57,6 +56,26 @@
       },
       {
         "rank": 2,
+        "name": "storytold/craft-anything",
+        "description": "Craft Anything: understand how any software works, and craft your own.",
+        "language": {
+          "name": "Rust",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 8878,
+          "forks": 1472
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/76897702?v=4"
+        ],
+        "tags": [
+          "#Rust"
+        ]
+      },
+      {
+        "rank": 3,
         "name": "heydamir/unslop",
         "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
         "language": {
@@ -65,8 +84,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 6476,
-          "forks": 332
+          "totalStars": 7658,
+          "forks": 383
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/97800728?v=4"
@@ -76,7 +95,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "name": "wangzan101/Mika",
         "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
         "language": {
@@ -85,34 +104,14 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 5539,
-          "forks": 1079
+          "totalStars": 6161,
+          "forks": 1197
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/102038245?v=4"
         ],
         "tags": [
           "#Kotlin"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "storytold/craft-anything",
-        "description": "Craft Anything: understand how any software works, and craft your own.",
-        "language": {
-          "name": "Rust",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 4937,
-          "forks": 812
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/76897702?v=4"
-        ],
-        "tags": [
-          "#Rust"
         ]
       },
       {
@@ -125,8 +124,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 4109,
-          "forks": 332
+          "totalStars": 4562,
+          "forks": 368
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/41872026?v=4"
@@ -145,8 +144,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 3633,
-          "forks": 494
+          "totalStars": 4218,
+          "forks": 569
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/337959018?v=4"
@@ -157,46 +156,6 @@
       },
       {
         "rank": 7,
-        "name": "Djihads80/Eglantine",
-        "description": "VERY experimental Nintendo Switch 2 emulator",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 2607,
-          "forks": 306
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/76681596?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 8,
-        "name": "paipiange/nvzhuang",
-        "description": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
-        "language": {
-          "name": "Go",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 2062,
-          "forks": 527
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/133310917?v=4"
-        ],
-        "tags": [
-          "#Go"
-        ]
-      },
-      {
-        "rank": 9,
         "name": "BryceYuuu/RUN",
         "description": "RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）",
         "language": {
@@ -205,8 +164,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1802,
-          "forks": 124
+          "totalStars": 3192,
+          "forks": 235
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/153735320?v=4"
@@ -216,23 +175,63 @@
         ]
       },
       {
-        "rank": 10,
-        "name": "lexifina/global-law",
-        "description": "Git for Global Law: the law of every country as one git history, each country's record a submodule, every commit one law taking effect",
+        "rank": 8,
+        "name": "Djihads80/Eglantine",
+        "description": "VERY experimental Nintendo Switch 2 emulator",
         "language": {
-          "name": "HTML",
+          "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1710,
-          "forks": 155
+          "totalStars": 3120,
+          "forks": 358
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/217036878?v=4"
+          "https://avatars.githubusercontent.com/u/76681596?v=4"
         ],
         "tags": [
-          "#HTML"
+          "#C++"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "paipiange/nvzhuang",
+        "description": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+        "language": {
+          "name": "Go",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 2136,
+          "forks": 549
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/133310917?v=4"
+        ],
+        "tags": [
+          "#Go"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "Verlintas/NOIR",
+        "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+        "language": {
+          "name": "Kotlin",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1807,
+          "forks": 140
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/310443301?v=4"
+        ],
+        "tags": [
+          "#Kotlin"
         ]
       }
     ],
@@ -247,8 +246,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1802,
-          "forks": 124
+          "totalStars": 3192,
+          "forks": 235
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/153735320?v=4"
@@ -259,106 +258,6 @@
       },
       {
         "rank": 2,
-        "name": "hyz317/HairDeck",
-        "description": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 750,
-          "forks": 49
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/22991464?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "ramenvr/autopilot",
-        "description": "Play any game",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 672,
-          "forks": 48
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/48219470?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "speridlabs/idol-sdk",
-        "description": "Idol: a single image to 3D Gaussians. Inference SDK and demo.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 656,
-          "forks": 52
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/207595948?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "N1nEmAn/sapper-v2",
-        "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 627,
-          "forks": 496
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/118088443?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "AssassinCreator/steam-stash-value-report-card",
-        "description": "Value your Steam stash in the terminal and print it as a share card: per game, per market, what sold and what sits. One Windows portable build, no account.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 625,
-          "forks": 55
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/316880408?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 7,
         "name": "Pika-Labs/Pika-H3-Flex",
         "description": "Pika H3 Flex: video and audio generation inference",
         "language": {
@@ -367,8 +266,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 598,
-          "forks": 23
+          "totalStars": 1345,
+          "forks": 29
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/272671295?v=4"
@@ -378,47 +277,107 @@
         ]
       },
       {
+        "rank": 3,
+        "name": "hyz317/HairDeck",
+        "description": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 785,
+          "forks": 53
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/22991464?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "RikiyaT/lm_understand-logs",
+        "description": "Complete logs of the experiments in the blog post 'LLMs can understand and write neural network weights'",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 769,
+          "forks": 92
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/122655264?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "AssassinCreator/steam-stash-value-report-card",
+        "description": "Value your Steam stash in the terminal and print it as a share card: per game, per market, what sold and what sits. One Windows portable build, no account.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 709,
+          "forks": 57
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/316880408?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "ramenvr/autopilot",
+        "description": "Play any game",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 691,
+          "forks": 54
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/48219470?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "N1nEmAn/sapper-v2",
+        "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 670,
+          "forks": 527
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/118088443?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
         "rank": 8,
-        "name": "MiniMax-AI/mcode-stack",
-        "description": "The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 513,
-          "forks": 40
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/194880281?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "brainstormity/LightPost",
-        "description": "A lightweight system to automate posting to all of your socials from one dashboard",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 351,
-          "forks": 65
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/240602355?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 10,
         "name": "smarkyie/NSP-Box",
         "description": "NSP Box: A Switch 2 Game Packager. Experimental Windows tool for lawfully obtained game snapshots and extracted DLC, with reversible emulator patching.",
         "language": {
@@ -427,11 +386,51 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 341,
-          "forks": 22
+          "totalStars": 421,
+          "forks": 31
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/68492368?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "wquguru/shisei",
+        "description": "💃 Free CC0 mannequin pose reference library for AI image tools (Nano Banana, ChatGPT, ComfyUI, Midjourney) — 250+ poses × 5 angles in line art, names in ja/zh/en/ko",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 410,
+          "forks": 85
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/209866177?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "soimy/c3rb3r-rescue",
+        "description": "Evidence-based DSM ransomware recovery: preservation, RAM key recovery, copy decryption, and GitLab validation.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 334,
+          "forks": 33
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/1550237?v=4"
         ],
         "tags": [
           "#Python"
@@ -449,8 +448,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 6476,
-          "forks": 332
+          "totalStars": 7658,
+          "forks": 383
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/97800728?v=4"
@@ -469,8 +468,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 3633,
-          "forks": 494
+          "totalStars": 4218,
+          "forks": 569
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/337959018?v=4"
@@ -489,8 +488,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1330,
-          "forks": 204
+          "totalStars": 1698,
+          "forks": 257
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/350203459?v=4"
@@ -501,26 +500,6 @@
       },
       {
         "rank": 4,
-        "name": "HRuiCcc/RuiC-PoseAtlas",
-        "description": "RuiC-PoseAtlas｜姿态 + 衣装双图鉴：288 组人体姿态 × 5 视角 × 1,439 张人台线稿，加 1,407 套无人物衣装 × 8 分类 × 86 个三语标签。中/英/日切换、搜索筛选、键盘浏览、原图下载，纯静态零依赖。",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1078,
-          "forks": 270
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/319719670?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 5,
         "name": "NiazMorshed2007/reanimate",
         "description": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
         "language": {
@@ -529,8 +508,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 975,
-          "forks": 96
+          "totalStars": 1112,
+          "forks": 105
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/77217706?v=4"
@@ -540,27 +519,7 @@
         ]
       },
       {
-        "rank": 6,
-        "name": "jacke-pp/open-yoki",
-        "description": "An AI live-stream host that runs on one server: voice, face, chat, memory, posts. The base yoki runs on. By Jacke_pp · contact: DM @Jacke_pp on X",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 950,
-          "forks": 57
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/316605581?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 7,
+        "rank": 5,
         "name": "sleepy-zone/ai-ref-library-cn",
         "description": "AI 作图素材库 · 中文版（脸 / 姿势 / 服装）",
         "language": {
@@ -569,8 +528,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 677,
-          "forks": 171
+          "totalStars": 704,
+          "forks": 176
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/131369648?v=4"
@@ -580,47 +539,7 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "Centiplatrap/pc-game-fps-doctor",
-        "description": "One button: why the game stutters, why it lags and why it won't start. Pitstop measures with PresentMon, explains in plain words, fixes Windows only, and undoes every change in one click.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 607,
-          "forks": 221
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/316774153?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "Humpalumps/Ultra-Water",
-        "description": "Real-time FFT ocean renderer for three.js (WebGL2): shore breakers, foam, caustics, underwater rendering and buoyancy at 170–300 fps",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 588,
-          "forks": 80
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/257292434?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 10,
+        "rank": 6,
         "name": "Gezine/CivSwitch",
         "description": "Nintendo Switch userland code execution using Civilization 7 game cartridge",
         "language": {
@@ -629,11 +548,91 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 498,
-          "forks": 104
+          "totalStars": 554,
+          "forks": 116
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/30000519?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "yetone/alma-relay",
+        "description": "Self-host the relay for Alma Remote Access — control your desktop Alma from your phone, anywhere. Docker or Cloudflare Workers.",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 438,
+          "forks": 48
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/1206493?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "0xCodez/DuoDesk",
+        "description": "All your computers and your phone, working as one desk. Aurora redesign of TwinDesk. GPL-3.0",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 410,
+          "forks": 68
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/329118438?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "Pluviobyte/douyin-comments",
+        "description": "抓取抖音单条视频完整评论区（一级 + 楼中楼）的 Agent Skill：在已登录的 Chrome 里照抄页面真实请求，签名交给页面 SDK",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 388,
+          "forks": 101
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/94058511?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "sleepy-zone/char-db-cn",
+        "description": "二次元角色换装库 · 中文版（发型 / 服装 / 姿势 / 组装）",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 353,
+          "forks": 51
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/131369648?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -651,8 +650,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2607,
-          "forks": 306
+          "totalStars": 3120,
+          "forks": 358
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/76681596?v=4"
@@ -663,27 +662,7 @@
       },
       {
         "rank": 2,
-        "name": "cutetailbud/ff-ruyijs",
-        "description": "A AI Browser run any site JavaScript from Python with the real Firefox engine. Headless SpiderMonkey + Necko for automation and scraping.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 549,
-          "forks": 282
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/212403118?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 3,
-        "name": "zortos293/Eglantine",
+        "name": "zortos293/Lichii",
         "description": "VERY experimental Nintendo Switch 2 emulator",
         "language": {
           "name": "C++",
@@ -691,8 +670,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 475,
-          "forks": 45
+          "totalStars": 626,
+          "forks": 52
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/65777760?v=4"
@@ -702,7 +681,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 3,
         "name": "gothamor/gta-vcs-recomp",
         "description": "A native Windows and Linux port of Grand Theft Auto: Vice City Stories (PS2, USA, SLUS-21590), made by recompiling the game's PS2 executable into C++",
         "language": {
@@ -711,8 +690,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 442,
-          "forks": 25
+          "totalStars": 468,
+          "forks": 27
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/339028930?v=4"
@@ -722,7 +701,47 @@
         ]
       },
       {
+        "rank": 4,
+        "name": "drakolordx7/pokopia-recomp",
+        "description": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 301,
+          "forks": 26
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/98249188?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
         "rank": 5,
+        "name": "momusdigital/fnv_decomp",
+        "description": "暂无描述",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 220,
+          "forks": 38
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/345077781?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 6,
         "name": "gminustwo/msr2ds",
         "description": "Metroid: Samus Returns as a single-screen PC game, built on the Azahar 3DS emulator. Bring your own dump.",
         "language": {
@@ -731,8 +750,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 186,
-          "forks": 4
+          "totalStars": 215,
+          "forks": 6
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/347583672?v=4"
@@ -742,7 +761,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 7,
         "name": "ravencaio/tlou-remastered-pc",
         "description": "Native Windows PC port of The Last of Us Remastered (PS4, CUSA00552). Runs the game’s own x86-64 code on a custom runtime, with PS4 system libraries reimplemented and a Vulkan renderer based on shadPS4. Includes a launcher. No game files included: you need your own copy.",
         "language": {
@@ -751,8 +770,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 167,
-          "forks": 4
+          "totalStars": 209,
+          "forks": 7
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/69921724?v=4"
@@ -762,7 +781,27 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 8,
+        "name": "xFractals/pokopia-native",
+        "description": "Build Pokémon Pokopia (Switch 2) into a native Mac app and iPhone app from your own dump. Tools only; no game content.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 203,
+          "forks": 26
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/351408713?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 9,
         "name": "robertnisipeanu/idrive-apps",
         "description": "Apps and tools for the BMW iDrive 7 (MGU) head unit, installable from the Store",
         "language": {
@@ -771,8 +810,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 140,
-          "forks": 29
+          "totalStars": 175,
+          "forks": 38
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/16354517?v=4"
@@ -782,7 +821,7 @@
         ]
       },
       {
-        "rank": 8,
+        "rank": 10,
         "name": "heydemoura/EglantinePS5",
         "description": "VERY experimental Nintendo Switch 2 emulator port for PS5",
         "language": {
@@ -791,51 +830,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 135,
-          "forks": 55
+          "totalStars": 161,
+          "forks": 72
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/5550190?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 9,
-        "name": "velkajelka/ableton-linux",
-        "description": "Native Ableton Live for Linux",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 134,
-          "forks": 7
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/18194091?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "momusdigital/fnv_decomp",
-        "description": "暂无描述",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 133,
-          "forks": 19
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/345077781?v=4"
         ],
         "tags": [
           "#C++"
