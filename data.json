@@ -1,31 +1,30 @@
 {
-  "lastUpdate": "2026/11/21 04:54:35",
+  "lastUpdate": "2026/11/22 04:13:43",
   "charts": {
     "languageDistribution": {
       "Rust": 1,
+      "Python": 6,
       "C++": 1,
-      "Python": 5,
-      "HTML": 1,
-      "JavaScript": 1
+      "HTML": 1
     },
     "starGrowth": {
       "labels": [
-        "11-15",
         "11-16",
         "11-17",
         "11-18",
         "11-19",
         "11-20",
-        "11-21"
+        "11-21",
+        "11-22"
       ],
       "data": [
-        2097,
         1704,
         1721,
         2058,
         1736,
         2265,
-        2439
+        2439,
+        3198
       ]
     }
   },
@@ -41,8 +40,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 6782,
-          "forks": 536
+          "totalStars": 7504,
+          "forks": 600
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/88717125?v=4"
@@ -53,6 +52,26 @@
       },
       {
         "rank": 2,
+        "name": "ItsNotRexed/Leonida",
+        "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 6827,
+          "forks": 525
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/300290919?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 3,
         "name": "krisgfx9/Wireless-Device-Battery-Monitor",
         "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
         "language": {
@@ -61,8 +80,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 5394,
-          "forks": 451
+          "totalStars": 5860,
+          "forks": 493
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/85200472?v=4"
@@ -72,7 +91,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "name": "gylive/google-ultra",
         "description": "暂无描述",
         "language": {
@@ -81,31 +100,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2544,
-          "forks": 63
+          "totalStars": 2606,
+          "forks": 81
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/87460536?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 4,
-        "name": "Hut-hzf/ung220z-tool",
-        "description": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 2055,
-          "forks": 469
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/192405006?v=4"
         ],
         "tags": [
           "#Python"
@@ -121,8 +120,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1828,
-          "forks": 19
+          "totalStars": 2591,
+          "forks": 35
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/356367752?v=4"
@@ -133,26 +132,6 @@
       },
       {
         "rank": 6,
-        "name": "sybil-solutions/inference-optimisation-skill",
-        "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1366,
-          "forks": 123
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/284200730?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 7,
         "name": "iamajmeena/neonclipping",
         "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
         "language": {
@@ -161,8 +140,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1288,
-          "forks": 63
+          "totalStars": 1767,
+          "forks": 89
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/265551449?v=4"
@@ -172,20 +151,40 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "joshpuckett/allo",
-        "description": "Allo is your friendly neighborhood typeface, free and open source",
+        "rank": 7,
+        "name": "sybil-solutions/inference-optimisation-skill",
+        "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1259,
-          "forks": 35
+          "totalStars": 1718,
+          "forks": 155
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/403737?v=4"
+          "https://avatars.githubusercontent.com/u/284200730?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "hatsunemiku-ai/google-one-tools",
+        "description": "暂无描述",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1103,
+          "forks": 528
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/359323636?v=4"
         ],
         "tags": [
           "#Python"
@@ -201,8 +200,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 996,
-          "forks": 105
+          "totalStars": 1025,
+          "forks": 109
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/1895289?v=4"
@@ -213,28 +212,48 @@
       },
       {
         "rank": 10,
-        "name": "siliconjungle/shapeshift-labs-ink-studio",
-        "description": "Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
+        "name": "R0Y00/Xbox2Windows",
+        "description": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks.",
         "language": {
-          "name": "JavaScript",
+          "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 885,
-          "forks": 72
+          "totalStars": 985,
+          "forks": 93
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/71357672?v=4"
+          "https://avatars.githubusercontent.com/u/128987794?v=4"
         ],
         "tags": [
-          "#JavaScript"
+          "#Python"
         ]
       }
     ],
     "Python": [
       {
         "rank": 1,
+        "name": "ItsNotRexed/Leonida",
+        "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 6827,
+          "forks": 525
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/300290919?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 2,
         "name": "gylive/google-ultra",
         "description": "暂无描述",
         "language": {
@@ -243,8 +262,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2544,
-          "forks": 63
+          "totalStars": 2606,
+          "forks": 81
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/87460536?v=4"
@@ -254,47 +273,7 @@
         ]
       },
       {
-        "rank": 2,
-        "name": "Hut-hzf/ung220z-tool",
-        "description": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 2055,
-          "forks": 469
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/192405006?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
         "rank": 3,
-        "name": "sybil-solutions/inference-optimisation-skill",
-        "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1366,
-          "forks": 123
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/284200730?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 4,
         "name": "iamajmeena/neonclipping",
         "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
         "language": {
@@ -303,8 +282,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1288,
-          "forks": 63
+          "totalStars": 1767,
+          "forks": 89
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/265551449?v=4"
@@ -314,20 +293,40 @@
         ]
       },
       {
-        "rank": 5,
-        "name": "joshpuckett/allo",
-        "description": "Allo is your friendly neighborhood typeface, free and open source",
+        "rank": 4,
+        "name": "sybil-solutions/inference-optimisation-skill",
+        "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1259,
-          "forks": 35
+          "totalStars": 1718,
+          "forks": 155
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/403737?v=4"
+          "https://avatars.githubusercontent.com/u/284200730?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "hatsunemiku-ai/google-one-tools",
+        "description": "暂无描述",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1103,
+          "forks": 528
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/359323636?v=4"
         ],
         "tags": [
           "#Python"
@@ -335,6 +334,26 @@
       },
       {
         "rank": 6,
+        "name": "R0Y00/Xbox2Windows",
+        "description": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 985,
+          "forks": 93
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/128987794?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 7,
         "name": "boringmarketer/boring-marketing-skills",
         "description": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.",
         "language": {
@@ -343,8 +362,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 746,
-          "forks": 273
+          "totalStars": 780,
+          "forks": 280
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/212546731?v=4"
@@ -354,7 +373,7 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 8,
         "name": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
         "description": "Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Attributes, Face Templates Extraction, Face Landmarks",
         "language": {
@@ -363,8 +382,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 514,
-          "forks": 420
+          "totalStars": 542,
+          "forks": 442
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/208099046?v=4"
@@ -374,27 +393,27 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "WollyMonjac/Tiny-2.1",
-        "description": "Language model for DOS that fits on a floppy disk",
+        "rank": 9,
+        "name": "sybil-solutions/skill-distill",
+        "description": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 352,
-          "forks": 52
+          "totalStars": 385,
+          "forks": 30
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/339840132?v=4"
+          "https://avatars.githubusercontent.com/u/284200730?v=4"
         ],
         "tags": [
           "#Python"
         ]
       },
       {
-        "rank": 9,
+        "rank": 10,
         "name": "waw666waw666/RegisterHub",
         "description": "万能注册机模板 | Universal Auto-Registration Template",
         "language": {
@@ -403,31 +422,11 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 334,
-          "forks": 276
+          "totalStars": 338,
+          "forks": 278
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/184799977?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 10,
-        "name": "smoovplay/smoovplay",
-        "description": "Your console. Your GPU. Smoother gameplay. Open-source real-time frame generation & upscaling for console gaming.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 317,
-          "forks": 19
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/356881351?v=4"
         ],
         "tags": [
           "#Python"
@@ -445,8 +444,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 885,
-          "forks": 72
+          "totalStars": 968,
+          "forks": 81
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/71357672?v=4"
@@ -457,26 +456,6 @@
       },
       {
         "rank": 2,
-        "name": "nilbuild/stick-scene",
-        "description": "Skill to draw stick figure animated visuals",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 538,
-          "forks": 60
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/4921183?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "duwqijlk/google-trial-tool",
         "description": "暂无描述",
         "language": {
@@ -485,8 +464,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 365,
-          "forks": 157
+          "totalStars": 401,
+          "forks": 164
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/126966774?v=4"
@@ -496,47 +475,7 @@
         ]
       },
       {
-        "rank": 4,
-        "name": "diego3g/craft",
-        "description": "Design skills for AI agents: /craft-setup writes your design brief, /craft designs screens with every state from your design system and reviews them. Works with Paper, pen.dev, Figma or HTML.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 315,
-          "forks": 18
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/2254731?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 5,
-        "name": "staryone/motlab",
-        "description": "Video as code: canvas scenes rendered with WebCodecs in headless Chrome, a review viewer, and agent skills that build the video from your references.",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 298,
-          "forks": 41
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/67821697?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 6,
+        "rank": 3,
         "name": "CoderL98/hghub-plugins",
         "description": "HGhub HPP 1.0 单文件插件与订阅源",
         "language": {
@@ -545,8 +484,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 252,
-          "forks": 56
+          "totalStars": 388,
+          "forks": 66
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/39719083?v=4"
@@ -556,27 +495,47 @@
         ]
       },
       {
-        "rank": 7,
-        "name": "mdexa-ai/mdexa-ai-native-database",
-        "description": "Verified license and provenance records for datasets behind medical AI: information cards, JSON Schema, decision rules and evidence index (hashes only). Cards CC BY 4.0, scripts MIT.",
+        "rank": 4,
+        "name": "staryone/motlab",
+        "description": "Video as code: canvas scenes rendered with WebCodecs in headless Chrome, a review viewer, and agent skills that build the video from your references.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 201,
-          "forks": 11
+          "totalStars": 357,
+          "forks": 44
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/355922602?v=4"
+          "https://avatars.githubusercontent.com/u/67821697?v=4"
         ],
         "tags": [
           "#JavaScript"
         ]
       },
       {
-        "rank": 8,
+        "rank": 5,
+        "name": "nkjDSLcvanv/antigravity-codex-theme",
+        "description": "Google Antigravity 的 Codex 风格浅色与深色主题，支持简体中文界面、实时会话状态和每轮 Token 统计。主题、汉化和Token统计模块可按需安装与修改。全程不修改 Antigravity 安装包本体文件。",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 269,
+          "forks": 16
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/155653392?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 6,
         "name": "estebanarosemena/StellarHub",
         "description": "No bloatware, no account, no subscriptions, no payments, no telemetry; free forever. Top Tier control for your Windows PC. Live hardware stats, drivers, apps, disk space, cleanup and hardware tests, all in one app.",
         "language": {
@@ -585,8 +544,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 197,
-          "forks": 17
+          "totalStars": 255,
+          "forks": 21
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/69443735?v=4"
@@ -596,7 +555,7 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 7,
         "name": "finktheartist/rubber-hose-ui",
         "description": "Eleven ordinary UI controls drawn as rubber-hose cartoon characters. One file each, no dependencies.",
         "language": {
@@ -605,8 +564,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 185,
-          "forks": 15
+          "totalStars": 206,
+          "forks": 18
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/120680146?v=4"
@@ -616,7 +575,27 @@
         ]
       },
       {
-        "rank": 10,
+        "rank": 8,
+        "name": "ATtacK030130/antigrative-dashboard",
+        "description": "Compact Antigravity token throughput and quota widget",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 167,
+          "forks": 8
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/356890064?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 9,
         "name": "bogdan239/uberdesigner-studio",
         "description": "暂无描述",
         "language": {
@@ -625,11 +604,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 156,
+          "totalStars": 160,
           "forks": 7
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/351094513?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "rkboi1212/subnautica-2-trainer",
+        "description": "Subnautica 2 Trainer – Performance and Control Menu",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 153,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/292685376?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -647,8 +646,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 5394,
-          "forks": 451
+          "totalStars": 5860,
+          "forks": 493
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/85200472?v=4"
@@ -659,19 +658,19 @@
       },
       {
         "rank": 2,
-        "name": "rolazd/xiaoai-doubao",
-        "description": "把小爱音箱 Pro 改成孩子的英语玩伴：喊豆包豆包，用英语聊天，记得孩子",
+        "name": "ryanhall-2095a5/xeno-bootstrapper-multi-instance-roblox-account-portable-x",
+        "description": "Xeno bootstrapper Multi-Instance Roblox Account Manager & FPS extension: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 361,
-          "forks": 57
+          "totalStars": 338,
+          "forks": 33
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/274407203?v=4"
+          "https://avatars.githubusercontent.com/u/278212710?v=4"
         ],
         "tags": [
           "#C++"
@@ -679,19 +678,19 @@
       },
       {
         "rank": 3,
-        "name": "heydemoura/PS5_Longshot",
-        "description": "Longshot for the PlayStation 5: a port of Longshot (static recompilation) to the PS5, with the Longshot PS5 Builder for Linux and Windows. No PC builds of the game.",
+        "name": "kyle-moore-code2001v1/marvel-rivals-hitscan-projectile-smoothing-assistant-porta",
+        "description": "Marvel Rivals Hitscan & Projectile Smoothing Assistant: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 197,
-          "forks": 36
+          "totalStars": 338,
+          "forks": 48
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/5550190?v=4"
+          "https://avatars.githubusercontent.com/u/278183396?v=4"
         ],
         "tags": [
           "#C++"
@@ -699,19 +698,19 @@
       },
       {
         "rank": 4,
-        "name": "cuesta4/GOW3rehooked",
-        "description": "GOW3rehooked - the definitive GOW3 Remastered experience on PC. ",
+        "name": "dave-wilsoncode1999d3/elden-ring-nightreign-standalone-trainer-relic-murk-portab",
+        "description": "Elden Ring Nightreign Standalone Trainer, Relic & Murk Editor: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 196,
-          "forks": 7
+          "totalStars": 337,
+          "forks": 41
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/49216888?v=4"
+          "https://avatars.githubusercontent.com/u/278183937?v=4"
         ],
         "tags": [
           "#C++"
@@ -719,19 +718,19 @@
       },
       {
         "rank": 5,
-        "name": "gminustwo/red_two",
-        "description": "暂无描述",
+        "name": "artem-petrovlab04i2/counter-strike-2-inventory-skin-knife-glove-portable-x64",
+        "description": "Counter-Strike 2 Inventory Skin, Knife & Glove Changer: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 188,
-          "forks": 9
+          "totalStars": 336,
+          "forks": 45
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/347583672?v=4"
+          "https://avatars.githubusercontent.com/u/278193518?v=4"
         ],
         "tags": [
           "#C++"
@@ -739,19 +738,19 @@
       },
       {
         "rank": 6,
-        "name": "BubbleBrainBB/awesome-fable-5.2",
-        "description": "Pictures and films computed entirely by code, written by Claude Fable 5.2 — a first-person underwater dive film and a path-traced afternoon interior.",
+        "name": "ericmoorecode2001j6/monster-hunter-wilds-reframework-download",
+        "description": "Monster Hunter Wilds REFramework + Monster HP Bar, Crown & DPS Overlay Mod [Direct Download] — Download prebuilt Windows 10/11 x64 release. Keywords: monster hunter wilds, mhwilds, monster hunter wilds mods, monster hunter wilds cheat, monster hunter wilds trainer, reframework, mhwilds save editor, mhwilds dps overlay.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 124,
-          "forks": 18
+          "totalStars": 334,
+          "forks": 31
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/108770159?v=4"
+          "https://avatars.githubusercontent.com/u/278374404?v=4"
         ],
         "tags": [
           "#C++"
@@ -759,19 +758,19 @@
       },
       {
         "rank": 7,
-        "name": "Dipshet/GracemeriaRecomp",
-        "description": "Native PC port of Ace Combat 6: Fires of Liberation using XenonRecomp",
+        "name": "felixrajdev2096h7/fivem-citizenfx-adhesive-utility-clean-cleaner-portable-x6",
+        "description": "FiveM CitizenFX Adhesive serial-utility, Clean Cleaner & Serial manager: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 103,
-          "forks": 1
+          "totalStars": 334,
+          "forks": 51
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/264011288?v=4"
+          "https://avatars.githubusercontent.com/u/278088303?v=4"
         ],
         "tags": [
           "#C++"
@@ -779,19 +778,19 @@
       },
       {
         "rank": 8,
-        "name": "ItsNotRexed/Hookshot",
-        "description": "暂无描述",
+        "name": "anton-g-dev2099m4/escape-from-tarkov-spt-aki-10-profile-portable-x64",
+        "description": "Escape from Tarkov SPT-AKI 3.10 Profile, Flea & Stash Editor: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 83,
-          "forks": 0
+          "totalStars": 331,
+          "forks": 48
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/300290919?v=4"
+          "https://avatars.githubusercontent.com/u/278194464?v=4"
         ],
         "tags": [
           "#C++"
@@ -799,19 +798,19 @@
       },
       {
         "rank": 9,
-        "name": "hiruhiru2005/sync-strata",
-        "description": "A one-click local LLM app for Windows and Linux: Qwen3.8-Flash-Next with the Sync quantizations (XS, S, M), based on Strata.",
+        "name": "oscar-j-code1904n1/blox-fruits-script",
+        "description": "Blox Fruits Script 2026 — Keyless Auto-Farm, Sea Events, Kitsune & Fruit Sniper — Download prebuilt Windows 10/11 x64 release. Keywords: blox fruits script, fisch script, rivals script, jujutsu infinite script, blue lock rivals script, da hood script, pet simulator 99 script, anime vanguards script.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 76,
-          "forks": 7
+          "totalStars": 331,
+          "forks": 29
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/357165387?v=4"
+          "https://avatars.githubusercontent.com/u/278214399?v=4"
         ],
         "tags": [
           "#C++"
@@ -819,19 +818,19 @@
       },
       {
         "rank": 10,
-        "name": "bymodify-ux/Dying-Light-VR",
-        "description": "暂无描述",
+        "name": "kyleivanov-x90g8/phantom-blade-zero-standalone-trainer-parry-timing-portabl",
+        "description": "Phantom Blade Zero Standalone Trainer & Parry Timing Overlay: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 64,
-          "forks": 2
+          "totalStars": 315,
+          "forks": 29
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/314277417?v=4"
+          "https://avatars.githubusercontent.com/u/278077420?v=4"
         ],
         "tags": [
           "#C++"
