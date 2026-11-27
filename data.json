@@ -1,31 +1,30 @@
 {
-  "lastUpdate": "2026/11/26 06:05:26",
+  "lastUpdate": "2026/11/27 05:57:08",
   "charts": {
     "languageDistribution": {
-      "Rust": 5,
-      "JavaScript": 1,
-      "C": 1,
-      "Python": 2,
+      "Rust": 6,
+      "JavaScript": 2,
+      "Python": 1,
       "Swift": 1
     },
     "starGrowth": {
       "labels": [
-        "11-20",
         "11-21",
         "11-22",
         "11-23",
         "11-24",
         "11-25",
-        "11-26"
+        "11-26",
+        "11-27"
       ],
       "data": [
-        2265,
         2439,
         3198,
         2933,
         2619,
         0,
-        4486
+        4486,
+        4040
       ]
     }
   },
@@ -41,8 +40,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 12750,
-          "forks": 2090
+          "totalStars": 13481,
+          "forks": 2273
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/60314886?v=4"
@@ -53,26 +52,6 @@
       },
       {
         "rank": 2,
-        "name": "xcl-dev/xcl",
-        "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
-        "language": {
-          "name": "Rust",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 8369,
-          "forks": 1157
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/360790281?v=4"
-        ],
-        "tags": [
-          "#Rust"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "4lwayz/portwatch-vi",
         "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
         "language": {
@@ -81,8 +60,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 4461,
-          "forks": 134
+          "totalStars": 6023,
+          "forks": 174
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/359682649?v=4"
@@ -92,7 +71,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 3,
         "name": "EL4CTEO/fast-anything",
         "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
         "language": {
@@ -101,8 +80,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 4044,
-          "forks": 290
+          "totalStars": 4293,
+          "forks": 308
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/215285446?v=4"
@@ -112,27 +91,27 @@
         ]
       },
       {
-        "rank": 5,
-        "name": "AFK-surf/xnulinux",
-        "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+        "rank": 4,
+        "name": "Belobug/VIctory-Belobug-AMD",
+        "description": "暂无描述",
         "language": {
-          "name": "C",
+          "name": "Rust",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 4013,
-          "forks": 193
+          "totalStars": 3376,
+          "forks": 964
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/221804798?v=4"
+          "https://avatars.githubusercontent.com/u/169477042?v=4"
         ],
         "tags": [
-          "#C"
+          "#Rust"
         ]
       },
       {
-        "rank": 6,
+        "rank": 5,
         "name": "fxceless/victory-fork",
         "description": "Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.",
         "language": {
@@ -141,8 +120,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 3142,
-          "forks": 920
+          "totalStars": 3295,
+          "forks": 993
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/36782933?v=4"
@@ -152,7 +131,7 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 6,
         "name": "ubiquitarianism/leonida",
         "description": "A continuation of Leonida, the Xbox > PC port interface for GTA VI",
         "language": {
@@ -161,8 +140,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2373,
-          "forks": 539
+          "totalStars": 2553,
+          "forks": 584
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/283527159?v=4"
@@ -172,27 +151,7 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "R0Y00/Xbox2Windows",
-        "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1959,
-          "forks": 231
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/128987794?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 9,
+        "rank": 7,
         "name": "os6/nospeaker",
         "description": "make your macbook's trackpad talk using its haptic motor",
         "language": {
@@ -201,8 +160,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1904,
-          "forks": 100
+          "totalStars": 1964,
+          "forks": 104
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/239950?v=4"
@@ -212,7 +171,27 @@
         ]
       },
       {
-        "rank": 10,
+        "rank": 8,
+        "name": "avatarmanz/VIctory-7900XTX",
+        "description": "Goal: an Xbox Series title (your own dump) on PC as the Series X version at 4K with ray tracing, picture matching the Xbox first (textures, lighting), then 30+ fps. Porting, not emulating. RX 7900 XTX first. No game files.",
+        "language": {
+          "name": "Rust",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1871,
+          "forks": 609
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/64326402?v=4"
+        ],
+        "tags": [
+          "#Rust"
+        ]
+      },
+      {
+        "rank": 9,
         "name": "omonkeyz/xbox-emulator",
         "description": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
         "language": {
@@ -221,14 +200,34 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1849,
-          "forks": 122
+          "totalStars": 1853,
+          "forks": 125
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/246595960?v=4"
         ],
         "tags": [
           "#Rust"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "crhywun/g1-acq",
+        "description": "暂无描述",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 1691,
+          "forks": 387
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/38809664?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
         ]
       }
     ],
@@ -243,8 +242,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 2373,
-          "forks": 539
+          "totalStars": 2553,
+          "forks": 584
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/283527159?v=4"
@@ -255,26 +254,6 @@
       },
       {
         "rank": 2,
-        "name": "R0Y00/Xbox2Windows",
-        "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 1959,
-          "forks": 231
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/128987794?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "zero5122/offline-file-converter-windows",
         "description": "Free offline file converter for Windows – convert PDF, documents, images, audio and video privately.",
         "language": {
@@ -283,7 +262,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1062,
+          "totalStars": 1072,
           "forks": 2
         },
         "contributors": [
@@ -294,27 +273,7 @@
         ]
       },
       {
-        "rank": 4,
-        "name": "sous-labs/songe",
-        "description": "A training engine for your local model, using your idle compute",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 878,
-          "forks": 71
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/355131544?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 5,
+        "rank": 3,
         "name": "sybil-solutions/skill-distill",
         "description": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task",
         "language": {
@@ -323,8 +282,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 818,
-          "forks": 66
+          "totalStars": 940,
+          "forks": 81
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/284200730?v=4"
@@ -334,27 +293,7 @@
         ]
       },
       {
-        "rank": 6,
-        "name": "ThreatDefence/agentic-attack-detections",
-        "description": "Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero, RedAmon, Xalgorix, Pentest Swarm AI. KQL hunts for Microsoft Sentinel and Defender XDR, Sigma, Suricata, Zeek, YARA, Splunk, Elastic, STIX 2.1.",
-        "language": {
-          "name": "Python",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 714,
-          "forks": 144
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/260813551?v=4"
-        ],
-        "tags": [
-          "#Python"
-        ]
-      },
-      {
-        "rank": 7,
+        "rank": 4,
         "name": "bikini/minecraft2shell",
         "description": "Minecraft to native RCE",
         "language": {
@@ -363,8 +302,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 441,
-          "forks": 38
+          "totalStars": 459,
+          "forks": 42
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/63224111?v=4"
@@ -374,27 +313,27 @@
         ]
       },
       {
-        "rank": 8,
-        "name": "LooperSalty/AnyXboxX",
-        "description": "AnyXboxX — prototype d'émulateur Xbox Series X (HLE du GDK sur Unicorn)",
+        "rank": 5,
+        "name": "gary23w/f-ck_data_brokers",
+        "description": "fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.",
         "language": {
           "name": "Python",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 384,
-          "forks": 61
+          "totalStars": 453,
+          "forks": 17
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/106304476?v=4"
+          "https://avatars.githubusercontent.com/u/61893883?v=4"
         ],
         "tags": [
           "#Python"
         ]
       },
       {
-        "rank": 9,
+        "rank": 6,
         "name": "R44VC0RP/dashsplat",
         "description": "Turn a car's dashcam footage into a 3D world you can drive through again: Gaussian splats, a 1 cm road atlas, tracked vehicles and a diffusion-repaired chase view.",
         "language": {
@@ -403,11 +342,71 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 318,
-          "forks": 57
+          "totalStars": 349,
+          "forks": 61
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/89211796?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "stellarr-studio/kelvaroq",
+        "description": "Experimental Xbox Series compatibility runtime for Windows x64, built in Rust.",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 342,
+          "forks": 107
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/360379433?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "Lappercn/tender-master",
+        "description": "招投标大师 (Bidding Master) —— 涵盖国内 20+ 核心公开招投标平台（中国政府采购网、全国公共资源交易平台、国家电网、南方电网、中石油、中化、国家能源、中国华能、中国电信、中国邮政、国铁 95306、中国国航、中国烟草、金采网等）的深网采集与数据解析底座。项目包含早期的多站点自动化解析脚本、跨平台标题清洗与 MD5 指纹去重、6 级预算金额与多联系人防错配正则提取引擎，以及演进后的「六张网」DDD 领域驱动架构（含主从分布式任务队列、断网暂存回放、Windows 浏览器进程树防泄漏守卫、FastAPI 开放查询接口与 Vue 3 可视化管理台）。本项目为大模型普及前夜的个人工程探索归档，完全免费开源，仅供技术学习与架构交流。",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 243,
+          "forks": 65
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/170637871?v=4"
+        ],
+        "tags": [
+          "#Python"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "liu-qingyuan/together-cinema",
+        "description": "Together Cinema · 自托管的同步放映室，支持共享片库、弹幕和语音。",
+        "language": {
+          "name": "Python",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 198,
+          "forks": 2
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/57737268?v=4"
         ],
         "tags": [
           "#Python"
@@ -423,8 +422,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 180,
-          "forks": 11
+          "totalStars": 191,
+          "forks": 12
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/145347508?v=4"
@@ -445,8 +444,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 4461,
-          "forks": 134
+          "totalStars": 6023,
+          "forks": 174
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/359682649?v=4"
@@ -465,8 +464,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 1317,
-          "forks": 316
+          "totalStars": 1691,
+          "forks": 387
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/38809664?v=4"
@@ -485,8 +484,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 730,
-          "forks": 77
+          "totalStars": 841,
+          "forks": 91
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/215908419?v=4"
@@ -505,8 +504,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 279,
-          "forks": 30
+          "totalStars": 475,
+          "forks": 49
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/110087282?v=4"
@@ -517,46 +516,6 @@
       },
       {
         "rank": 5,
-        "name": "httpdone/magpie-aws-quick",
-        "description": "Use your own AWS Quick account in Magpie-在 magpie 里用你自己的 Amazon Quick（AWS Quick）账号 ",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 272,
-          "forks": 53
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/312857664?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "ElloboDK/KeyCat",
-        "description": "菜单栏桌面宠物黑猫：跟着键盘动爪、跟着鼠标转头，烦躁时甩尾捶桌（macOS 13+，通用二进制）",
-        "language": {
-          "name": "JavaScript",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 246,
-          "forks": 41
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/48611756?v=4"
-        ],
-        "tags": [
-          "#JavaScript"
-        ]
-      },
-      {
-        "rank": 7,
         "name": "erkamyaman/rea-games",
         "description": "Reverse-engineer any game, rebuild it in any engine (web, Rust, Godot) and prove the rebuild plays the same, frame by frame. Behavior specs in the open GAME.md format.",
         "language": {
@@ -565,8 +524,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 243,
-          "forks": 42
+          "totalStars": 319,
+          "forks": 62
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/88717125?v=4"
@@ -576,7 +535,27 @@
         ]
       },
       {
-        "rank": 8,
+        "rank": 6,
+        "name": "httpdone/magpie-aws-quick",
+        "description": "Use your own AWS Quick account in Magpie-在 magpie 里用你自己的 Amazon Quick（AWS Quick）账号 ",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 290,
+          "forks": 59
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/312857664?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 7,
         "name": "pritamux/gridlines",
         "description": "An agent skill for alignment passes: draw guide lines down an interface, find every item that misses its line, fix the padding.",
         "language": {
@@ -585,7 +564,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 241,
+          "totalStars": 251,
           "forks": 9
         },
         "contributors": [
@@ -596,7 +575,7 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 8,
         "name": "duwqijlk/browser-capture",
         "description": "Zero-dependency browser CDP + stealth Hook capture & reverse-engineering AI Skill / CLI for BitBrowser, AdsPower, and Chrome/VisibleV8",
         "language": {
@@ -605,8 +584,8 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 198,
-          "forks": 104
+          "totalStars": 199,
+          "forks": 107
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/126966774?v=4"
@@ -616,20 +595,40 @@
         ]
       },
       {
-        "rank": 10,
-        "name": "zou172866/Antigravity-agy-dart",
-        "description": "Google Antigravity plugin that improves cache hits, keeps cache warm automatically, protects context quota, shows live context usage, rescues crashed sessions, and saves tokens.",
+        "rank": 9,
+        "name": "blotato/contentskills",
+        "description": "Content Skills for AI Agents: create videos, edit videos, full video editor, write scripts, 100+ themes & effects, post to social media, and create DM automations to turn views into sales.",
         "language": {
           "name": "JavaScript",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 188,
-          "forks": 6
+          "totalStars": 193,
+          "forks": 37
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/295114258?v=4"
+          "https://avatars.githubusercontent.com/u/144567857?v=4"
+        ],
+        "tags": [
+          "#JavaScript"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "antonpictures/youtube-punisher",
+        "description": "YouTube Ad Blocker - Chrome / Browser Extension",
+        "language": {
+          "name": "JavaScript",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 147,
+          "forks": 2
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/4306109?v=4"
         ],
         "tags": [
           "#JavaScript"
@@ -659,26 +658,6 @@
       },
       {
         "rank": 2,
-        "name": "ItsNotRexed/Hookshot",
-        "description": "Hookshot Is A Native PC Recompilation Of The Switch 2 Ocarina Of Time Remake",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 739,
-          "forks": 41
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/300290919?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 3,
         "name": "chanke17/KuroCat",
         "description": "KuroCat — Free open-source native desktop cat pet & OBS overlay (Bongo Cat alternative, Swift/C++, 802 KB)｜开源免费原生桌面萌猫（全平台 macOS·Win·Linux·UOS / 2.5D转头捕猎 / 数位板 / OBS透明绿幕 / 在线皮肤工坊 / 零按键上传）",
         "language": {
@@ -687,11 +666,31 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 590,
-          "forks": 56
+          "totalStars": 706,
+          "forks": 74
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/153577001?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "Pixel679-cmyk/windows-titlebar-blur-customizer",
+        "description": "Customize Windows 10 and 11 title bar effects with Aero, Acrylic, Mica and advanced DWM blur effects.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 556,
+          "forks": 0
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/358338974?v=4"
         ],
         "tags": [
           "#C++"
@@ -707,7 +706,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 379,
+          "totalStars": 382,
           "forks": 16
         },
         "contributors": [
@@ -719,66 +718,6 @@
       },
       {
         "rank": 5,
-        "name": "Freminet/ScarlettX",
-        "description": "Experimental, clean-room Xbox Series X|S (Scarlett) HLE and compatibility layer for Windows x64.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 268,
-          "forks": 26
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/86260922?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 6,
-        "name": "sammwyy/xvalkyrie",
-        "description": "Experimental Xbox One (Durango) & Series X|S (Scarlett) compatibility layer for Windows",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 234,
-          "forks": 14
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/44925968?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 7,
-        "name": "lhoyer/spectral-explorer",
-        "description": "Open USB optical spectrometer (400–650 nm, up to 1 nm resolution). 3D-printable hardware + desktop software for science education and experiments.",
-        "language": {
-          "name": "C++",
-          "color": "text-gray-500"
-        },
-        "stats": {
-          "todayStars": "-",
-          "totalStars": 138,
-          "forks": 27
-        },
-        "contributors": [
-          "https://avatars.githubusercontent.com/u/1277888?v=4"
-        ],
-        "tags": [
-          "#C++"
-        ]
-      },
-      {
-        "rank": 8,
         "name": "oguz463/OLEDTextFix",
         "description": "暂无描述",
         "language": {
@@ -787,7 +726,7 @@
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 134,
+          "totalStars": 138,
           "forks": 1
         },
         "contributors": [
@@ -798,27 +737,47 @@
         ]
       },
       {
-        "rank": 9,
-        "name": "ItsNotRexed/Blueshell",
-        "description": "暂无描述",
+        "rank": 6,
+        "name": "keklick1337/silent-hill-pc",
+        "description": "A from-scratch engine that plays Silent Hill",
         "language": {
           "name": "C++",
           "color": "text-gray-500"
         },
         "stats": {
           "todayStars": "-",
-          "totalStars": 118,
-          "forks": 5
+          "totalStars": 129,
+          "forks": 3
         },
         "contributors": [
-          "https://avatars.githubusercontent.com/u/300290919?v=4"
+          "https://avatars.githubusercontent.com/u/86933883?v=4"
         ],
         "tags": [
           "#C++"
         ]
       },
       {
-        "rank": 10,
+        "rank": 7,
+        "name": "wanghcongcong-lulu/MacDock",
+        "description": "Native C++20 iOS 26 Liquid Glass macOS Desktop Suite for Windows 10/11 (~1.5 MB, 0% Idle CPU, 60-240Hz Dock, Dual Dynamic Island, 3D Stage Manager, VSync Genie Effect) by 爱运动的Cc",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 120,
+          "forks": 15
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/358636469?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 8,
         "name": "PlutonusDev/OpenEra",
         "description": "An open-source compatibility layer and runtime environment for running Xbox One / Series X|S (Era / GameCore) titles natively on Windows.",
         "language": {
@@ -832,6 +791,46 @@
         },
         "contributors": [
           "https://avatars.githubusercontent.com/u/46195982?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "californiaAlmonds/OpenScarlett",
+        "description": "Open-source MIT C++20 Xbox Series X|S (Scarlett) translation layer for Windows 10/11 — D3D12, Vulkan 1.4, RDNA2 shader lifting, GDK shims, and real-binary telemetry",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 108,
+          "forks": 12
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/160736368?v=4"
+        ],
+        "tags": [
+          "#C++"
+        ]
+      },
+      {
+        "rank": 10,
+        "name": "satellitedown/inkling-2-mini-abliterated-ingine",
+        "description": "Abliterated Inkling-2-Mini on ingine, a custom CUDA engine for one RTX 5090: 256K context, DSpark speculation, OpenAI API, and a one-line installer/updater.",
+        "language": {
+          "name": "C++",
+          "color": "text-gray-500"
+        },
+        "stats": {
+          "todayStars": "-",
+          "totalStars": 96,
+          "forks": 19
+        },
+        "contributors": [
+          "https://avatars.githubusercontent.com/u/331533552?v=4"
         ],
         "tags": [
           "#C++"
